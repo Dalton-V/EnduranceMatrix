@@ -1,0 +1,64 @@
+{
+  "$schema": "https://example.com/plans-index/v1",
+  "generated_at": "2024-01-01T00:00:00Z",
+  "total_plans": 3,
+  "plans": [
+    {
+      "id": "plan_001",
+      "file": "plans/marathon_advanced_2.json",
+      "name": "Marathon Training: Advanced 2",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An advanced 18-week marathon training plan focused on building mileage, tempo runs, and race-pace workouts.",
+      "tags": ["marathon", "advanced", "road-running"],
+      "meta": {
+        "goal_event": "Marathon",
+        "goal_distance_km": 42.195,
+        "total_weeks": 18,
+        "difficulty": "advanced",
+        "target_audience": "Experienced runners with prior marathon experience",
+        "weekly_mileage_range_km": { "min": 48, "max": 80 },
+        "activity_types": ["running"],
+        "phases": ["base", "build", "peak", "taper"]
+      }
+    },
+    {
+      "id": "plan_002",
+      "file": "plans/marathon_advantage_55_70.json",
+      "name": "Marathon Advantage: 55–70 Miles/Week",
+      "author": "Pete Pfitzinger",
+      "version": "1.0",
+      "description": "A competitive marathon plan using mesocycles to develop endurance, lactate threshold, and race-specific fitness.",
+      "tags": ["marathon", "competitive", "road-running", "high-mileage"],
+      "meta": {
+        "goal_event": "Marathon",
+        "goal_distance_km": 42.195,
+        "total_weeks": 18,
+        "difficulty": "advanced",
+        "target_audience": "Competitive runners comfortable with 50+ miles per week",
+        "weekly_mileage_range_km": { "min": 88, "max": 113 },
+        "activity_types": ["running"],
+        "phases": ["base", "build", "peak", "taper"]
+      }
+    },
+    {
+      "id": "plan_003",
+      "file": "plans/olympic_triathlon_intermediate.json",
+      "name": "Olympic Triathlon: Intermediate",
+      "author": "Training Peaks",
+      "version": "1.0",
+      "description": "A 16-week intermediate triathlon plan covering swim, bike, and run with brick workouts in the final build phase.",
+      "tags": ["triathlon", "olympic", "intermediate", "multi-sport"],
+      "meta": {
+        "goal_event": "Olympic Triathlon",
+        "goal_distance_km": 51.5,
+        "total_weeks": 16,
+        "difficulty": "intermediate",
+        "target_audience": "Athletes who can swim 1500m, bike 40km, and run 10km separately",
+        "weekly_mileage_range_km": { "min": 30, "max": 60 },
+        "activity_types": ["swimming", "cycling", "running"],
+        "phases": ["base", "build", "peak", "taper"]
+      }
+    }
+  ]
+}

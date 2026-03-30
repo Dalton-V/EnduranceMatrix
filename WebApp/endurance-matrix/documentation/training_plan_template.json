@@ -1,0 +1,242 @@
+{
+  "$schema": "https://example.com/training-plan/v1",
+  "plan": {
+    "id": "plan_001",
+    "name": "Marathon Training: Advanced 2",
+    "author": "Hal Higdon",
+    "version": "1.0",
+    "created_at": "2024-01-01",
+    "description": "An advanced 18-week marathon training plan focused on building mileage, tempo runs, and race-pace workouts.",
+    "tags": ["marathon", "advanced", "road-running"],
+
+    "meta": {
+      "goal_event": "Marathon",
+      "goal_distance_km": 42.195,
+      "total_weeks": 18,
+      "target_audience": "Experienced runners with prior marathon experience",
+      "difficulty": "advanced",
+      "weekly_mileage_range_km": { "min": 48, "max": 80 }
+    },
+
+    "activity_types": ["running"],
+
+    "workout_definitions": {
+      "easy_run": {
+        "id": "easy_run",
+        "label": "Easy Run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Comfortable, conversational-pace run. Building aerobic base.",
+        "intensity": "low",
+        "effort_zone": 2,
+        "notes": "Should be able to hold a full conversation throughout."
+      },
+      "tempo_run": {
+        "id": "tempo_run",
+        "label": "Tempo Run",
+        "category": "threshold",
+        "discipline": "running",
+        "description": "Sustained effort at lactate threshold pace — comfortably hard.",
+        "intensity": "moderate-high",
+        "effort_zone": 4,
+        "notes": "Aim for a pace 25-30 seconds per mile slower than 10K race pace."
+      },
+      "pace_run": {
+        "id": "pace_run",
+        "label": "Race Pace Run",
+        "category": "race-specific",
+        "discipline": "running",
+        "description": "Run at goal marathon race pace to build familiarity and confidence.",
+        "intensity": "moderate-high",
+        "effort_zone": 4
+      },
+      "long_run": {
+        "id": "long_run",
+        "label": "Long Run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Weekly long run to build endurance. Typically run at easy to moderate effort.",
+        "intensity": "low-moderate",
+        "effort_zone": 2
+      },
+      "interval_800": {
+        "id": "interval_800",
+        "label": "800m Intervals",
+        "category": "speed",
+        "discipline": "running",
+        "description": "Repeated 800m efforts at 5K race pace with equal recovery jog.",
+        "intensity": "high",
+        "effort_zone": 5,
+        "structure": {
+          "type": "interval",
+          "rep_distance_m": 800,
+          "rest_type": "jog",
+          "rest_ratio": "1:1"
+        }
+      },
+      "hill_repeat": {
+        "id": "hill_repeat",
+        "label": "Hill Repeats",
+        "category": "strength-endurance",
+        "discipline": "running",
+        "description": "Hard uphill efforts to build running-specific strength and power.",
+        "intensity": "high",
+        "effort_zone": 5,
+        "structure": {
+          "type": "repeat",
+          "surface": "hill",
+          "rest_type": "walk/jog downhill"
+        }
+      },
+      "rest": {
+        "id": "rest",
+        "label": "Rest",
+        "category": "recovery",
+        "discipline": null,
+        "description": "Complete rest day. No structured training.",
+        "intensity": "none",
+        "effort_zone": 0
+      },
+      "cross_training": {
+        "id": "cross_training",
+        "label": "Cross Training",
+        "category": "active-recovery",
+        "discipline": "any",
+        "description": "Low-impact aerobic activity such as cycling, swimming, or yoga.",
+        "intensity": "low",
+        "effort_zone": 2
+      }
+    },
+
+    "schedule": [
+      {
+        "week": 1,
+        "phase": "base",
+        "mesocycle": "Endurance",
+        "weeks_to_goal": 18,
+        "total_distance_km": 48,
+        "notes": "First week of training. Keep all efforts easy — don't push the pace.",
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "hill_repeat",
+                "reps": 3,
+                "notes": "3 x hill. Focus on form going uphill."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3,
+                "duration_min": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "tempo_run",
+                "duration_min": 30,
+                "distance_km": null,
+                "notes": "30 min tempo at threshold effort."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest"
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "pace_run",
+                "distance_km": 8,
+                "distance_miles": 5,
+                "notes": "5 miles at marathon goal pace."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": 16,
+                "distance_miles": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 9,
+        "phase": "build",
+        "mesocycle": "Speed Endurance",
+        "weeks_to_goal": 10,
+        "total_distance_km": 72,
+        "notes": "Culminates in a Half Marathon race on Sunday.",
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [{ "workout_ref": "easy_run", "distance_miles": 4 }]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [{ "workout_ref": "interval_800", "reps": 6 }]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [{ "workout_ref": "easy_run", "distance_miles": 4 }]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [{ "workout_ref": "tempo_run", "duration_min": 40 }]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [{ "workout_ref": "rest" }]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [{ "workout_ref": "rest" }]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "pace_run",
+                "event": "Half Marathon",
+                "event_distance_km": 21.0975,
+                "notes": "Race day! Use as a tune-up effort, not an all-out race."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
