@@ -1,0 +1,958 @@
+{
+  "source_file": "SourceData\\intermediate_5k.html",
+  "plan": {
+    "id": "5k_training_intermediate",
+    "name": "5K Training: Intermediate",
+    "author": "Hal Higdon",
+    "version": "1.0",
+    "created_at": null,
+    "description": "IF YOU HAVE RUN A NUMBER OF RACES AT THE 5K DISTANCE, you probably are not going to be content to merely finish your 5K race. You'd like to finish it with grace, in style and maybe improve your time (known as setting a Personal Record, or PR). This training schedule will take you to ... Continue reading \"Intermediate\"",
+    "tags": [
+      "5k",
+      "intermediate",
+      "road-running"
+    ],
+    "meta": {
+      "goal_event": "5K",
+      "goal_distance_km": 5.0,
+      "total_weeks": 8,
+      "target_audience": null,
+      "difficulty": "intermediate",
+      "weekly_mileage_range_km": {
+        "min": 13.0,
+        "max": 29.0
+      },
+      "at_a_glance": {
+        "length_weeks": 8,
+        "typical_week": "5 Run, 2 Day Off",
+        "longest_workout_miles": 7.0,
+        "longest_workout_km": 11.3
+      }
+    },
+    "activity_types": [
+      "running"
+    ],
+    "workout_definitions": {
+      "easy_run": {
+        "id": "easy_run",
+        "label": "Easy Run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "An easy aerobic run done at a comfortable, conversational pace to build endurance while limiting fatigue.",
+        "intensity": "low",
+        "effort_zone": 2,
+        "notes": null
+      },
+      "race": {
+        "id": "race",
+        "label": "Race",
+        "category": "race-specific",
+        "discipline": "running",
+        "description": "A race effort or tune-up event used to practice pacing and measure current fitness.",
+        "intensity": "high",
+        "effort_zone": 5,
+        "notes": null
+      },
+      "rest": {
+        "id": "rest",
+        "label": "Rest",
+        "category": "recovery",
+        "discipline": null,
+        "description": "You can't train hard unless you are well-rested. The schedule includes two designated days for rest: Mondays and Fridays. The easy 3-mile runs scheduled for Tuesdays and Thursdays are also to help you rest for hard workouts on other days. The final week before the 5K also is a rest week. Taper your training so you can be ready for a peak performance on the weekend.",
+        "intensity": "none",
+        "effort_zone": 0,
+        "notes": null
+      },
+      "tempo_run": {
+        "id": "tempo_run",
+        "label": "Tempo Run",
+        "category": "threshold",
+        "discipline": "running",
+        "description": "This is a continuous run with an easy beginning, a buildup in the middle to near 10K race pace, then ease back and cruise to the finish. A typical tempo run would begin with 5-10 minutes easy running, continue with 10-15 faster running, and finish with 5-10 minutes cooling down. You can't figure out your pace on a watch doing this workout; you need to listen to your body. Tempo runs are very useful for developing your anaerobic threshold, essential for fast 5K racing.",
+        "intensity": "moderate-high",
+        "effort_zone": 4,
+        "notes": null
+      }
+    },
+    "coaching_guidance": [
+      {
+        "topic": "Run",
+        "text": "When the schedule says \"run,\" that suggests that you run at an easy pace. How fast is easy? You need to define your own comfort level. Don't worry about how fast you run; just cover the distance suggested-or approximately the distance. Ideally, you should be able to run at a pace that allows you to converse with a training partner without getting too much out of breath."
+      },
+      {
+        "topic": "Fast",
+        "text": "For several of the Saturday runs, I suggest that you run \"fast.\" How fast is \"fast?\" Again, that depends on your comfort level. Go somewhat faster than you would on a \"run\" day. If you are doing this workout right, you probably do not want to converse with your training partner, assuming you have one. It's okay now to get out of breath."
+      },
+      {
+        "topic": "Long Runs",
+        "text": "Once a week, go for a long run. Run 5 to 7 miles at a comfortable pace, not worrying about speed or distance. You should be able to carry on a conversation while you run; if not, you're going too fast. Don't be afraid to stop to walk, or stop to drink. This should be an enjoyable workout, not one during which you punish yourself."
+      },
+      {
+        "topic": "Interval Training",
+        "text": "To improve speed, you sometimes need to train at a pace faster than your race pace for the 5K, about the pace you would run in a 1500 meter or mile race. Run 400 meters hard, then recover by jogging and/or walking 400 meters. Before starting this workout, warm-up by jogging a mile or two, stretching, and doing a few sprints of 100 meters. Cool down afterwards with a short jog."
+      },
+      {
+        "topic": "Tempo Runs",
+        "text": "This is a continuous run with an easy beginning, a buildup in the middle to near 10K race pace, then ease back and cruise to the finish. A typical tempo run would begin with 5-10 minutes easy running, continue with 10-15 faster running, and finish with 5-10 minutes cooling down. You can't figure out your pace on a watch doing this workout; you need to listen to your body. Tempo runs are very useful for developing your anaerobic threshold, essential for fast 5K racing."
+      },
+      {
+        "topic": "Rest",
+        "text": "You can't train hard unless you are well-rested. The schedule includes two designated days for rest: Mondays and Fridays. The easy 3-mile runs scheduled for Tuesdays and Thursdays are also to help you rest for hard workouts on other days. The final week before the 5K also is a rest week. Taper your training so you can be ready for a peak performance on the weekend."
+      },
+      {
+        "topic": "Stretch & Strengthen",
+        "text": "An important addendum to any training program is stretching. Don't overlook it-particularly on days when you plan to run fast. Strength training is important too: push-ups, pull-ups, use of free weights or working out with various machines at a Health Club. Runners generally benefit if they combine light weights with a high number of repetitions, rather than pumping very heavy iron. Tuesdays and Thursdays would be good days to combine stretching and strengthening with your easy run, however, you can schedule these workouts on any day that is convenient for your business and personal schedule."
+      },
+      {
+        "topic": "Racing",
+        "text": "Some racing is useful in helping you to peak. Consider doing some other races at 5K to 10K distances to test your fitness. The following schedule includes a test 5K race halfway through the program. You could race more frequently (once every two weeks), but too much racing is not a good idea."
+      }
+    ],
+    "schedule": [
+      {
+        "week": 1,
+        "phase": "base",
+        "mesocycle": null,
+        "weeks_to_goal": 8,
+        "total_distance_km": 22.5,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "reps": 5,
+                "notes": "5 x 400"
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 8.1,
+                "distance_miles": 5.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          }
+        ],
+        "source_headers": [
+          "Week",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "week": 2,
+        "phase": "base",
+        "mesocycle": null,
+        "weeks_to_goal": 7,
+        "total_distance_km": 22.5,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "tempo_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30.0,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 8.1,
+                "distance_miles": 5.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          }
+        ],
+        "source_headers": [
+          "Week",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "week": 3,
+        "phase": "base",
+        "mesocycle": null,
+        "weeks_to_goal": 6,
+        "total_distance_km": 25.7,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "reps": 6,
+                "notes": "6 x 400"
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 6.4,
+                "distance_miles": 4.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 9.7,
+                "distance_miles": 6.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          }
+        ],
+        "source_headers": [
+          "Week",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "week": 4,
+        "phase": "build",
+        "mesocycle": null,
+        "weeks_to_goal": 5,
+        "total_distance_km": 14.6,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "tempo_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 35.0,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "race",
+                "distance_km": 5.0,
+                "distance_miles": 3.1,
+                "duration_min": null,
+                "event": "5K",
+                "event_distance_km": 5.0,
+                "notes": null
+              }
+            ]
+          }
+        ],
+        "source_headers": [
+          "Week",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "week": 5,
+        "phase": "build",
+        "mesocycle": null,
+        "weeks_to_goal": 4,
+        "total_distance_km": 25.7,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "reps": 7,
+                "notes": "7 x 400"
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 6.4,
+                "distance_miles": 4.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 9.7,
+                "distance_miles": 6.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          }
+        ],
+        "source_headers": [
+          "Week",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "week": 6,
+        "phase": "peak",
+        "mesocycle": null,
+        "weeks_to_goal": 3,
+        "total_distance_km": 29.0,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "tempo_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 40.0,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 8.1,
+                "distance_miles": 5.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 11.3,
+                "distance_miles": 7.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          }
+        ],
+        "source_headers": [
+          "Week",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "week": 7,
+        "phase": "taper",
+        "mesocycle": null,
+        "weeks_to_goal": 2,
+        "total_distance_km": 29.0,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "reps": 8,
+                "notes": "8 x 400"
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 8.1,
+                "distance_miles": 5.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 11.3,
+                "distance_miles": 7.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          }
+        ],
+        "source_headers": [
+          "Week",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      },
+      {
+        "week": 8,
+        "phase": "race",
+        "mesocycle": null,
+        "weeks_to_goal": 1,
+        "total_distance_km": 13.0,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.8,
+                "distance_miles": 3.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "tempo_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30.0,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 3.2,
+                "distance_miles": 2.0,
+                "duration_min": null,
+                "notes": "Parsed from schedule text."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "race",
+                "distance_km": 5.0,
+                "distance_miles": 3.1,
+                "duration_min": null,
+                "event": "5K",
+                "event_distance_km": 5.0,
+                "notes": null
+              }
+            ]
+          }
+        ],
+        "source_headers": [
+          "Week",
+          "Mon",
+          "Tue",
+          "Wed",
+          "Thu",
+          "Fri",
+          "Sat",
+          "Sun"
+        ]
+      }
+    ],
+    "source": {
+      "page_title": "Intermediate | Hal Higdon",
+      "canonical_url": "https://www.halhigdon.com/training-programs/5k-training/intermediate-5k/"
+    }
+  }
+}
