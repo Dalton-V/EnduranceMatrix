@@ -13,6 +13,7 @@ defaults:
     working-directory: ./endurance-matrix
 
 jobs:
+  if: github.event.pull_request.draft == false
   build:
     # Uses the latest Ubuntu virtual environment
     runs-on: ubuntu-latest
