@@ -7,6 +7,7 @@ This document explains the structure and design decisions behind the `training_p
 ## Top-Level `plan` Object
 
 The root object holds identity and metadata for the plan.
+Imported plans include a top-level `source_url` pointing to the published schedule.
 
 ```json
 {
@@ -126,10 +127,12 @@ The schedule is a flat array of week objects. Each week contains everything need
 | Field | Purpose |
 |---|---|
 | `week` | Week number (counts up from 1) |
-| `phase` | Broad training phase: `base`, `build`, `peak`, `taper`, `race` |
+| `source_week` | Original week number when the published numbering differs from the calendar order |
+| `phase` | Broad training phase, such as `base`, `build`, `peak`, `taper`, `race`, `recovery`, or `maintenance` |
 | `mesocycle` | Named training block (e.g. Pfitzinger's "Mesocycle 1 Endurance") |
 | `weeks_to_goal` | Countdown to race day — supports plans that count down rather than up |
-| `total_distance_km` | Weekly mileage summary, useful for charts and progress tracking |
+| `total_distance_km` | Sum of distances specified for primary workouts, using the lower end of a distance range. Includes specified interval work and race distances. |
+| `estimated_total_distance_km` | Weekly mileage estimate supplied by the source when it includes distance for time-based workouts |
 
 ---
 
@@ -157,6 +160,8 @@ The `workouts` field is an **array** (not a single object) to support:
 - AM/PM double sessions
 - Workout + mobility combinations
 
+A day can also include `alternative_workouts`, an array of sessions to do in place of `workouts`. For example, a rest day may offer an easy run as an alternative.
+
 ### Per-workout instance fields
 
 Individual workout instances in the schedule are intentionally flexible. Only include fields that apply — everything is nullable.
@@ -165,8 +170,10 @@ Individual workout instances in the schedule are intentionally flexible. Only in
 |---|---|
 | `workout_ref` | Always — references a key in `workout_definitions` |
 | `distance_km` / `distance_miles` | For distance-based workouts |
+| `distance_km_range` / `distance_miles_range` | For flexible distances expressed as `{ "min": 1, "max": 3 }` in the corresponding unit |
 | `duration_min` | For time-based workouts (e.g. "30 min tempo") |
-| `reps` | For intervals and repeats |
+| `duration_min_range` | For flexible durations expressed as `{ "min": 30, "max": 60 }` |
+| `reps` | For intervals and repeats. A definition can specify `structure.rep_distance_m` to record the length of each interval. |
 | `event` | For race days — include `event_distance_km` and race-specific notes |
 | `notes` | Any day-specific coaching cues that override the general definition |
 
