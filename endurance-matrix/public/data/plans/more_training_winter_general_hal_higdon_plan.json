@@ -1,33 +1,35 @@
 {
-  "source_file": "SourceData\\winter_training.html",
+  "source_url": "https://www.halhigdon.com/training-programs/more-training/winter-training/",
   "plan": {
     "id": "more_training_winter",
     "name": "More Training: Winter",
     "author": "Hal Higdon",
     "version": "1.0",
     "created_at": null,
-    "description": "How to Train During the Cold Months of the Year Training becomes difficult for runners during the winter. Our trails through the woods become covered with snow. Ice and snow also make running on the roads tricky. Cold weather forces us to bundle up, slowing our strides. Add to that, the narrow window of daylight ... Continue reading \"Winter\"",
+    "description": "A 13-week winter fitness plan with easy runs, tempo work, weekend long runs, cross-training and a final race.",
     "tags": [
       "road-running"
     ],
     "meta": {
       "goal_event": "General Training",
-      "goal_distance_km": 0.0,
+      "goal_distance_km": null,
       "total_weeks": 13,
-      "target_audience": null,
+      "target_audience": "Runners maintaining fitness through winter",
       "difficulty": "general",
       "weekly_mileage_range_km": {
-        "min": 0.0,
-        "max": 4.8
+        "min": 4.83,
+        "max": 4.83
       },
       "at_a_glance": {
         "length_weeks": 13,
         "typical_week": "5 Run, 1 Strength, 1 X-Train, 1 XC-Ski, 1 Swim, 1 Bike, 1 Day Off",
         "longest_workout_miles": null,
-        "longest_workout_km": null
+        "longest_workout_km": null,
+        "longest_workout_min": 90
       }
     },
     "activity_types": [
+      "cross_training",
       "running"
     ],
     "workout_definitions": {
@@ -51,12 +53,22 @@
         "effort_zone": 2,
         "notes": null
       },
+      "long_run": {
+        "id": "long_run",
+        "label": "Long Run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Run at a comfortable effort unless the workout includes a specific pace cue.",
+        "intensity": "low-moderate",
+        "effort_zone": 2,
+        "notes": null
+      },
       "race": {
         "id": "race",
         "label": "Race",
         "category": "race-specific",
         "discipline": "running",
-        "description": "A race effort or tune-up event used to practice pacing and measure current fitness.",
+        "description": "Run the indicated event.",
         "intensity": "high",
         "effort_zone": 5,
         "notes": null
@@ -82,14 +94,31 @@
         "notes": null
       }
     },
-    "coaching_guidance": [],
+    "coaching_guidance": [
+      {
+        "topic": "Easy Effort",
+        "text": "Keep the Monday and Wednesday runs easy. If footing makes outdoor running difficult, an indoor treadmill is an option."
+      },
+      {
+        "topic": "Long Runs",
+        "text": "Tuesdays are medium-long runs. Saturday long runs rotate through 60, 75 and 90 minutes."
+      },
+      {
+        "topic": "Strength and Cross-Training",
+        "text": "Pair Wednesday running with stretching or strength work. On Sundays, choose an aerobic activity such as walking, indoor training, skiing or snowshoeing."
+      },
+      {
+        "topic": "Final Race",
+        "text": "Choose a race that suits your schedule and the conditions in week 13. Higdon leaves the distance open."
+      }
+    ],
     "schedule": [
       {
         "week": 1,
-        "phase": "base",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 13,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -99,8 +128,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 15.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 15,
+                "notes": null
               }
             ]
           },
@@ -111,8 +140,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 45,
+                "notes": null
               }
             ]
           },
@@ -123,8 +152,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -135,8 +164,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -156,11 +185,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -171,29 +200,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 2,
-        "phase": "base",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 12,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -203,8 +222,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 20.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 20,
+                "notes": null
               }
             ]
           },
@@ -215,8 +234,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -227,8 +246,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -239,8 +258,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 40.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 40,
+                "notes": null
               }
             ]
           },
@@ -260,11 +279,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 75.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 75,
+                "notes": null
               }
             ]
           },
@@ -275,29 +294,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 3,
-        "phase": "base",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 11,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -307,8 +316,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 25.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 25,
+                "notes": null
               }
             ]
           },
@@ -319,8 +328,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 45,
+                "notes": null
               }
             ]
           },
@@ -331,8 +340,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -343,8 +352,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -364,11 +373,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 90.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 90,
+                "notes": null
               }
             ]
           },
@@ -379,29 +388,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 4,
-        "phase": "base",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 10,
-        "total_distance_km": 4.8,
+        "weeks_to_goal": null,
+        "total_distance_km": 4.83,
         "notes": null,
         "days": [
           {
@@ -411,8 +410,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 20.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 20,
+                "notes": null
               }
             ]
           },
@@ -423,8 +422,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -435,8 +434,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -447,8 +446,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -457,10 +456,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -468,11 +467,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -483,29 +482,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 5,
-        "phase": "base",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 9,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -515,8 +504,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 15.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 15,
+                "notes": null
               }
             ]
           },
@@ -527,8 +516,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 45,
+                "notes": null
               }
             ]
           },
@@ -539,8 +528,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -551,8 +540,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 40.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 40,
+                "notes": null
               }
             ]
           },
@@ -572,11 +561,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 75.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 75,
+                "notes": null
               }
             ]
           },
@@ -587,29 +576,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 6,
-        "phase": "build",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 8,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -619,8 +598,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 20.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 20,
+                "notes": null
               }
             ]
           },
@@ -631,8 +610,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -643,8 +622,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -655,8 +634,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -676,11 +655,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 90.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 90,
+                "notes": null
               }
             ]
           },
@@ -691,29 +670,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 7,
-        "phase": "build",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 7,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -723,8 +692,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 25.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 25,
+                "notes": null
               }
             ]
           },
@@ -735,8 +704,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 45,
+                "notes": null
               }
             ]
           },
@@ -747,8 +716,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -759,8 +728,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -780,11 +749,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -795,29 +764,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 8,
-        "phase": "build",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 6,
-        "total_distance_km": 4.8,
+        "weeks_to_goal": null,
+        "total_distance_km": 4.83,
         "notes": null,
         "days": [
           {
@@ -827,8 +786,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 20.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 20,
+                "notes": null
               }
             ]
           },
@@ -839,8 +798,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -851,8 +810,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -863,8 +822,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 40.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 40,
+                "notes": null
               }
             ]
           },
@@ -873,10 +832,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -884,11 +843,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 75.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 75,
+                "notes": null
               }
             ]
           },
@@ -899,29 +858,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 9,
-        "phase": "peak",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 5,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -931,8 +880,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 15.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 15,
+                "notes": null
               }
             ]
           },
@@ -943,8 +892,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 45,
+                "notes": null
               }
             ]
           },
@@ -955,8 +904,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -967,8 +916,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -988,11 +937,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 90.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 90,
+                "notes": null
               }
             ]
           },
@@ -1003,29 +952,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 10,
-        "phase": "peak",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 4,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -1035,8 +974,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 20.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 20,
+                "notes": null
               }
             ]
           },
@@ -1047,8 +986,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -1059,8 +998,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1071,8 +1010,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1092,11 +1031,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -1107,29 +1046,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 11,
-        "phase": "peak",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 3,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -1139,8 +1068,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 25.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 25,
+                "notes": null
               }
             ]
           },
@@ -1151,8 +1080,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 45,
+                "notes": null
               }
             ]
           },
@@ -1163,8 +1092,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1175,8 +1104,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 40.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 40,
+                "notes": null
               }
             ]
           },
@@ -1196,11 +1125,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 75.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 75,
+                "notes": null
               }
             ]
           },
@@ -1211,29 +1140,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 12,
-        "phase": "taper",
+        "phase": "maintenance",
         "mesocycle": null,
-        "weeks_to_goal": 2,
-        "total_distance_km": 4.8,
+        "weeks_to_goal": null,
+        "total_distance_km": 4.83,
         "notes": null,
         "days": [
           {
@@ -1243,8 +1162,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 20.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 20,
+                "notes": null
               }
             ]
           },
@@ -1255,8 +1174,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -1267,8 +1186,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1279,8 +1198,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1289,10 +1208,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -1300,11 +1219,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 90.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 90,
+                "notes": null
               }
             ]
           },
@@ -1315,29 +1234,19 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 13,
         "phase": "race",
         "mesocycle": null,
-        "weeks_to_goal": 1,
-        "total_distance_km": 0.0,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -1347,8 +1256,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 15.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 15,
+                "notes": null
               }
             ]
           },
@@ -1359,8 +1268,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -1371,8 +1280,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1383,8 +1292,8 @@
                 "workout_ref": "tempo_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1404,11 +1313,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 90.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 90,
+                "notes": null
               }
             ]
           },
@@ -1420,20 +1329,12 @@
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Race"
+                "event": "Race",
+                "event_distance_km": null,
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       }
     ],

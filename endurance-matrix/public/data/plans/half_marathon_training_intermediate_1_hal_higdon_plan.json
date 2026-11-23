@@ -1,12 +1,12 @@
 {
-  "source_file": "SourceData\\intermediate_1_half_marathon.html",
+  "source_url": "https://www.halhigdon.com/training-programs/half-marathon-training/intermediate-1-half-marathon/",
   "plan": {
     "id": "half_marathon_training_intermediate_1",
     "name": "Half Marathon Training: Intermediate 1",
     "author": "Hal Higdon",
     "version": "1.0",
     "created_at": null,
-    "description": "With the publication of Hal Higdon's Half Marathon Training, I added a new intermediate schedule. Previously, there was only one, titled \"Intermediate.\" Now there are two: \"Intermediate 1\" and \"Intermediate 2.\" The difference is that Intermediate 1 is an endurance-based program; Intermediate 2 is a speed-based program. These two intermediate schedules exist in a parallel universe, the same ... Continue reading \"Intermediate 1\"",
+    "description": "An endurance-focused 12-week half marathon plan with Monday cross-training, Saturday pace work and progressive Sunday long runs.",
     "tags": [
       "half-marathon",
       "intermediate",
@@ -16,20 +16,22 @@
       "goal_event": "Half Marathon",
       "goal_distance_km": 21.0975,
       "total_weeks": 12,
-      "target_audience": null,
+      "target_audience": "Experienced runners seeking an endurance-focused half marathon plan",
       "difficulty": "intermediate",
       "weekly_mileage_range_km": {
-        "min": 16.0,
-        "max": 54.9
+        "min": 27.36,
+        "max": 54.72
       },
       "at_a_glance": {
         "length_weeks": 12,
         "typical_week": "1 X-Train, 5 Run, 2 Day Off",
-        "longest_workout_miles": 12.0,
-        "longest_workout_km": 19.3
+        "longest_workout_miles": 12,
+        "longest_workout_km": 19.3,
+        "longest_workout_min": null
       }
     },
     "activity_types": [
+      "cross_training",
       "running"
     ],
     "workout_definitions": {
@@ -78,7 +80,7 @@
         "label": "Race",
         "category": "race-specific",
         "discipline": "running",
-        "description": "A race effort or tune-up event used to practice pacing and measure current fitness.",
+        "description": "Run the indicated event.",
         "intensity": "high",
         "effort_zone": 5,
         "notes": null
@@ -94,14 +96,31 @@
         "notes": null
       }
     },
-    "coaching_guidance": [],
+    "coaching_guidance": [
+      {
+        "topic": "Long Runs",
+        "text": "Build from 4 to 12 miles on Sundays and taper for the race. Run at a conversational effort, generally 30–90 seconds per mile or more below goal pace."
+      },
+      {
+        "topic": "Cross-Training",
+        "text": "Use easy aerobic cross-training on Mondays, increasing from about 30 to 60 minutes."
+      },
+      {
+        "topic": "Race Pace",
+        "text": "Use your goal half marathon pace on the scheduled Saturday pace runs."
+      },
+      {
+        "topic": "Tune-Up Races",
+        "text": "The week 6 5K and week 9 10K are optional. Choose events that fit your calendar."
+      }
+    ],
     "schedule": [
       {
         "week": 1,
-        "phase": "base",
+        "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 12,
-        "total_distance_km": 27.2,
+        "total_distance_km": 27.36,
         "notes": null,
         "days": [
           {
@@ -111,7 +130,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
+                "duration_min": 30,
                 "notes": null
               }
             ]
@@ -121,10 +140,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -133,10 +152,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -145,10 +164,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -169,10 +188,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -180,32 +199,22 @@
             "day_of_week": "sunday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "workout_ref": "long_run",
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 2,
-        "phase": "base",
+        "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 11,
-        "total_distance_km": 28.9,
+        "total_distance_km": 28.97,
         "notes": null,
         "days": [
           {
@@ -215,7 +224,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
+                "duration_min": 30,
                 "notes": null
               }
             ]
@@ -225,10 +234,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -237,10 +246,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -249,10 +258,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -273,10 +282,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -284,32 +293,22 @@
             "day_of_week": "sunday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "workout_ref": "long_run",
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 3,
-        "phase": "base",
+        "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 10,
-        "total_distance_km": 29.6,
+        "total_distance_km": 28.97,
         "notes": null,
         "days": [
           {
@@ -319,7 +318,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 40.0,
+                "duration_min": 40,
                 "notes": null
               }
             ]
@@ -329,10 +328,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 5.9,
-                "distance_miles": 3.7,
+                "distance_km": 5.6327,
+                "distance_miles": 3.5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -341,10 +340,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -353,10 +352,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 5.9,
-                "distance_miles": 3.7,
+                "distance_km": 5.6327,
+                "distance_miles": 3.5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -388,32 +387,22 @@
             "day_of_week": "sunday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
-                "distance_km": 9.7,
-                "distance_miles": 6.0,
+                "workout_ref": "long_run",
+                "distance_km": 9.6561,
+                "distance_miles": 6,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 4,
-        "phase": "base",
+        "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 9,
-        "total_distance_km": 36.0,
+        "total_distance_km": 35.41,
         "notes": null,
         "days": [
           {
@@ -423,7 +412,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 40.0,
+                "duration_min": 40,
                 "notes": null
               }
             ]
@@ -433,10 +422,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 5.9,
-                "distance_miles": 3.7,
+                "distance_km": 5.6327,
+                "distance_miles": 3.5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -445,10 +434,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -457,10 +446,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 5.9,
-                "distance_miles": 3.7,
+                "distance_km": 5.6327,
+                "distance_miles": 3.5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -481,10 +470,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -492,24 +481,14 @@
             "day_of_week": "sunday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
-                "distance_km": 11.3,
-                "distance_miles": 7.0,
+                "workout_ref": "long_run",
+                "distance_km": 11.2654,
+                "distance_miles": 7,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
@@ -517,7 +496,7 @@
         "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 8,
-        "total_distance_km": 40.2,
+        "total_distance_km": 40.23,
         "notes": null,
         "days": [
           {
@@ -527,7 +506,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 40.0,
+                "duration_min": 40,
                 "notes": null
               }
             ]
@@ -537,10 +516,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -549,10 +528,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 9.7,
-                "distance_miles": 6.0,
+                "distance_km": 9.6561,
+                "distance_miles": 6,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -561,10 +540,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -585,10 +564,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -597,23 +576,13 @@
             "workouts": [
               {
                 "workout_ref": "long_run",
-                "distance_km": 12.9,
-                "distance_miles": 8.0,
+                "distance_km": 12.8748,
+                "distance_miles": 8,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
@@ -621,7 +590,7 @@
         "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 7,
-        "total_distance_km": 22.5,
+        "total_distance_km": 27.53,
         "notes": null,
         "days": [
           {
@@ -631,7 +600,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 50.0,
+                "duration_min": 50,
                 "notes": null
               }
             ]
@@ -641,10 +610,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -653,10 +622,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 9.7,
-                "distance_miles": 6.0,
+                "distance_km": 9.6561,
+                "distance_miles": 6,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -665,10 +634,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -677,6 +646,15 @@
             "workouts": [
               {
                 "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ],
+            "alternative_workouts": [
+              {
+                "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
@@ -701,23 +679,15 @@
             "workouts": [
               {
                 "workout_ref": "race",
-                "distance_km": null,
-                "distance_miles": null,
+                "distance_km": 5,
+                "distance_miles": 3.1069,
                 "duration_min": null,
-                "notes": "5-K Race"
+                "event": "5K",
+                "event_distance_km": 5,
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
@@ -725,7 +695,7 @@
         "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 6,
-        "total_distance_km": 46.8,
+        "total_distance_km": 46.67,
         "notes": null,
         "days": [
           {
@@ -745,10 +715,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 7.3,
+                "distance_km": 7.242,
                 "distance_miles": 4.5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -757,10 +727,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 11.3,
-                "distance_miles": 7.0,
+                "distance_km": 11.2654,
+                "distance_miles": 7,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -769,10 +739,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 7.3,
+                "distance_km": 7.242,
                 "distance_miles": 4.5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -793,10 +763,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -805,31 +775,21 @@
             "workouts": [
               {
                 "workout_ref": "long_run",
-                "distance_km": 14.5,
-                "distance_miles": 9.0,
+                "distance_km": 14.4841,
+                "distance_miles": 9,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 8,
-        "phase": "peak",
+        "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 5,
-        "total_distance_km": 50.1,
+        "total_distance_km": 49.89,
         "notes": null,
         "days": [
           {
@@ -839,7 +799,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 50.0,
+                "duration_min": 50,
                 "notes": null
               }
             ]
@@ -849,10 +809,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 7.3,
+                "distance_km": 7.242,
                 "distance_miles": 4.5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -861,10 +821,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 11.3,
-                "distance_miles": 7.0,
+                "distance_km": 11.2654,
+                "distance_miles": 7,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -873,10 +833,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 7.3,
+                "distance_km": 7.242,
                 "distance_miles": 4.5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -897,10 +857,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -909,31 +869,21 @@
             "workouts": [
               {
                 "workout_ref": "long_run",
-                "distance_km": 16.1,
-                "distance_miles": 10.0,
+                "distance_km": 16.0934,
+                "distance_miles": 10,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 9,
-        "phase": "peak",
+        "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 4,
-        "total_distance_km": 29.1,
+        "total_distance_km": 38.97,
         "notes": null,
         "days": [
           {
@@ -943,7 +893,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
@@ -953,10 +903,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -965,10 +915,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 12.9,
-                "distance_miles": 8.0,
+                "distance_km": 12.8748,
+                "distance_miles": 8,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -977,10 +927,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -989,6 +939,15 @@
             "workouts": [
               {
                 "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ],
+            "alternative_workouts": [
+              {
+                "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
@@ -1013,31 +972,23 @@
             "workouts": [
               {
                 "workout_ref": "race",
-                "distance_km": null,
-                "distance_miles": null,
+                "distance_km": 10,
+                "distance_miles": 6.2137,
                 "duration_min": null,
-                "notes": "10-K Race"
+                "event": "10K",
+                "event_distance_km": 10,
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 10,
-        "phase": "peak",
+        "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 3,
-        "total_distance_km": 54.9,
+        "total_distance_km": 54.72,
         "notes": null,
         "days": [
           {
@@ -1057,10 +1008,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -1069,10 +1020,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 12.9,
-                "distance_miles": 8.0,
+                "distance_km": 12.8748,
+                "distance_miles": 8,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -1081,10 +1032,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -1105,10 +1056,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -1117,31 +1068,21 @@
             "workouts": [
               {
                 "workout_ref": "long_run",
-                "distance_km": 17.7,
-                "distance_miles": 11.0,
+                "distance_km": 17.7028,
+                "distance_miles": 11,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 11,
-        "phase": "taper",
+        "phase": "build",
         "mesocycle": null,
         "weeks_to_goal": 2,
-        "total_distance_km": 48.3,
+        "total_distance_km": 48.28,
         "notes": null,
         "days": [
           {
@@ -1151,7 +1092,7 @@
                 "workout_ref": "cross_training",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
@@ -1161,10 +1102,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 8.1,
-                "distance_miles": 5.0,
+                "distance_km": 8.0467,
+                "distance_miles": 5,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -1173,10 +1114,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 9.7,
-                "distance_miles": 6.0,
+                "distance_km": 9.6561,
+                "distance_miles": 6,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -1185,10 +1126,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -1209,10 +1150,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 4.8,
-                "distance_miles": 3.0,
+                "distance_km": 4.828,
+                "distance_miles": 3,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -1221,23 +1162,13 @@
             "workouts": [
               {
                 "workout_ref": "long_run",
-                "distance_km": 19.3,
-                "distance_miles": 12.0,
+                "distance_km": 19.3121,
+                "distance_miles": 12,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
@@ -1245,7 +1176,7 @@
         "phase": "race",
         "mesocycle": null,
         "weeks_to_goal": 1,
-        "total_distance_km": 16.0,
+        "total_distance_km": 37.19,
         "notes": null,
         "days": [
           {
@@ -1265,10 +1196,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -1277,10 +1208,10 @@
             "workouts": [
               {
                 "workout_ref": "pace_run",
-                "distance_km": 6.4,
-                "distance_miles": 4.0,
+                "distance_km": 6.4374,
+                "distance_miles": 4,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": "Goal Half marathon pace."
               }
             ]
           },
@@ -1289,10 +1220,10 @@
             "workouts": [
               {
                 "workout_ref": "easy_run",
-                "distance_km": 3.2,
-                "distance_miles": 2.0,
+                "distance_km": 3.2187,
+                "distance_miles": 2,
                 "duration_min": null,
-                "notes": "Parsed from schedule text."
+                "notes": null
               }
             ]
           },
@@ -1325,25 +1256,15 @@
             "workouts": [
               {
                 "workout_ref": "race",
-                "distance_km": null,
-                "distance_miles": null,
+                "distance_km": 21.0975,
+                "distance_miles": 13.1094,
                 "duration_min": null,
                 "event": "Half Marathon",
                 "event_distance_km": 21.0975,
-                "notes": "Half Marathon"
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       }
     ],

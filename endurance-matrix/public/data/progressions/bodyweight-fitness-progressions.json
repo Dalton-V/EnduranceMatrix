@@ -1,0 +1,4550 @@
+{
+  "format": "bodyweight-progression-sheet-v1",
+  "key": "bodyweight-fitness-progressions",
+  "title": "Bodyweight Fitness Progressions",
+  "sheet": "Version 5.4",
+  "edition": "Version 5.4, Published March 13, 2019",
+  "families": [
+    "Horizontal Pull",
+    "Vertical Pull",
+    "Vertical Push",
+    "Horizontal Push",
+    "Core",
+    "Legs"
+  ],
+  "entries": [
+    {
+      "cell": "CJ2",
+      "kind": "warm_up",
+      "text": "Shoulders",
+      "links": [
+        {
+          "label": "Shoulders",
+          "url": "https://www.youtube.com/watch?v=Vwn5hSf3WEg"
+        }
+      ]
+    },
+    {
+      "cell": "CO2",
+      "kind": "warm_up",
+      "text": "Squat Sky Reach",
+      "links": [
+        {
+          "label": "Squat Sky Reach",
+          "url": "https://youtu.be/lbozu0DPcYI?t=42s"
+        }
+      ]
+    },
+    {
+      "cell": "CW2",
+      "kind": "warm_up",
+      "text": "Wrists",
+      "links": [
+        {
+          "label": "Wrists",
+          "url": "https://www.youtube.com/watch?v=mSZWSQSSEjE"
+        }
+      ]
+    },
+    {
+      "cell": "CZ2",
+      "kind": "warm_up",
+      "text": "Bodyline Work",
+      "links": [
+        {
+          "label": "Bodyline Work",
+          "url": "https://www.reddit.com/r/bodyweightfitness/wiki/playground/bodyline-work"
+        }
+      ]
+    },
+    {
+      "cell": "CJ3",
+      "kind": "warm_up_note",
+      "text": "Also warm up using easier skills in each progression"
+    },
+    {
+      "cell": "G6",
+      "kind": "family_heading",
+      "text": "Back",
+      "detail": "Horizontal Pull"
+    },
+    {
+      "cell": "Q6",
+      "kind": "family_heading",
+      "text": "Front",
+      "detail": "Horizontal Pull"
+    },
+    {
+      "cell": "AL6",
+      "kind": "family_heading",
+      "text": "Down",
+      "detail": "Vertical Push"
+    },
+    {
+      "cell": "AV6",
+      "kind": "family_heading",
+      "text": "Up",
+      "detail": "Vertical Push"
+    },
+    {
+      "cell": "CZ6",
+      "kind": "family_heading",
+      "text": "Push",
+      "detail": "Legs"
+    },
+    {
+      "cell": "DG6",
+      "kind": "family_heading",
+      "text": "Pull",
+      "detail": "Legs"
+    },
+    {
+      "cell": "G8",
+      "kind": "skill",
+      "text": "German Hang",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " German Hang ",
+          "url": "https://www.youtube.com/watch?v=5KaDOUeMY98"
+        }
+      ]
+    },
+    {
+      "cell": "O8",
+      "kind": "skill",
+      "text": "Vertical Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Vertical Row ",
+          "url": "https://youtu.be/rloXYB8M3vU"
+        }
+      ]
+    },
+    {
+      "cell": "X8",
+      "kind": "skill",
+      "text": "Scapular Pull",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Scapular Pull ",
+          "url": "https://youtu.be/FgYoc4O-cio?t=1m21s"
+        }
+      ]
+    },
+    {
+      "cell": "AJ8",
+      "kind": "skill",
+      "text": "Sup Hold",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Sup Hold ",
+          "url": "http://antranik.org/wp-content/uploads/2014/01/antranik-holding-support-hold-on-parallel-bars.jpg"
+        }
+      ]
+    },
+    {
+      "cell": "AT8",
+      "kind": "skill",
+      "text": "Wall Plank",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Wall Plank ",
+          "url": "https://youtu.be/6jm4R3K4sJA?t=34"
+        }
+      ]
+    },
+    {
+      "cell": "BE8",
+      "kind": "skill",
+      "text": "Incline Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Incline Push Up ",
+          "url": "https://youtu.be/4dF1DOWzf20?t=3m56s"
+        }
+      ]
+    },
+    {
+      "cell": "CB8",
+      "kind": "skill",
+      "text": "Plank",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Plank ",
+          "url": "https://www.youtube.com/watch?v=44ScXWFaVBs&feature=youtu.be&t=10s"
+        }
+      ]
+    },
+    {
+      "cell": "CI8",
+      "kind": "skill",
+      "text": "Rev Hyperextension",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Rev Hyperextension ",
+          "url": "https://youtu.be/ZeRsNzFcQLQ?t=45"
+        }
+      ]
+    },
+    {
+      "cell": "CV8",
+      "kind": "skill",
+      "text": "Assisted Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Assisted Squat ",
+          "url": "https://www.youtube.com/watch?v=OuR_Fp7AB0c"
+        }
+      ]
+    },
+    {
+      "cell": "DC8",
+      "kind": "skill",
+      "text": "OL Deadlift",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " OL Deadlift ",
+          "url": "https://youtu.be/JJom-_YS6Qs?t=194"
+        }
+      ]
+    },
+    {
+      "cell": "F9",
+      "kind": "skill",
+      "text": "Tuck Skin the Cat",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck Skin the Cat ",
+          "url": "https://www.youtube.com/watch?v=2T_wIiM8x8I"
+        }
+      ]
+    },
+    {
+      "cell": "O9",
+      "kind": "skill",
+      "text": "Incline Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Incline Row ",
+          "url": "https://www.youtube.com/watch?v=LR2EnFWpVao"
+        }
+      ]
+    },
+    {
+      "cell": "Y9",
+      "kind": "skill",
+      "text": "Arch Hang",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Arch Hang ",
+          "url": "https://youtu.be/C995b3KLXS4?t=7s"
+        }
+      ]
+    },
+    {
+      "cell": "AJ9",
+      "kind": "skill",
+      "text": "Dip Neg",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Dip Neg ",
+          "url": "https://www.youtube.com/watch?v=jWHKAXYNKfw"
+        }
+      ]
+    },
+    {
+      "cell": "AT9",
+      "kind": "skill",
+      "text": "Wall Headstand",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Wall Headstand ",
+          "url": "https://youtu.be/igdSYEx6Ydo?t=8"
+        }
+      ]
+    },
+    {
+      "cell": "BG9",
+      "kind": "skill",
+      "text": "Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Push Up ",
+          "url": "https://www.youtube.com/watch?v=IODxDxX7oi4"
+        }
+      ]
+    },
+    {
+      "cell": "BV9",
+      "kind": "skill",
+      "text": "Straddle One Arm Plank",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Straddle One Arm Plank ",
+          "url": "https://www.youtube.com/watch?v=lDiwfWLbuUg"
+        }
+      ]
+    },
+    {
+      "cell": "CI9",
+      "kind": "skill",
+      "text": "Hyperextension",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Hyperextension ",
+          "url": "https://youtu.be/ph3pddpKzzw?t=36"
+        }
+      ]
+    },
+    {
+      "cell": "CV9",
+      "kind": "skill",
+      "text": "Parallel Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "DC9",
+      "kind": "skill",
+      "text": "90° Hip NC",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "E10",
+      "kind": "skill",
+      "text": "Adv Tuck Skin the Cat",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "Q10",
+      "kind": "skill",
+      "text": "Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Row ",
+          "url": "https://www.youtube.com/watch?v=JkG2aQO7sF8"
+        }
+      ]
+    },
+    {
+      "cell": "X10",
+      "kind": "skill",
+      "text": "Pull Up Negative",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Pull Up Negative ",
+          "url": "https://www.youtube.com/watch?v=gbPURTSxQLY"
+        }
+      ]
+    },
+    {
+      "cell": "AG10",
+      "kind": "skill",
+      "text": "Side Plank",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Side Plank",
+          "url": "https://youtu.be/44ScXWFaVBs?t=74"
+        }
+      ]
+    },
+    {
+      "cell": "AL10",
+      "kind": "skill",
+      "text": "Dip",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Dip ",
+          "url": "https://www.youtube.com/watch?v=2z8JmcrW-As"
+        }
+      ]
+    },
+    {
+      "cell": "AT10",
+      "kind": "skill",
+      "text": "Wall Handstand",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Wall Handstand ",
+          "url": "https://www.youtube.com/watch?v=dRycbwdcz7Y"
+        }
+      ]
+    },
+    {
+      "cell": "BD10",
+      "kind": "skill",
+      "text": "Diamond Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Diamond Push Up ",
+          "url": "https://www.youtube.com/watch?v=_4EGPVJuqfA"
+        }
+      ]
+    },
+    {
+      "cell": "CI10",
+      "kind": "skill",
+      "text": "Arch Body Hold",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Arch Body Hold ",
+          "url": "https://youtu.be/OgyqYuh41Mw?t=880"
+        }
+      ]
+    },
+    {
+      "cell": "CV10",
+      "kind": "skill",
+      "text": "Full Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Full Squat ",
+          "url": "https://www.youtube.com/watch?v=zJBLDJMJiDE"
+        }
+      ]
+    },
+    {
+      "cell": "DC10",
+      "kind": "skill",
+      "text": "45° Hip NC",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "G11",
+      "kind": "skill",
+      "text": "Pike Skin the Cat",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Pike Skin the Cat ",
+          "url": "https://www.youtube.com/watch?v=ImOhdGiaQqY&feature=youtu.be"
+        }
+      ]
+    },
+    {
+      "cell": "P11",
+      "kind": "skill",
+      "text": "Wide Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Wide Row ",
+          "url": "http://www.youtube.com/watch?v=1yMRvsuk9Xg"
+        }
+      ]
+    },
+    {
+      "cell": "AA11",
+      "kind": "skill",
+      "text": "Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Pull Up ",
+          "url": "https://www.youtube.com/watch?v=30NjUye3y6Q"
+        }
+      ]
+    },
+    {
+      "cell": "AI11",
+      "kind": "skill",
+      "text": "Tuck L-Sit Dip",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "AU11",
+      "kind": "skill",
+      "text": "Handstand",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Handstand ",
+          "url": "https://www.youtube.com/watch?v=N3K9SMNKL7Y"
+        }
+      ]
+    },
+    {
+      "cell": "AJ12",
+      "kind": "skill",
+      "text": "L-Sit Dip",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " L-Sit Dip ",
+          "url": "https://www.youtube.com/watch?v=q4hdSdt8fHk"
+        }
+      ]
+    },
+    {
+      "cell": "CJ12",
+      "kind": "skill",
+      "text": "Banded Pallof Press",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Banded Pallof Press ",
+          "url": "https://www.youtube.com/watch?v=AH_QZLm_0-s"
+        }
+      ]
+    },
+    {
+      "cell": "AS13",
+      "kind": "skill",
+      "text": "Reverse Plank",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Reverse Plank ",
+          "url": "https://youtu.be/44ScXWFaVBs?t=244"
+        }
+      ]
+    },
+    {
+      "cell": "BU13",
+      "kind": "skill",
+      "text": "Planche Lean",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Planche Lean ",
+          "url": "https://youtu.be/liXL9oE3KzE?t=23"
+        }
+      ]
+    },
+    {
+      "cell": "CK13",
+      "kind": "skill",
+      "text": "Ring Pallof Press",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "DA13",
+      "kind": "skill",
+      "text": "Split Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Split Squat ",
+          "url": "https://www.youtube.com/watch?v=NmyiMb2XYAM"
+        }
+      ]
+    },
+    {
+      "cell": "D14",
+      "kind": "skill",
+      "text": "Tuck Back Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck Back Lever ",
+          "url": "https://www.youtube.com/watch?v=LfyGMZh-Bz4"
+        }
+      ]
+    },
+    {
+      "cell": "N14",
+      "kind": "skill",
+      "text": "L-Hang",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " L-Hang ",
+          "url": "https://www.youtube.com/watch?v=4Ii0HKuXCHk"
+        }
+      ]
+    },
+    {
+      "cell": "W14",
+      "kind": "skill",
+      "text": "Ring L-Sit Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Ring L-Sit Pull Up ",
+          "url": "https://www.youtube.com/watch?v=Aa9U0XNNBfU"
+        }
+      ]
+    },
+    {
+      "cell": "AI14",
+      "kind": "skill",
+      "text": "Foot Sup L-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Foot Sup L-Sit ",
+          "url": "https://youtu.be/IUZJoSP66HI?t=68"
+        }
+      ]
+    },
+    {
+      "cell": "AS14",
+      "kind": "skill",
+      "text": "Shoulder Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Shoulder Bridge ",
+          "url": "https://www.youtube.com/watch?v=aFfbS-hqOcQ"
+        }
+      ]
+    },
+    {
+      "cell": "BU14",
+      "kind": "skill",
+      "text": "Frog Stand / Crow Pose",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Frog Stand / Crow Pose ",
+          "url": "https://youtu.be/DgvjvwPGLPY?t=546"
+        }
+      ]
+    },
+    {
+      "cell": "CG14",
+      "kind": "skill",
+      "text": "OA Plank",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " OA Plank ",
+          "url": "https://www.youtube.com/watch?v=t5mFwzJBzwI"
+        }
+      ]
+    },
+    {
+      "cell": "CW14",
+      "kind": "skill",
+      "text": "Bulgarian Split Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Bulgarian Split Squat ",
+          "url": "https://www.youtube.com/watch?v=kkdmHTASZg8&feature=youtu.be&t=1m15s"
+        }
+      ]
+    },
+    {
+      "cell": "D15",
+      "kind": "skill",
+      "text": "Adv Tuck Back Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Adv Tuck Back Lever ",
+          "url": "https://www.youtube.com/watch?v=CqMDxeYvQeY"
+        }
+      ]
+    },
+    {
+      "cell": "AI15",
+      "kind": "skill",
+      "text": "One Leg L-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " One Leg L-Sit ",
+          "url": "https://youtu.be/IUZJoSP66HI?t=150"
+        }
+      ]
+    },
+    {
+      "cell": "AS15",
+      "kind": "skill",
+      "text": "Table Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Table Bridge ",
+          "url": "https://youtu.be/Q7dwu5H6c_0?t=50"
+        }
+      ]
+    },
+    {
+      "cell": "CG15",
+      "kind": "skill",
+      "text": "OA OL Plank",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " OA OL Plank ",
+          "url": "https://www.youtube.com/watch?v=Nlu0vWJhss8"
+        }
+      ]
+    },
+    {
+      "cell": "CR15",
+      "kind": "skill",
+      "text": "Hollow Hold",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Hollow Hold ",
+          "url": "https://youtu.be/XzQe1S91Fr0?t=11"
+        }
+      ]
+    },
+    {
+      "cell": "AI16",
+      "kind": "skill",
+      "text": "Tuck L-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck L-Sit ",
+          "url": "https://youtu.be/IUZJoSP66HI?t=178"
+        }
+      ]
+    },
+    {
+      "cell": "AS16",
+      "kind": "skill",
+      "text": "Angled Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Angled Bridge ",
+          "url": "https://www.youtube.com/watch?v=ciaiYLEBC80"
+        }
+      ]
+    },
+    {
+      "cell": "CR16",
+      "kind": "skill",
+      "text": "Tuck Up Crunch",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck Up Crunch ",
+          "url": "https://www.youtube.com/watch?v=YojoDZY31fM"
+        }
+      ]
+    },
+    {
+      "cell": "Y17",
+      "kind": "skill",
+      "text": "L-Sit Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " L-Sit Pull Up ",
+          "url": "http://www.youtube.com/watch?v=quFBLtkxMRM"
+        }
+      ]
+    },
+    {
+      "cell": "AI17",
+      "kind": "skill",
+      "text": "One Leg Bent L-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "AS17",
+      "kind": "skill",
+      "text": "Head Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Head Bridge ",
+          "url": "https://www.youtube.com/watch?v=SNPUXA8V1qc"
+        }
+      ]
+    },
+    {
+      "cell": "BD17",
+      "kind": "skill",
+      "text": "PP Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " PP Push Up ",
+          "url": "http://www.youtube.com/watch?v=Cdmg0CfMZeo"
+        }
+      ]
+    },
+    {
+      "cell": "BN17",
+      "kind": "skill",
+      "text": "Straight Arm Frog Stand / Crane Pose",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Straight Arm Frog Stand / Crane Pose ",
+          "url": "https://youtu.be/BCz9FCSVheg?t=50"
+        }
+      ]
+    },
+    {
+      "cell": "CR17",
+      "kind": "skill",
+      "text": "Seated Pike Leg Lift",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Seated Pike Leg Lift ",
+          "url": "https://www.youtube.com/watch?v=2kMkNFRbLJQ&feature=youtu.be&t=1m8s"
+        }
+      ]
+    },
+    {
+      "cell": "CZ17",
+      "kind": "skill",
+      "text": "Step Up",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Step Up ",
+          "url": "https://www.youtube.com/watch?v=487aR3A7HvM"
+        }
+      ]
+    },
+    {
+      "cell": "AI18",
+      "kind": "skill",
+      "text": "L-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " L-Sit ",
+          "url": "https://youtu.be/4bzLorsqBNc?t=17"
+        }
+      ]
+    },
+    {
+      "cell": "AS18",
+      "kind": "skill",
+      "text": "Bridge / Wheel",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Bridge / Wheel ",
+          "url": "https://www.youtube.com/watch?v=m-yYUvddRss"
+        }
+      ]
+    },
+    {
+      "cell": "CX18",
+      "kind": "skill",
+      "text": "Deep Step Up",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Deep Step Up ",
+          "url": "https://www.youtube.com/watch?v=bVRLKMEKOmo"
+        }
+      ]
+    },
+    {
+      "cell": "G19",
+      "kind": "skill",
+      "text": "Tuck Font Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck Font Lever ",
+          "url": "https://www.youtube.com/watch?v=JxlKAuD9gkA"
+        }
+      ]
+    },
+    {
+      "cell": "O19",
+      "kind": "skill",
+      "text": "Archer Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Archer Row ",
+          "url": "https://www.youtube.com/watch?v=067f1CA6OvE"
+        }
+      ]
+    },
+    {
+      "cell": "Y19",
+      "kind": "skill",
+      "text": "C2B Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " C2B Pull Up ",
+          "url": "https://www.youtube.com/watch?v=PmdNNN8nLGI"
+        }
+      ]
+    },
+    {
+      "cell": "AI19",
+      "kind": "skill",
+      "text": "Straddle L-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "AS19",
+      "kind": "skill",
+      "text": "Decline Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Decline Bridge ",
+          "url": "https://youtu.be/QjNWHMON6Tc?t=75"
+        }
+      ]
+    },
+    {
+      "cell": "BC19",
+      "kind": "skill",
+      "text": "Pike Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Pike Push Up ",
+          "url": "https://www.youtube.com/watch?v=1Jjjyp4uhks#t=26s"
+        }
+      ]
+    },
+    {
+      "cell": "BX19",
+      "kind": "skill",
+      "text": "Ring Frog Stand",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "Z20",
+      "kind": "skill",
+      "text": "MU Neg",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " MU Neg ",
+          "url": "https://www.youtube.com/watch?v=WKf1PfMqfmU"
+        }
+      ]
+    },
+    {
+      "cell": "AS20",
+      "kind": "skill",
+      "text": "One Leg Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "BC20",
+      "kind": "skill",
+      "text": "Decline Pike PU",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Decline Pike PU ",
+          "url": "https://www.youtube.com/watch?v=ZnsLpLhywgk&feature=youtu.be&t=50"
+        }
+      ]
+    },
+    {
+      "cell": "CI20",
+      "kind": "skill",
+      "text": "Hanging Knees to Chest",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "CV20",
+      "kind": "skill",
+      "text": "Cossack Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Cossack Squat ",
+          "url": "https://www.youtube.com/watch?v=YvxmS5BIPi8"
+        }
+      ]
+    },
+    {
+      "cell": "E21",
+      "kind": "progression_note",
+      "text": "For some people Straddle is easier than One Leg in the Front & Back Lever progressions below"
+    },
+    {
+      "cell": "Y21",
+      "kind": "skill",
+      "text": "Kipping MU",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Kipping MU ",
+          "url": "http://www.youtube.com/watch?v=Fpk1a_PxEw4"
+        }
+      ]
+    },
+    {
+      "cell": "AK21",
+      "kind": "skill",
+      "text": "Ring Sup Hold",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Ring Sup Hold ",
+          "url": "https://youtu.be/9PKChU9Ozs8"
+        }
+      ]
+    },
+    {
+      "cell": "AS21",
+      "kind": "skill",
+      "text": "Decline OL Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "BU21",
+      "kind": "skill",
+      "text": "Straddle Elbow Lever",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Straddle Elbow Lever ",
+          "url": "https://youtu.be/aFR4aY2RRTY?t=153"
+        }
+      ]
+    },
+    {
+      "cell": "CI21",
+      "kind": "skill",
+      "text": "Hanging Leg Raise T2B",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Hanging Leg Raise T2B ",
+          "url": "https://www.youtube.com/watch?v=at_A-H6JTGk"
+        }
+      ]
+    },
+    {
+      "cell": "CV21",
+      "kind": "skill",
+      "text": "Partial Pistol Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Partial Pistol Squat ",
+          "url": "https://www.youtube.com/watch?v=z8uO1zYI4Xk"
+        }
+      ]
+    },
+    {
+      "cell": "AK22",
+      "kind": "skill",
+      "text": "RTO Sup Hold",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " RTO Sup Hold ",
+          "url": "https://youtu.be/9PKChU9Ozs8?t=147"
+        }
+      ]
+    },
+    {
+      "cell": "BF22",
+      "kind": "skill",
+      "text": "Ring Wide PU",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "BU22",
+      "kind": "skill",
+      "text": "One Leg Elbow Lever",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "CI22",
+      "kind": "skill",
+      "text": "Ankle Weight HLR T2B",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "CV22",
+      "kind": "skill",
+      "text": "Assisted Pistol Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "AK23",
+      "kind": "skill",
+      "text": "Ring Dip Neg",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "BF23",
+      "kind": "skill",
+      "text": "Ring Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Ring Push Up ",
+          "url": "https://www.youtube.com/watch?v=eiMqSbh3IRM"
+        }
+      ]
+    },
+    {
+      "cell": "BU23",
+      "kind": "skill",
+      "text": "Elbow Lever",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Elbow Lever ",
+          "url": "https://youtu.be/UcDjtLoM91g?t=58"
+        }
+      ]
+    },
+    {
+      "cell": "CI23",
+      "kind": "skill",
+      "text": "One Arm HLR T2B",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "CV23",
+      "kind": "skill",
+      "text": "Pistol Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Pistol Squat ",
+          "url": "https://youtu.be/0SN8ZaxOBpA?t=30s"
+        }
+      ]
+    },
+    {
+      "cell": "AE24",
+      "kind": "skill",
+      "text": "Support Press",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Support Press ",
+          "url": "https://youtu.be/w6uo90PAIfI?t=84"
+        }
+      ]
+    },
+    {
+      "cell": "AL24",
+      "kind": "skill",
+      "text": "Ring Dip",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Ring Dip ",
+          "url": "https://www.youtube.com/watch?v=DaNedgnJjB0"
+        }
+      ]
+    },
+    {
+      "cell": "AU24",
+      "kind": "skill",
+      "text": "Wall HeS PU Neg",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Wall HeS PU Neg ",
+          "url": "http://www.youtube.com/watch?v=Lj2KZwbr_jo"
+        }
+      ]
+    },
+    {
+      "cell": "AE25",
+      "kind": "skill",
+      "text": "Tuck Flag",
+      "family": "Vertical Pull",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck Flag ",
+          "url": "https://www.youtube.com/watch?v=9458-nNR90M"
+        }
+      ]
+    },
+    {
+      "cell": "AK25",
+      "kind": "skill",
+      "text": "RTO Dip",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "AU25",
+      "kind": "skill",
+      "text": "Wall HeS PU",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Wall HeS PU ",
+          "url": "https://www.youtube.com/watch?v=DBv3BvBS4H8"
+        }
+      ]
+    },
+    {
+      "cell": "BD25",
+      "kind": "skill",
+      "text": "Archer Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Archer Push Up ",
+          "url": "https://youtu.be/dyDBGkJWgZE?list=PLBF8536CA2AB746EC&t=19"
+        }
+      ]
+    },
+    {
+      "cell": "CJ25",
+      "kind": "skill",
+      "text": "Tuck Dragon Flag Negative",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck Dragon Flag Negative ",
+          "url": "https://youtu.be/Gcp8zHakjTA?t=108"
+        }
+      ]
+    },
+    {
+      "cell": "CW25",
+      "kind": "skill",
+      "text": "Beginner Shrimp Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Beginner Shrimp Squat ",
+          "url": "http://www.youtube.com/watch?v=Dpgn6eRtsdw"
+        }
+      ]
+    },
+    {
+      "cell": "AK26",
+      "kind": "skill",
+      "text": "Bulgarian Dip",
+      "family": "Vertical Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Bulgarian Dip ",
+          "url": "https://www.youtube.com/watch?v=9mKyrPmmPt0"
+        }
+      ]
+    },
+    {
+      "cell": "BD26",
+      "kind": "skill",
+      "text": "Ring Archer PU",
+      "family": "Horizontal Push",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Ring Archer PU ",
+          "url": "https://www.youtube.com/watch?v=rkcrsEl58rs"
+        }
+      ]
+    },
+    {
+      "cell": "CI26",
+      "kind": "skill",
+      "text": "Advanced Tuck Dragon Flag",
+      "family": "Core",
+      "difficulty": "Beginner",
+      "milestone": false
+    },
+    {
+      "cell": "CY26",
+      "kind": "skill",
+      "text": "Int Shrimp Squat",
+      "family": "Legs",
+      "difficulty": "Beginner",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Int Shrimp Squat ",
+          "url": "https://youtu.be/Dpgn6eRtsdw?t=28"
+        }
+      ]
+    },
+    {
+      "cell": "F28",
+      "kind": "skill",
+      "text": "Adv Tuck Front Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Adv Tuck Front Lever ",
+          "url": "https://www.youtube.com/watch?v=NicnELGtOSE"
+        }
+      ]
+    },
+    {
+      "cell": "O28",
+      "kind": "skill",
+      "text": "Archer-In Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Archer-In Row ",
+          "url": "https://www.youtube.com/watch?v=067f1CA6OvE"
+        }
+      ]
+    },
+    {
+      "cell": "Y28",
+      "kind": "skill",
+      "text": "Pullover",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Pullover ",
+          "url": "https://youtu.be/eTq8oqjm2Wc?list=PLOj76wV2WfPvMTkUMXbu6gV62XSsdnMRh&t=48"
+        }
+      ]
+    },
+    {
+      "cell": "AG28",
+      "kind": "skill",
+      "text": "Vertical Flag",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Vertical Flag ",
+          "url": "https://youtu.be/5PA4zMBwzZo?t=345"
+        }
+      ]
+    },
+    {
+      "cell": "AQ28",
+      "kind": "skill",
+      "text": "OA Head Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AV28",
+      "kind": "skill",
+      "text": "Wall HS PU",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Wall HS PU ",
+          "url": "https://www.youtube.com/watch?v=r-aiCMOOhNQ"
+        }
+      ]
+    },
+    {
+      "cell": "BF28",
+      "kind": "skill",
+      "text": "RTO Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " RTO Push Up ",
+          "url": "https://www.youtube.com/watch?v=MrlyEIpe0LI&t=2m55s"
+        }
+      ]
+    },
+    {
+      "cell": "BN28",
+      "kind": "skill",
+      "text": "Tuck Planche",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck Planche ",
+          "url": "https://www.youtube.com/watch?v=VFYZh24e0RI"
+        }
+      ]
+    },
+    {
+      "cell": "BU28",
+      "kind": "skill",
+      "text": "Ring Elbow Lever",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CH28",
+      "kind": "skill",
+      "text": "Straddle / One Leg Dragon Flag",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CV28",
+      "kind": "skill",
+      "text": "Weighted Pistol Squat",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "O29",
+      "kind": "skill",
+      "text": "Str OA Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AG29",
+      "kind": "skill",
+      "text": "Adv Tuck Flag",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AQ29",
+      "kind": "skill",
+      "text": "OA Bridge",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " OA Bridge ",
+          "url": "https://youtu.be/NcwijTIZyTU"
+        }
+      ]
+    },
+    {
+      "cell": "AV29",
+      "kind": "skill",
+      "text": "Headstand PU",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Headstand PU ",
+          "url": "https://www.youtube.com/watch?v=DlG9vz-cxIA"
+        }
+      ]
+    },
+    {
+      "cell": "BF29",
+      "kind": "skill",
+      "text": "RTO Archer PU",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "BU29",
+      "kind": "skill",
+      "text": "OA Straddle Elbow Lever",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " OA Straddle Elbow Lever ",
+          "url": "https://www.youtube.com/watch?v=R0AgR2nyBDM"
+        }
+      ]
+    },
+    {
+      "cell": "CN29",
+      "kind": "skill",
+      "text": "Dragon Flag",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Dragon Flag ",
+          "url": "https://www.youtube.com/watch?v=moyFIvRrS0s"
+        }
+      ]
+    },
+    {
+      "cell": "CV29",
+      "kind": "skill",
+      "text": "Natural One Leg Press",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Natural One Leg Press ",
+          "url": "https://www.youtube.com/watch?v=g5p1FVxOHX8"
+        }
+      ]
+    },
+    {
+      "cell": "D30",
+      "kind": "skill",
+      "text": "One Leg Back Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "O30",
+      "kind": "skill",
+      "text": "One Arm Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " One Arm Row ",
+          "url": "https://www.youtube.com/watch?v=67Lp_DeX3-c"
+        }
+      ]
+    },
+    {
+      "cell": "Z30",
+      "kind": "skill",
+      "text": "Muscle Up",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Muscle Up ",
+          "url": "https://www.youtube.com/watch?v=2FZ9t2vl1kc"
+        }
+      ]
+    },
+    {
+      "cell": "AG30",
+      "kind": "skill",
+      "text": "Straddle Flag",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Straddle Flag ",
+          "url": "https://youtu.be/lczvDH9Fze4?t=198"
+        }
+      ]
+    },
+    {
+      "cell": "AX30",
+      "kind": "skill",
+      "text": "HS PU",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " HS PU ",
+          "url": "https://youtu.be/CDCHdKDx0UY?t=69"
+        }
+      ]
+    },
+    {
+      "cell": "BF30",
+      "kind": "skill",
+      "text": "RTO PP PU",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " RTO PP PU ",
+          "url": "https://www.youtube.com/watch?v=-kwe1EOiWMY"
+        }
+      ]
+    },
+    {
+      "cell": "BU30",
+      "kind": "skill",
+      "text": "One Arm Elbow Lever",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " One Arm Elbow Lever ",
+          "url": "https://www.youtube.com/watch?v=R0AgR2nyBDM"
+        }
+      ]
+    },
+    {
+      "cell": "CJ30",
+      "kind": "skill",
+      "text": "Ankle Weight Dragon Flag",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "D31",
+      "kind": "skill",
+      "text": "Straddle Back Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Straddle Back Lever ",
+          "url": "https://youtu.be/HXaG8mJmSnU?t=215"
+        }
+      ]
+    },
+    {
+      "cell": "X31",
+      "kind": "skill",
+      "text": "Wide Muscle Up",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AG31",
+      "kind": "skill",
+      "text": "Human Flag",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Human Flag ",
+          "url": "https://youtu.be/lczvDH9Fze4?t=204"
+        }
+      ]
+    },
+    {
+      "cell": "CM31",
+      "kind": "skill",
+      "text": "OA Dragon Flag",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " OA Dragon Flag ",
+          "url": "https://www.youtube.com/watch?v=pG4GJFAmm3Q"
+        }
+      ]
+    },
+    {
+      "cell": "CY31",
+      "kind": "skill",
+      "text": "Shrimp Squat",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Shrimp Squat ",
+          "url": "https://www.youtube.com/watch?v=_FBuC-VPbRY"
+        }
+      ]
+    },
+    {
+      "cell": "D32",
+      "kind": "skill",
+      "text": "Back Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Back Lever ",
+          "url": "https://www.youtube.com/watch?v=HXaG8mJmSnU"
+        }
+      ]
+    },
+    {
+      "cell": "X32",
+      "kind": "skill",
+      "text": "Strict Bar MU",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Strict Bar MU ",
+          "url": "https://www.youtube.com/watch?v=t8_M2aHiNDk"
+        }
+      ]
+    },
+    {
+      "cell": "AK32",
+      "kind": "skill",
+      "text": "Ring L-Sit Dip",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Ring L-Sit Dip ",
+          "url": "https://www.youtube.com/watch?v=zMJpC7y-6SE"
+        }
+      ]
+    },
+    {
+      "cell": "AU32",
+      "kind": "skill",
+      "text": "Ring Shld Stand",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "BD32",
+      "kind": "skill",
+      "text": "Incline OA PU",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "BW32",
+      "kind": "skill",
+      "text": "Ring SA Frog Stand",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CM32",
+      "kind": "skill",
+      "text": "OL Dragon Press",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CV32",
+      "kind": "skill",
+      "text": "Two Hand Shrimp Squat",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Two Hand Shrimp Squat ",
+          "url": "https://youtu.be/_FBuC-VPbRY?t=56"
+        }
+      ]
+    },
+    {
+      "cell": "D33",
+      "kind": "skill",
+      "text": "Back Lever Pullout",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "X33",
+      "kind": "skill",
+      "text": "L-Sit Muscle Up",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AK33",
+      "kind": "skill",
+      "text": "Ring Wide Dip",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AU33",
+      "kind": "skill",
+      "text": "Ring HS",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Ring HS ",
+          "url": "https://youtu.be/UU2gnuYZYcE?t=137"
+        }
+      ]
+    },
+    {
+      "cell": "BD33",
+      "kind": "skill",
+      "text": "Straddle OA PU",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Straddle OA PU ",
+          "url": "https://youtu.be/75LWvxsorKI?t=180"
+        }
+      ]
+    },
+    {
+      "cell": "BN33",
+      "kind": "skill",
+      "text": "Tuck Planche PU",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Tuck Planche PU ",
+          "url": "https://www.youtube.com/watch?v=LqsZUi5CF70"
+        }
+      ]
+    },
+    {
+      "cell": "BW33",
+      "kind": "skill",
+      "text": "Ring Tuck Planche",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Ring Tuck Planche ",
+          "url": "https://www.youtube.com/watch?v=gsb0Eg1u0BY"
+        }
+      ]
+    },
+    {
+      "cell": "CN33",
+      "kind": "skill",
+      "text": "Dragon Press",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Dragon Press ",
+          "url": "https://www.youtube.com/watch?v=syeBbDAR-DM"
+        }
+      ]
+    },
+    {
+      "cell": "CV33",
+      "kind": "skill",
+      "text": "Elevated 2H Shrimp Squat",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Elevated 2H Shrimp Squat ",
+          "url": "https://youtu.be/52qFFMdlPFA?t=17"
+        }
+      ]
+    },
+    {
+      "cell": "AK34",
+      "kind": "skill",
+      "text": "RTO 45° Dip",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "BD34",
+      "kind": "skill",
+      "text": "Ring Str OA PU",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Ring Str OA PU",
+          "url": "https://www.youtube.com/watch?v=jgc8mVcxwQE"
+        }
+      ]
+    },
+    {
+      "cell": "BN34",
+      "kind": "skill",
+      "text": "Adv Tuck PL PU",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CI34",
+      "kind": "skill",
+      "text": "Ring Ab Rollout",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Ring Ab Rollout ",
+          "url": "https://www.youtube.com/watch?v=LBUfnmugKLw"
+        }
+      ]
+    },
+    {
+      "cell": "E35",
+      "kind": "skill",
+      "text": "One Leg Front Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " One Leg Front Lever ",
+          "url": "https://www.youtube.com/watch?v=HzcWRdP78Wo"
+        }
+      ]
+    },
+    {
+      "cell": "O35",
+      "kind": "skill",
+      "text": "Tuck ICM",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "W35",
+      "kind": "skill",
+      "text": "Ring Wide Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AO35",
+      "kind": "skill",
+      "text": "RTO 75° Dip",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AT35",
+      "kind": "skill",
+      "text": "Ring Wide HS PU",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "BD35",
+      "kind": "skill",
+      "text": "One Arm Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " One Arm Push Up  ",
+          "url": "https://youtu.be/MlRCAJbwjMs?t=65"
+        }
+      ]
+    },
+    {
+      "cell": "CY35",
+      "kind": "skill",
+      "text": "Nordic Curl Negative",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Nordic Curl Negative ",
+          "url": "https://www.youtube.com/watch?v=_TOAv0YGGp4"
+        }
+      ]
+    },
+    {
+      "cell": "E36",
+      "kind": "skill",
+      "text": "Straddle Font Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Straddle Font Lever ",
+          "url": "https://www.youtube.com/watch?v=PR-mHqduhtQ"
+        }
+      ]
+    },
+    {
+      "cell": "O36",
+      "kind": "skill",
+      "text": "Tuck FL Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck FL Row ",
+          "url": "https://www.youtube.com/watch?v=VUe3M0iLPG0&feature=youtu.be"
+        }
+      ]
+    },
+    {
+      "cell": "W36",
+      "kind": "skill",
+      "text": "Ring Wide L-Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "AT36",
+      "kind": "skill",
+      "text": "Ring Strap HS PU",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Ring Strap HS PU ",
+          "url": "https://www.youtube.com/watch?v=ak_3xbyfxpk"
+        }
+      ]
+    },
+    {
+      "cell": "BN36",
+      "kind": "skill",
+      "text": "Adv Tuck PL",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Adv Tuck PL ",
+          "url": "https://youtu.be/oLUHPdRF2vo?t=131"
+        }
+      ]
+    },
+    {
+      "cell": "BW36",
+      "kind": "skill",
+      "text": "Ring Tuck PL PU",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CG36",
+      "kind": "skill",
+      "text": "Knees Ab Wheel",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Knees Ab Wheel ",
+          "url": "https://www.youtube.com/watch?v=uYBOBBv9GzY"
+        }
+      ]
+    },
+    {
+      "cell": "DB36",
+      "kind": "skill",
+      "text": "Nordic Curl",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Nordic Curl ",
+          "url": "https://www.youtube.com/watch?v=d8AAPcYxPo8"
+        }
+      ]
+    },
+    {
+      "cell": "G37",
+      "kind": "skill",
+      "text": "Front Lever",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Front Lever ",
+          "url": "https://youtu.be/ZqCLG0hiRco?t=8"
+        }
+      ]
+    },
+    {
+      "cell": "O37",
+      "kind": "skill",
+      "text": "Adv Tuck FL Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "W37",
+      "kind": "skill",
+      "text": "Typewriter Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Typewriter Pull Up ",
+          "url": "https://youtu.be/vdjWgw98EeI?t=92"
+        }
+      ]
+    },
+    {
+      "cell": "AI37",
+      "kind": "skill",
+      "text": "RTO L-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "BN37",
+      "kind": "skill",
+      "text": "Str Planche",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Str Planche ",
+          "url": "https://youtu.be/dHLYwZV96zw?t=294"
+        }
+      ]
+    },
+    {
+      "cell": "CG37",
+      "kind": "skill",
+      "text": "Straight Leg Ab Wheel Ramp",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CW37",
+      "kind": "skill",
+      "text": "Nordic Curl Arms Overhead",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "W38",
+      "kind": "skill",
+      "text": "Archer Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Archer Pull Up ",
+          "url": "https://youtu.be/vdjWgw98EeI?t=1m52s"
+        }
+      ]
+    },
+    {
+      "cell": "AI38",
+      "kind": "skill",
+      "text": "45° V-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " 45° V-Sit ",
+          "url": "https://www.youtube.com/watch?v=GbZeD4q_cSE"
+        }
+      ]
+    },
+    {
+      "cell": "AS38",
+      "kind": "skill",
+      "text": "Tuck Handstand",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Tuck Handstand ",
+          "url": "https://youtu.be/VtipeT7CMK0?t=154"
+        }
+      ]
+    },
+    {
+      "cell": "BX38",
+      "kind": "skill",
+      "text": "Ring Adv Tuck PL",
+      "family": "Horizontal Push",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CG38",
+      "kind": "skill",
+      "text": "Straight Leg Ab Wheel Neg",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "CX38",
+      "kind": "skill",
+      "text": "Tuck One Leg Nordic Curl",
+      "family": "Legs",
+      "difficulty": "Intermediate",
+      "milestone": false
+    },
+    {
+      "cell": "W39",
+      "kind": "skill",
+      "text": "OA Pull Up Neg",
+      "family": "Vertical Pull",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " OA Pull Up Neg ",
+          "url": "https://www.youtube.com/watch?v=QhJzZAJjcXg"
+        }
+      ]
+    },
+    {
+      "cell": "AI39",
+      "kind": "skill",
+      "text": "90° V-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " 90° V-Sit",
+          "url": "https://www.youtube.com/watch?v=wYFR1dvYZF4"
+        }
+      ]
+    },
+    {
+      "cell": "AS39",
+      "kind": "skill",
+      "text": "OA HS Progression",
+      "family": "Vertical Push",
+      "difficulty": "Intermediate",
+      "milestone": false,
+      "links": [
+        {
+          "label": " OA HS Progression ",
+          "url": "https://gmb.io/oahs/"
+        }
+      ]
+    },
+    {
+      "cell": "CG39",
+      "kind": "skill",
+      "text": "Straight Leg Ab Wheel",
+      "family": "Core",
+      "difficulty": "Intermediate",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Straight Leg Ab Wheel ",
+          "url": "https://www.youtube.com/watch?v=uYBOBBv9GzY"
+        }
+      ]
+    },
+    {
+      "cell": "G41",
+      "kind": "skill",
+      "text": "FL to Inverted",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "O41",
+      "kind": "skill",
+      "text": "Straddle FL Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "W41",
+      "kind": "skill",
+      "text": "One Arm Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " One Arm Pull Up ",
+          "url": "https://www.youtube.com/watch?v=vdjWgw98EeI"
+        }
+      ]
+    },
+    {
+      "cell": "AK41",
+      "kind": "skill",
+      "text": "RTO 90° Dip",
+      "family": "Vertical Push",
+      "difficulty": "Advanced",
+      "milestone": false,
+      "links": [
+        {
+          "label": " RTO 90° Dip ",
+          "url": "https://www.youtube.com/watch?v=ParZpV9Ef3g"
+        }
+      ]
+    },
+    {
+      "cell": "AS41",
+      "kind": "skill",
+      "text": "Straddle OA HS",
+      "family": "Vertical Push",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Straddle OA HS ",
+          "url": "https://www.youtube.com/watch?v=l2yCzIknXxg"
+        }
+      ]
+    },
+    {
+      "cell": "BE41",
+      "kind": "skill",
+      "text": "RTO Maltese PU",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false,
+      "links": [
+        {
+          "label": "RTO Maltese PU ",
+          "url": "https://www.youtube.com/watch?v=PLS2-32rAp0"
+        }
+      ]
+    },
+    {
+      "cell": "BN41",
+      "kind": "skill",
+      "text": "One Leg Planche",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false,
+      "links": [
+        {
+          "label": " One Leg Planche ",
+          "url": "https://www.youtube.com/watch?v=Tnr69-nnsv8"
+        }
+      ]
+    },
+    {
+      "cell": "BX41",
+      "kind": "skill",
+      "text": "Ring Straddle PL",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Ring Straddle PL ",
+          "url": "https://www.youtube.com/watch?v=58LKLHlwTbI"
+        }
+      ]
+    },
+    {
+      "cell": "CK41",
+      "kind": "skill",
+      "text": "One Arm Dragon Press",
+      "family": "Core",
+      "difficulty": "Advanced",
+      "milestone": true
+    },
+    {
+      "cell": "CV41",
+      "kind": "skill",
+      "text": "Elevated Friction Pistol Squat",
+      "family": "Legs",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Elevated Friction Pistol Squat ",
+          "url": "https://youtu.be/nijCCcCTFVk?t=75"
+        }
+      ]
+    },
+    {
+      "cell": "D42",
+      "kind": "skill",
+      "text": "Hanging Pull FL to Inv",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "O42",
+      "kind": "skill",
+      "text": "Front Lever Row",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Front Lever Row ",
+          "url": "https://youtu.be/SFicccDgjUI"
+        }
+      ]
+    },
+    {
+      "cell": "AS42",
+      "kind": "skill",
+      "text": "Straight OA HS",
+      "family": "Vertical Push",
+      "difficulty": "Advanced",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Straight OA HS ",
+          "url": "https://youtu.be/vBg25G5ksbg?t=61"
+        }
+      ]
+    },
+    {
+      "cell": "BE42",
+      "kind": "skill",
+      "text": "Ring Wall PP PU",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "BN42",
+      "kind": "skill",
+      "text": "Planche",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Planche ",
+          "url": "https://www.youtube.com/watch?v=acij_BzyXRg"
+        }
+      ]
+    },
+    {
+      "cell": "BX42",
+      "kind": "skill",
+      "text": "Ring One Leg PL",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "H43",
+      "kind": "skill",
+      "text": "360° Pull",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " 360° Pull ",
+          "url": "https://www.youtube.com/watch?v=1k-FRtD2Wq8"
+        }
+      ]
+    },
+    {
+      "cell": "X43",
+      "kind": "skill",
+      "text": "OA Straight MU",
+      "family": "Vertical Pull",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": "OA Straight MU",
+          "url": "https://www.youtube.com/watch?v=ke1sbJLeshg"
+        }
+      ]
+    },
+    {
+      "cell": "AI43",
+      "kind": "skill",
+      "text": "120° V-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "BE43",
+      "kind": "skill",
+      "text": "Wall PP Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false,
+      "links": [
+        {
+          "label": "Wall PP Push Up ",
+          "url": "https://www.youtube.com/watch?v=qxvE91nUaBE"
+        }
+      ]
+    },
+    {
+      "cell": "BN43",
+      "kind": "skill",
+      "text": "SA Str PL to HS",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "CG43",
+      "kind": "skill",
+      "text": "Weighted Ab Wheel",
+      "family": "Core",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "CZ43",
+      "kind": "skill",
+      "text": "One Leg Nordic Curl",
+      "family": "Legs",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " One Leg Nordic Curl ",
+          "url": "https://www.youtube.com/watch?v=nijCCcCTFVk&feature=youtu.be&t=111"
+        }
+      ]
+    },
+    {
+      "cell": "AI44",
+      "kind": "skill",
+      "text": "140° V-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "AU44",
+      "kind": "skill",
+      "text": "Ring HS Push Up",
+      "family": "Vertical Push",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": "Ring HS Push Up ",
+          "url": "https://www.youtube.com/watch?v=VYSQf6JhLro"
+        }
+      ]
+    },
+    {
+      "cell": "BE44",
+      "kind": "skill",
+      "text": "Wall Maltese PU",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "BW44",
+      "kind": "skill",
+      "text": "Ring Adv Tuck PL PU",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "CG44",
+      "kind": "skill",
+      "text": "One Arm Ab Wheel",
+      "family": "Core",
+      "difficulty": "Advanced",
+      "milestone": true
+    },
+    {
+      "cell": "D45",
+      "kind": "skill",
+      "text": "German Hang Pullout",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "L45",
+      "kind": "skill",
+      "text": "Iron Cross Progression",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "AI45",
+      "kind": "skill",
+      "text": "155° V-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "BN45",
+      "kind": "skill",
+      "text": "Str Planche PU",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Str Planche PU ",
+          "url": "https://www.youtube.com/watch?v=C9yattH2D2U"
+        }
+      ]
+    },
+    {
+      "cell": "BW45",
+      "kind": "skill",
+      "text": "Ring Straddle PL PU",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "D46",
+      "kind": "skill",
+      "text": "Bent Arm Pull Up to BL",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "P46",
+      "kind": "skill",
+      "text": "Iron Cross",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Iron Cross ",
+          "url": "https://www.youtube.com/watch?v=8HuF1nrZSGA"
+        }
+      ]
+    },
+    {
+      "cell": "AI46",
+      "kind": "skill",
+      "text": "170° V-Sit",
+      "family": "Vertical Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "BD46",
+      "kind": "skill",
+      "text": "Ring OA Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": true
+    },
+    {
+      "cell": "BS46",
+      "kind": "skill",
+      "text": "OL Planche PU",
+      "family": "Horizontal Push",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "D47",
+      "kind": "skill",
+      "text": "Handstand Lower to BL",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Handstand Lower to BL ",
+          "url": "https://www.youtube.com/watch?v=dJ0DzpxjZRs"
+        }
+      ]
+    },
+    {
+      "cell": "S47",
+      "kind": "skill",
+      "text": "Iron Cross to BL",
+      "family": "Horizontal Pull",
+      "difficulty": "Advanced",
+      "milestone": false
+    },
+    {
+      "cell": "W48",
+      "kind": "skill",
+      "text": "High One Arm Pull Up",
+      "family": "Vertical Pull",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": " High One Arm Pull Up ",
+          "url": "https://www.youtube.com/watch?v=OAZ63ZqZ4_E"
+        }
+      ]
+    },
+    {
+      "cell": "AI48",
+      "kind": "skill",
+      "text": "Manna",
+      "family": "Vertical Push",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Manna ",
+          "url": "https://www.youtube.com/watch?v=rX4zPm95dAY&feature=youtu.be"
+        }
+      ]
+    },
+    {
+      "cell": "BD48",
+      "kind": "skill",
+      "text": "Ring Wall Maltese PU",
+      "family": "Horizontal Push",
+      "difficulty": "Elite",
+      "milestone": true
+    },
+    {
+      "cell": "BN48",
+      "kind": "skill",
+      "text": "Planche Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Planche Push Up ",
+          "url": "https://www.youtube.com/watch?v=AjDnc7s0XDQ"
+        }
+      ]
+    },
+    {
+      "cell": "BY48",
+      "kind": "skill",
+      "text": "Ring Planche",
+      "family": "Horizontal Push",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": "Ring Planche ",
+          "url": "https://youtu.be/4xVEZ_rELXI?t=58"
+        }
+      ]
+    },
+    {
+      "cell": "AS49",
+      "kind": "skill",
+      "text": "Additional HS Variations",
+      "family": "Vertical Push",
+      "difficulty": "Elite",
+      "milestone": false,
+      "links": [
+        {
+          "label": " Additional HS Variations ",
+          "url": "https://old.reddit.com/r/bodyweightfitness/comments/az79av/new_and_improved_bodyweight_fitness_progression/ei8psp5/"
+        }
+      ]
+    },
+    {
+      "cell": "AG50",
+      "kind": "skill",
+      "text": "OA Elbow Lever Press to OA HS",
+      "family": "Vertical Push",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": " OA Elbow Lever Press to OA HS ",
+          "url": "https://youtu.be/Ly1SSSyns-s?t=144"
+        }
+      ]
+    },
+    {
+      "cell": "BH50",
+      "kind": "skill",
+      "text": "Ring Planche",
+      "family": "Horizontal Push",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": "Ring Planche ",
+          "url": "https://youtu.be/4xVEZ_rELXI?t=58"
+        }
+      ]
+    },
+    {
+      "cell": "BO50",
+      "kind": "skill",
+      "text": "Ring OL Planche PU",
+      "family": "Horizontal Push",
+      "difficulty": "Elite",
+      "milestone": false
+    },
+    {
+      "cell": "BG51",
+      "kind": "skill",
+      "text": "Inverted Cross",
+      "family": "Horizontal Push",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": "Inverted Cross ",
+          "url": "https://www.youtube.com/watch?v=5CO1lAO9R3M"
+        }
+      ]
+    },
+    {
+      "cell": "BN51",
+      "kind": "skill",
+      "text": "Ring Planche Push Up",
+      "family": "Horizontal Push",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": "Ring Planche Push Up ",
+          "url": "https://www.youtube.com/watch?v=G1g6AoGdx3M"
+        }
+      ]
+    },
+    {
+      "cell": "BZ51",
+      "kind": "skill",
+      "text": "Maltese",
+      "family": "Horizontal Push",
+      "difficulty": "Elite",
+      "milestone": true,
+      "links": [
+        {
+          "label": " Maltese ",
+          "url": "https://www.youtube.com/watch?v=aqvGEQHxjIs"
+        }
+      ]
+    },
+    {
+      "cell": "C56",
+      "kind": "abbreviation",
+      "text": "2H",
+      "detail": "Two Hand"
+    },
+    {
+      "cell": "O56",
+      "kind": "abbreviation",
+      "text": "HeS",
+      "detail": "Headstand"
+    },
+    {
+      "cell": "AA56",
+      "kind": "abbreviation",
+      "text": "MU",
+      "detail": "Muscle Up"
+    },
+    {
+      "cell": "AM56",
+      "kind": "abbreviation",
+      "text": "PL",
+      "detail": "Planche"
+    },
+    {
+      "cell": "AY56",
+      "kind": "abbreviation",
+      "text": "SA",
+      "detail": "Straight Arm"
+    },
+    {
+      "cell": "BZ56",
+      "kind": "reference",
+      "text": "Exercise Chart",
+      "detail": "Overcoming Gravity 2nd Edition",
+      "links": [
+        {
+          "label": "Exercise Chart",
+          "url": "https://docs.google.com/spreadsheets/d/19l4tVfdTJLheLMwZBYqcw1oeEBPRh8mxngqrCz2YnVg/edit#gid=2032740838"
+        }
+      ]
+    },
+    {
+      "cell": "CK56",
+      "kind": "workbook_note",
+      "text": "Choose File - Make a Copy"
+    },
+    {
+      "cell": "C57",
+      "kind": "abbreviation",
+      "text": "Adv",
+      "detail": "Advanced"
+    },
+    {
+      "cell": "O57",
+      "kind": "abbreviation",
+      "text": "HLR",
+      "detail": "Hanging Leg Raise"
+    },
+    {
+      "cell": "AA57",
+      "kind": "abbreviation",
+      "text": "NC",
+      "detail": "Nordic Curl"
+    },
+    {
+      "cell": "AM57",
+      "kind": "abbreviation",
+      "text": "PP",
+      "detail": "Pseudo Planche"
+    },
+    {
+      "cell": "AY57",
+      "kind": "abbreviation",
+      "text": "Shld",
+      "detail": "Shoulder"
+    },
+    {
+      "cell": "BZ57",
+      "kind": "reference",
+      "text": "Recommended Routine",
+      "detail": "Reddit Bodyweight Fitness",
+      "links": [
+        {
+          "label": "Recommended Routine",
+          "url": "https://www.reddit.com/r/bodyweightfitness/wiki/kb/recommended_routine"
+        }
+      ]
+    },
+    {
+      "cell": "CK57",
+      "kind": "workbook_note",
+      "text": "to"
+    },
+    {
+      "cell": "CL57",
+      "kind": "workbook_note",
+      "text": "customize this sheet",
+      "links": [
+        {
+          "label": "customize this sheet",
+          "url": "https://i.imgur.com/d7vmWzK.png"
+        }
+      ]
+    },
+    {
+      "cell": "CU57",
+      "kind": "workbook_note",
+      "text": "by"
+    },
+    {
+      "cell": "C58",
+      "kind": "abbreviation",
+      "text": "BL",
+      "detail": "Back Lever"
+    },
+    {
+      "cell": "O58",
+      "kind": "abbreviation",
+      "text": "HS",
+      "detail": "Handstand"
+    },
+    {
+      "cell": "AA58",
+      "kind": "abbreviation",
+      "text": "Neg",
+      "detail": "Negative"
+    },
+    {
+      "cell": "AM58",
+      "kind": "abbreviation",
+      "text": "PU",
+      "detail": "Push Up"
+    },
+    {
+      "cell": "AY58",
+      "kind": "abbreviation",
+      "text": "Str",
+      "detail": "Straddle"
+    },
+    {
+      "cell": "BZ58",
+      "kind": "reference",
+      "text": "Exercise Wiki",
+      "detail": "Reddit Bodyweight Fitness",
+      "links": [
+        {
+          "label": "Exercise Wiki",
+          "url": "https://www.reddit.com/r/bodyweightfitness/wiki/playground"
+        }
+      ]
+    },
+    {
+      "cell": "CK58",
+      "kind": "workbook_note",
+      "text": "highlighting what you have"
+    },
+    {
+      "cell": "C59",
+      "kind": "abbreviation",
+      "text": "C2B",
+      "detail": "Chest to Bar"
+    },
+    {
+      "cell": "O59",
+      "kind": "abbreviation",
+      "text": "ICM",
+      "detail": "Ice Cream Maker"
+    },
+    {
+      "cell": "AA59",
+      "kind": "abbreviation",
+      "text": "OA",
+      "detail": "One Arm"
+    },
+    {
+      "cell": "AM59",
+      "kind": "abbreviation",
+      "text": "Rev",
+      "detail": "Reverse"
+    },
+    {
+      "cell": "AY59",
+      "kind": "abbreviation",
+      "text": "Sup",
+      "detail": "Support"
+    },
+    {
+      "cell": "BZ59",
+      "kind": "reference",
+      "text": "Bodyweight Training",
+      "detail": "Antranik",
+      "links": [
+        {
+          "label": "Bodyweight Training",
+          "url": "https://antranik.org/bodyweight-training/"
+        }
+      ]
+    },
+    {
+      "cell": "CK59",
+      "kind": "workbook_note",
+      "text": "achieved. Send comments"
+    },
+    {
+      "cell": "C60",
+      "kind": "abbreviation",
+      "text": "FL",
+      "detail": "Front Lever"
+    },
+    {
+      "cell": "O60",
+      "kind": "abbreviation",
+      "text": "Int",
+      "detail": "Intermediate"
+    },
+    {
+      "cell": "AA60",
+      "kind": "abbreviation",
+      "text": "OL",
+      "detail": "One Leg"
+    },
+    {
+      "cell": "AM60",
+      "kind": "abbreviation",
+      "text": "RTO",
+      "detail": "Rings Turned Out"
+    },
+    {
+      "cell": "AY60",
+      "kind": "abbreviation",
+      "text": "T2B",
+      "detail": "Toes to Bar"
+    },
+    {
+      "cell": "BZ60",
+      "kind": "reference",
+      "text": "1920 x 1080 Wallpaper",
+      "detail": "This Chart as an Image",
+      "links": [
+        {
+          "label": "1920 x 1080 Wallpaper",
+          "url": "https://i.imgur.com/yxexY3c.png"
+        }
+      ]
+    },
+    {
+      "cell": "CK60",
+      "kind": "workbook_note",
+      "text": "& suggestions to"
+    },
+    {
+      "cell": "CR60",
+      "kind": "workbook_note",
+      "text": "u/shellerik",
+      "links": [
+        {
+          "label": "u/shellerik",
+          "url": "https://www.reddit.com/user/shellerik"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "AA11",
+      "to": "AE24",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AA11",
+      "to": "W14",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AA11",
+      "to": "Y17",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AA11",
+      "to": "Y19",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AE24",
+      "to": "AE25",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AE25",
+      "to": "AG28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AG10",
+      "to": "AA11",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AG28",
+      "to": "AG29",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AG29",
+      "to": "AG30",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AG30",
+      "to": "AG31",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI11",
+      "to": "AJ12",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI14",
+      "to": "AI15",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI15",
+      "to": "AI16",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI16",
+      "to": "AI17",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI17",
+      "to": "AI18",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI18",
+      "to": "AI19",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI19",
+      "to": "AI37",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI37",
+      "to": "AI38",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI38",
+      "to": "AI39",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI39",
+      "to": "AI43",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI43",
+      "to": "AI44",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI44",
+      "to": "AI45",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI45",
+      "to": "AI46",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AI46",
+      "to": "AI48",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AJ12",
+      "to": "AK21",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AJ8",
+      "to": "AJ9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AJ8",
+      "to": "AK21",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AJ9",
+      "to": "AL10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AK21",
+      "to": "AK22",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AK22",
+      "to": "AK23",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AK23",
+      "to": "AL24",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AK25",
+      "to": "AK26",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AK26",
+      "to": "AK32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AK32",
+      "to": "AK33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AK33",
+      "to": "AK34",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AK34",
+      "to": "AO35",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AL10",
+      "to": "AI11",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AL24",
+      "to": "AK25",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AO35",
+      "to": "AK41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AO35",
+      "to": "L45",
+      "kind": "prerequisite"
+    },
+    {
+      "from": "AQ28",
+      "to": "AQ29",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS13",
+      "to": "AS14",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS14",
+      "to": "AS15",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS15",
+      "to": "AS16",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS16",
+      "to": "AS17",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS17",
+      "to": "AS18",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS18",
+      "to": "AS19",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS19",
+      "to": "AS20",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS20",
+      "to": "AS21",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS21",
+      "to": "AQ28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS38",
+      "to": "AS39",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS39",
+      "to": "AS41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS41",
+      "to": "AS42",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS42",
+      "to": "AS49",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AS49",
+      "to": "AG50",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AT10",
+      "to": "AU11",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AT35",
+      "to": "AT36",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AT36",
+      "to": "AU44",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AT36",
+      "to": "L45",
+      "kind": "prerequisite"
+    },
+    {
+      "from": "AT8",
+      "to": "AT9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AT9",
+      "to": "AT10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AU11",
+      "to": "AS38",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AU11",
+      "to": "AU24",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AU11",
+      "to": "AU32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AU11",
+      "to": "BD25",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AU24",
+      "to": "AU25",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AU25",
+      "to": "AV28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AU32",
+      "to": "AU33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AV28",
+      "to": "AV29",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AV29",
+      "to": "AX30",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "AX30",
+      "to": "AT35",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BC19",
+      "to": "BC20",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BC20",
+      "to": "AS38",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BC20",
+      "to": "AU24",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BC20",
+      "to": "AU32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BC20",
+      "to": "BD25",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD10",
+      "to": "BD17",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD10",
+      "to": "BF22",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD17",
+      "to": "BC19",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD25",
+      "to": "BD26",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD26",
+      "to": "BD32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD32",
+      "to": "BD33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD33",
+      "to": "BD34",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD34",
+      "to": "BD35",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BD35",
+      "to": "BD46",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BE41",
+      "to": "BE42",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BE42",
+      "to": "BE43",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BE43",
+      "to": "BE44",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BE44",
+      "to": "BD48",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BE8",
+      "to": "BG9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BF22",
+      "to": "BF23",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BF23",
+      "to": "BF28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BF28",
+      "to": "BF29",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BF29",
+      "to": "BF30",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BF30",
+      "to": "BE41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BG9",
+      "to": "BD10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BH50",
+      "to": "BG51",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN17",
+      "to": "BN28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN17",
+      "to": "BU21",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN28",
+      "to": "BN33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN28",
+      "to": "BN36",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN33",
+      "to": "BN34",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN34",
+      "to": "BN45",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN36",
+      "to": "BN37",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN36",
+      "to": "L45",
+      "kind": "prerequisite"
+    },
+    {
+      "from": "BN37",
+      "to": "BN41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN41",
+      "to": "BN42",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN42",
+      "to": "BN43",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN43",
+      "to": "BH50",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BN45",
+      "to": "BS46",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BO50",
+      "to": "BN51",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BS46",
+      "to": "BN48",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BU13",
+      "to": "BU14",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BU14",
+      "to": "BN17",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BU14",
+      "to": "BX19",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BU21",
+      "to": "BU22",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BU22",
+      "to": "BU23",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BU23",
+      "to": "BU28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BU28",
+      "to": "BU29",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BU29",
+      "to": "BU30",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BV9",
+      "to": "BU13",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BV9",
+      "to": "CG14",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BW32",
+      "to": "BW33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BW33",
+      "to": "BW36",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BW33",
+      "to": "BX38",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BW36",
+      "to": "BW44",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BW44",
+      "to": "BW45",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BW45",
+      "to": "BO50",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BX19",
+      "to": "BW32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BX38",
+      "to": "BX41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BX41",
+      "to": "BX42",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BX42",
+      "to": "BY48",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "BY48",
+      "to": "BZ51",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CB8",
+      "to": "BV9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CG14",
+      "to": "CG15",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CG15",
+      "to": "CG36",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CG15",
+      "to": "CI34",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CG36",
+      "to": "CG37",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CG37",
+      "to": "CG38",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CG38",
+      "to": "CG39",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CG39",
+      "to": "CG43",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CG43",
+      "to": "CG44",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CH28",
+      "to": "CN29",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CI20",
+      "to": "CI21",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CI21",
+      "to": "CI22",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CI22",
+      "to": "CI23",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CI26",
+      "to": "CH28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CI8",
+      "to": "CI9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CI9",
+      "to": "CI10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CJ12",
+      "to": "CK13",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CJ25",
+      "to": "CI26",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CJ30",
+      "to": "CM31",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CM31",
+      "to": "CM32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CM32",
+      "to": "CN33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CN29",
+      "to": "CJ30",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CN33",
+      "to": "CK41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CR15",
+      "to": "CR16",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CR16",
+      "to": "CR17",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CR17",
+      "to": "CI20",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CR17",
+      "to": "CJ25",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV10",
+      "to": "CV20",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV10",
+      "to": "DA13",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV20",
+      "to": "CV21",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV21",
+      "to": "CV22",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV22",
+      "to": "CV23",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV23",
+      "to": "CV28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV28",
+      "to": "CV29",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV29",
+      "to": "CV41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV32",
+      "to": "CV33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV8",
+      "to": "CV9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CV9",
+      "to": "CV10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CW14",
+      "to": "CW25",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CW14",
+      "to": "CZ17",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CW25",
+      "to": "CY26",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CW37",
+      "to": "CX38",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CX38",
+      "to": "CZ43",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CY26",
+      "to": "CY31",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CY31",
+      "to": "CV32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CY35",
+      "to": "DB36",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "CZ17",
+      "to": "CX18",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D14",
+      "to": "D15",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D15",
+      "to": "D30",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D30",
+      "to": "D31",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D31",
+      "to": "D32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D32",
+      "to": "D33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D32",
+      "to": "L45",
+      "kind": "prerequisite"
+    },
+    {
+      "from": "D33",
+      "to": "D45",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D42",
+      "to": "H43",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D45",
+      "to": "D46",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "D46",
+      "to": "D47",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "DA13",
+      "to": "CW14",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "DB36",
+      "to": "CW37",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "DC10",
+      "to": "CY35",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "DC8",
+      "to": "DC9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "DC9",
+      "to": "DC10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "E10",
+      "to": "G11",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "E35",
+      "to": "E36",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "E35",
+      "to": "L45",
+      "kind": "prerequisite"
+    },
+    {
+      "from": "E36",
+      "to": "G37",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "F28",
+      "to": "E35",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "F28",
+      "to": "O35",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "F9",
+      "to": "E10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "G11",
+      "to": "D14",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "G11",
+      "to": "N14",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "G19",
+      "to": "F28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "G37",
+      "to": "G41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "G41",
+      "to": "D42",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "G8",
+      "to": "F9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "L45",
+      "to": "P46",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "N14",
+      "to": "G19",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O19",
+      "to": "O28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O28",
+      "to": "O29",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O29",
+      "to": "O30",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O35",
+      "to": "O36",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O36",
+      "to": "O37",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O37",
+      "to": "O41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O41",
+      "to": "O42",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O8",
+      "to": "O9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "O9",
+      "to": "Q10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "P11",
+      "to": "G19",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "P11",
+      "to": "O19",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "P46",
+      "to": "S47",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "Q10",
+      "to": "P11",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "W14",
+      "to": "W35",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "W35",
+      "to": "W36",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "W36",
+      "to": "W37",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "W37",
+      "to": "W38",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "W38",
+      "to": "W39",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "W39",
+      "to": "W41",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "W41",
+      "to": "W48",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "X10",
+      "to": "AA11",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "X31",
+      "to": "X32",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "X32",
+      "to": "X33",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "X33",
+      "to": "X43",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "X8",
+      "to": "Y9",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "Y17",
+      "to": "Y28",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "Y19",
+      "to": "Z20",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "Y21",
+      "to": "Z30",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "Y9",
+      "to": "X10",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "Z20",
+      "to": "Y21",
+      "kind": "next_on_chart"
+    },
+    {
+      "from": "Z30",
+      "to": "X31",
+      "kind": "next_on_chart"
+    }
+  ]
+}

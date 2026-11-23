@@ -1,63 +1,3365 @@
 {
-  "$schema": "https://example.com/plans-index/v1",
-  "generated_at": "2024-01-01T00:00:00Z",
-  "total_plans": 3,
+  "total_plans": 91,
   "plans": [
     {
-      "id": 1,
-      "file": "plans/marathon_advanced_2.json",
+      "id": "10k_training_advanced",
+      "file": "plans/10k_training_advanced_hal_higdon_plan.json",
+      "name": "10K Training: Advanced",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week 10K plan for experienced racers, with mile-pace repeats, tempo runs, race-pace segments and tune-up races.",
+      "tags": [
+        "10k",
+        "advanced",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "7 Run",
+          "length_weeks": 8,
+          "longest_workout_km": 16.1,
+          "longest_workout_miles": 10
+        },
+        "goal_event": "10K",
+        "target_audience": "Experienced racers who train frequently and understand speedwork",
+        "difficulty": "advanced",
+        "goal_distance_km": 10,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 18.26,
+          "max": 45.03
+        }
+      }
+    },
+    {
+      "id": "10k_training_intermediate",
+      "file": "plans/10k_training_intermediate_hal_higdon_plan.json",
+      "name": "10K Training: Intermediate",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week 10K plan for runners accustomed to training five or six days a week, with tempo runs, 400-meter repeats and a tune-up 5K.",
+      "tags": [
+        "10k",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "5 Run, 1 Day Off, 1 X-Train",
+          "length_weeks": 8,
+          "longest_workout_km": 12.9,
+          "longest_workout_miles": 8
+        },
+        "goal_event": "10K",
+        "target_audience": "Runners who train five or six days a week and have raced regularly",
+        "difficulty": "intermediate",
+        "goal_distance_km": 10,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 20.92,
+          "max": 35.38
+        }
+      }
+    },
+    {
+      "id": "10k_training_novice",
+      "file": "plans/10k_training_novice_hal_higdon_plan.json",
+      "name": "10K Training: Novice",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week 10K plan with three runs per week, cross-training and a longest training run of 5.5 miles.",
+      "tags": [
+        "10k",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Day Off, 3 Run, 2 X-Train",
+          "length_weeks": 8,
+          "longest_workout_km": 8.9,
+          "longest_workout_miles": 5.5
+        },
+        "goal_event": "10K",
+        "target_audience": "Runners preparing for a first 10K",
+        "difficulty": "novice",
+        "goal_distance_km": 10,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 12.07,
+          "max": 18.05
+        }
+      }
+    },
+    {
+      "id": "10k_training_walkers",
+      "file": "plans/10k_training_walkers_hal_higdon_plan.json",
+      "name": "10K Training: Walkers",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week plan for walking a 10K, with shorter timed walks and longer weekend walks.",
+      "tags": [
+        "10k",
+        "road-running",
+        "walking"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "longest_workout_min": null,
+          "typical_week": null,
+          "length_weeks": 8
+        },
+        "goal_event": "10K",
+        "target_audience": "Walkers preparing for a 10K",
+        "difficulty": "general",
+        "goal_distance_km": 10,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 4.83,
+          "max": 10
+        }
+      }
+    },
+    {
+      "id": "15k_10_mile_training_advanced",
+      "file": "plans/15k_10_mile_training_advanced_hal_higdon_plan.json",
+      "name": "15K & 10 Mile Training: Advanced",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A ten-week 15K or 10-mile plan for experienced runners, featuring 400- and 800-meter repeats, tempo work and race-pace runs.",
+      "tags": [
+        "15k",
+        "10-mile",
+        "advanced",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "7 Run, 2 Strength",
+          "length_weeks": 10,
+          "longest_workout_km": 20.9,
+          "longest_workout_miles": 13
+        },
+        "goal_event_options": [
+          {
+            "event": "15K",
+            "distance_km": 15
+          },
+          {
+            "event": "10 Mile",
+            "distance_km": 16.0934
+          }
+        ],
+        "goal_event": "15K / 10 Mile",
+        "target_audience": "Experienced racers accustomed to speedwork",
+        "difficulty": "advanced",
+        "goal_distance_km": 15,
+        "total_weeks": 10,
+        "weekly_mileage_range_km": {
+          "min": 22.68,
+          "max": 42.62
+        }
+      }
+    },
+    {
+      "id": "15k_10_mile_training_intermediate",
+      "file": "plans/15k_10_mile_training_intermediate_hal_higdon_plan.json",
+      "name": "15K & 10 Mile Training: Intermediate",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A ten-week 15K or 10-mile plan that alternates tempo runs and intervals, with two tune-up races.",
+      "tags": [
+        "15k",
+        "10-mile",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "5 Run, 2 Strength, 5 Other, 1 Day Off, 1 X-Train",
+          "length_weeks": 10,
+          "longest_workout_km": 16.1,
+          "longest_workout_miles": 10
+        },
+        "goal_event_options": [
+          {
+            "event": "15K",
+            "distance_km": 15
+          },
+          {
+            "event": "10 Mile",
+            "distance_km": 16.0934
+          }
+        ],
+        "goal_event": "15K / 10 Mile",
+        "target_audience": "Runners accustomed to training five or six days a week who want to improve their race performance",
+        "difficulty": "intermediate",
+        "goal_distance_km": 15,
+        "total_weeks": 10,
+        "weekly_mileage_range_km": {
+          "min": 25.92,
+          "max": 43.41
+        }
+      }
+    },
+    {
+      "id": "15k_10_mile_training_novice",
+      "file": "plans/15k_10_mile_training_novice_hal_higdon_plan.json",
+      "name": "15K & 10 Mile Training: Novice",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A ten-week plan for a first 15K or 10-mile race, with three running days, cross-training and strength work.",
+      "tags": [
+        "15k",
+        "10-mile",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Strength, 3 Run, 2 X-Train, 1 Day Off",
+          "length_weeks": 10,
+          "longest_workout_km": 12.9,
+          "longest_workout_miles": 8
+        },
+        "goal_event_options": [
+          {
+            "event": "15K",
+            "distance_km": 15
+          },
+          {
+            "event": "10 Mile",
+            "distance_km": 16.0934
+          }
+        ],
+        "goal_event": "15K / 10 Mile",
+        "target_audience": "Runners preparing for a first 15K or 10-mile race",
+        "difficulty": "novice",
+        "goal_distance_km": 15,
+        "total_weeks": 10,
+        "weekly_mileage_range_km": {
+          "min": 9.66,
+          "max": 26.27
+        }
+      }
+    },
+    {
+      "id": "5k_training_advanced",
+      "file": "plans/5k_training_advanced_hal_higdon_plan.json",
+      "name": "5K Training: Advanced",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week 5K plan for experienced racers, with 200- and 400-meter intervals, tempo work and time-based Sunday long runs.",
+      "tags": [
+        "5k",
+        "advanced",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "6 Run, 1 Day Off",
+          "length_weeks": 8,
+          "longest_workout_min": 90
+        },
+        "goal_event": "5K",
+        "target_audience": "Veteran runners looking to improve their 5K performance",
+        "difficulty": "advanced",
+        "goal_distance_km": 5,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 9.42,
+          "max": 17.68
+        }
+      }
+    },
+    {
+      "id": "5k_training_intermediate",
+      "file": "plans/5k_training_intermediate_hal_higdon_plan.json",
+      "name": "5K Training: Intermediate",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week 5K plan for experienced 5K runners, with alternating intervals and tempos, faster Saturday runs and a mid-plan 5K test.",
+      "tags": [
+        "5k",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "5 Run, 2 Day Off",
+          "length_weeks": 8,
+          "longest_workout_km": 11.3,
+          "longest_workout_miles": 7
+        },
+        "goal_event": "5K",
+        "target_audience": "Runners who have completed several 5Ks and want to improve their time",
+        "difficulty": "intermediate",
+        "goal_distance_km": 5,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 13.05,
+          "max": 32.17
+        }
+      }
+    },
+    {
+      "id": "5k_training_novice",
+      "file": "plans/5k_training_novice_hal_higdon_plan.json",
+      "name": "5K Training: Novice",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week plan for a first 5K, starting with 1.5-mile runs and including walking and run/walk options.",
+      "tags": [
+        "5k",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "3 Run, 3 Day Walk, 1 Day Off",
+          "length_weeks": 8,
+          "longest_workout_km": 4.8,
+          "longest_workout_miles": 3
+        },
+        "goal_event": "5K",
+        "target_audience": "Newer runners preparing for their first 5K",
+        "difficulty": "novice",
+        "goal_distance_km": 5,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 7.24,
+          "max": 13.05
+        }
+      }
+    },
+    {
+      "id": "5k_training_walkers",
+      "file": "plans/5k_training_walkers_hal_higdon_plan.json",
+      "name": "5K Training: Walkers",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week plan for walking a 5K, with shorter timed walks and progressively longer Saturday walks.",
+      "tags": [
+        "5k",
+        "road-running",
+        "walking"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "longest_workout_min": null,
+          "typical_week": null,
+          "length_weeks": 8
+        },
+        "goal_event": "5K",
+        "target_audience": "Walkers preparing for a 5K",
+        "difficulty": "general",
+        "goal_distance_km": 5,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 2.41,
+          "max": 5
+        }
+      }
+    },
+    {
+      "id": "8k_training_advanced",
+      "file": "plans/8k_training_advanced_hal_higdon_plan.json",
+      "name": "8K Training: Advanced",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week 8K plan with faster intervals, tempo runs and sessions that combine easy running with goal 8K pace.",
+      "tags": [
+        "8k",
+        "advanced",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "7 Run",
+          "length_weeks": 8,
+          "longest_workout_km": 12.9,
+          "longest_workout_miles": 8
+        },
+        "goal_event": "8K",
+        "target_audience": "Regular racers accustomed to speedwork",
+        "difficulty": "advanced",
+        "goal_distance_km": 8,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 35.41,
+          "max": 61.16
+        }
+      }
+    },
+    {
+      "id": "8k_training_intermediate",
+      "file": "plans/8k_training_intermediate_hal_higdon_plan.json",
+      "name": "8K Training: Intermediate",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week 8K plan for experienced runners, combining 400-meter repeats, tempo work, strength and progressive long runs.",
+      "tags": [
+        "8k",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "5 Run, 2 Strength, 1 X-Train, 1 Day Off",
+          "length_weeks": 8,
+          "longest_workout_km": 11.3,
+          "longest_workout_miles": 7
+        },
+        "goal_event": "8K",
+        "target_audience": "Experienced runners looking to improve their 8K performance",
+        "difficulty": "intermediate",
+        "goal_distance_km": 8,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 20.87,
+          "max": 40.23
+        }
+      }
+    },
+    {
+      "id": "8k_training_novice",
+      "file": "plans/8k_training_novice_hal_higdon_plan.json",
+      "name": "8K Training: Novice",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week plan for a first 8K, combining easy runs, cross-training and strength work.",
+      "tags": [
+        "8k",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Days Off, 2 Strength, 3 Run, 2 X-Train",
+          "length_weeks": 8,
+          "longest_workout_km": 7.2,
+          "longest_workout_miles": 4.5
+        },
+        "goal_event": "8K",
+        "target_audience": "Runners preparing for their first 8K",
+        "difficulty": "novice",
+        "goal_distance_km": 8,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 9.66,
+          "max": 16.05
+        }
+      }
+    },
+    {
+      "id": "am_marathon_55_to_70_12week",
+      "file": "plans/am_marathon_55_to_70_12week.json",
+      "name": "Marathon Training - 12 Weeks - 55 to 70 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "12-week marathon schedule in the source's 55 to 70 miles/week volume category.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running",
+        "55_to_70"
+      ],
+      "meta": {
+        "goal_event": "Marathon",
+        "target_audience": "Marathon runners choosing the source's 55 to 70 miles/week training-volume category.",
+        "plan_type": "marathon_training",
+        "training_volume_band": "55 to 70 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 21,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 12,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 64,
+          "max": 113
+        },
+        "weekly_mileage_range_miles": {
+          "min": 40,
+          "max": 70
+        }
+      }
+    },
+    {
+      "id": "am_marathon_55_to_70_18week",
+      "file": "plans/am_marathon_55_to_70_18week.json",
+      "name": "Marathon Training - 18 Weeks - 55 to 70 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "18-week marathon schedule in the source's 55 to 70 miles/week volume category.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running",
+        "55_to_70"
+      ],
+      "meta": {
+        "goal_event": "Marathon",
+        "target_audience": "Marathon runners choosing the source's 55 to 70 miles/week training-volume category.",
+        "plan_type": "marathon_training",
+        "training_volume_band": "55 to 70 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 22,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 18,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 64,
+          "max": 114
+        },
+        "weekly_mileage_range_miles": {
+          "min": 40,
+          "max": 71
+        }
+      }
+    },
+    {
+      "id": "am_marathon_70_to_85_12week",
+      "file": "plans/am_marathon_70_to_85_12week.json",
+      "name": "Marathon Training - 12 Weeks - 70 to 85 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "12-week marathon schedule in the source's 70 to 85 miles/week volume category.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running",
+        "70_to_85"
+      ],
+      "meta": {
+        "goal_event": "Marathon",
+        "target_audience": "Marathon runners choosing the source's 70 to 85 miles/week training-volume category.",
+        "plan_type": "marathon_training",
+        "training_volume_band": "70 to 85 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 22,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 12,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 76,
+          "max": 142
+        },
+        "weekly_mileage_range_miles": {
+          "min": 47,
+          "max": 88
+        }
+      }
+    },
+    {
+      "id": "am_marathon_70_to_85_18week",
+      "file": "plans/am_marathon_70_to_85_18week.json",
+      "name": "Marathon Training - 18 Weeks - 70 to 85 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "18-week marathon schedule in the source's 70 to 85 miles/week volume category.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running",
+        "70_to_85"
+      ],
+      "meta": {
+        "goal_event": "Marathon",
+        "target_audience": "Marathon runners choosing the source's 70 to 85 miles/week training-volume category.",
+        "plan_type": "marathon_training",
+        "training_volume_band": "70 to 85 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 24,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 18,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 76,
+          "max": 140
+        },
+        "weekly_mileage_range_miles": {
+          "min": 47,
+          "max": 87
+        }
+      }
+    },
+    {
+      "id": "am_marathon_over_85_12week",
+      "file": "plans/am_marathon_over_85_12week.json",
+      "name": "Marathon Training - 12 Weeks - more than 85 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "12-week marathon schedule in the source's more than 85 miles/week volume category.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running",
+        "over_85"
+      ],
+      "meta": {
+        "goal_event": "Marathon",
+        "target_audience": "Marathon runners choosing the source's more than 85 miles/week training-volume category.",
+        "plan_type": "marathon_training",
+        "training_volume_band": "more than 85 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 22,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 7,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 12,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 93,
+          "max": 169
+        },
+        "weekly_mileage_range_miles": {
+          "min": 58,
+          "max": 105
+        }
+      }
+    },
+    {
+      "id": "am_marathon_over_85_18week",
+      "file": "plans/am_marathon_over_85_18week.json",
+      "name": "Marathon Training - 18 Weeks - more than 85 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "18-week marathon schedule in the source's more than 85 miles/week volume category.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running",
+        "over_85"
+      ],
+      "meta": {
+        "goal_event": "Marathon",
+        "target_audience": "Marathon runners choosing the source's more than 85 miles/week training-volume category.",
+        "plan_type": "marathon_training",
+        "training_volume_band": "more than 85 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 24,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 7,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 18,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 93,
+          "max": 172
+        },
+        "weekly_mileage_range_miles": {
+          "min": 58,
+          "max": 107
+        }
+      }
+    },
+    {
+      "id": "am_marathon_up_to_55_12week",
+      "file": "plans/am_marathon_up_to_55_12week.json",
+      "name": "Marathon Training - 12 Weeks - up to 55 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "12-week marathon schedule in the source's up to 55 miles/week volume category.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running",
+        "up_to_55"
+      ],
+      "meta": {
+        "goal_event": "Marathon",
+        "target_audience": "Marathon runners choosing the source's up to 55 miles/week training-volume category.",
+        "plan_type": "marathon_training",
+        "training_volume_band": "up to 55 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 21,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 5
+        },
+        "schedule_weeks_including_post_race": 12,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 50,
+          "max": 92
+        },
+        "weekly_mileage_range_miles": {
+          "min": 31,
+          "max": 57
+        }
+      }
+    },
+    {
+      "id": "am_marathon_up_to_55_18week",
+      "file": "plans/am_marathon_up_to_55_18week.json",
+      "name": "Marathon Training - 18 Weeks - up to 55 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "18-week marathon schedule in the source's up to 55 miles/week volume category.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running",
+        "up_to_55"
+      ],
+      "meta": {
+        "goal_event": "Marathon",
+        "target_audience": "Marathon runners choosing the source's up to 55 miles/week training-volume category.",
+        "plan_type": "marathon_training",
+        "training_volume_band": "up to 55 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 21,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 5
+        },
+        "schedule_weeks_including_post_race": 18,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 50,
+          "max": 95
+        },
+        "weekly_mileage_range_miles": {
+          "min": 31,
+          "max": 59
+        }
+      }
+    },
+    {
+      "id": "am_multiple_marathoning_10week",
+      "file": "plans/am_multiple_marathoning_10week.json",
+      "name": "Multiple Marathoning - 10 Weeks Between Marathons",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "10-week bridge schedule for preparing for another marathon after a previous marathon.",
+      "tags": [
+        "marathon",
+        "multiple-races",
+        "advanced"
+      ],
+      "meta": {
+        "goal_event": "Second marathon",
+        "target_audience": "Experienced marathoners with approximately 10 weeks before their next marathon.",
+        "plan_type": "multiple_marathon",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 20,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 10,
+        "total_weeks": 10,
+        "weekly_mileage_range_km": {
+          "min": 31,
+          "max": 111
+        },
+        "weekly_mileage_range_miles": {
+          "min": 19,
+          "max": 69
+        }
+      }
+    },
+    {
+      "id": "am_multiple_marathoning_12week",
+      "file": "plans/am_multiple_marathoning_12week.json",
+      "name": "Multiple Marathoning - 12 Weeks Between Marathons",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "12-week bridge schedule for preparing for another marathon after a previous marathon.",
+      "tags": [
+        "marathon",
+        "multiple-races",
+        "advanced"
+      ],
+      "meta": {
+        "goal_event": "Second marathon",
+        "target_audience": "Experienced marathoners with approximately 12 weeks before their next marathon.",
+        "plan_type": "multiple_marathon",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 20,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 12,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 31,
+          "max": 111
+        },
+        "weekly_mileage_range_miles": {
+          "min": 19,
+          "max": 69
+        }
+      }
+    },
+    {
+      "id": "am_multiple_marathoning_4week",
+      "file": "plans/am_multiple_marathoning_4week.json",
+      "name": "Multiple Marathoning - 4 Weeks Between Marathons",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "4-week bridge schedule for preparing for another marathon after a previous marathon.",
+      "tags": [
+        "marathon",
+        "multiple-races",
+        "advanced"
+      ],
+      "meta": {
+        "goal_event": "Second marathon",
+        "target_audience": "Experienced marathoners with approximately 4 weeks before their next marathon.",
+        "plan_type": "multiple_marathon",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 13,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 4,
+        "total_weeks": 4,
+        "weekly_mileage_range_km": {
+          "min": 32,
+          "max": 77
+        },
+        "weekly_mileage_range_miles": {
+          "min": 20,
+          "max": 48
+        }
+      }
+    },
+    {
+      "id": "am_multiple_marathoning_6week",
+      "file": "plans/am_multiple_marathoning_6week.json",
+      "name": "Multiple Marathoning - 6 Weeks Between Marathons",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "6-week bridge schedule for preparing for another marathon after a previous marathon.",
+      "tags": [
+        "marathon",
+        "multiple-races",
+        "advanced"
+      ],
+      "meta": {
+        "goal_event": "Second marathon",
+        "target_audience": "Experienced marathoners with approximately 6 weeks before their next marathon.",
+        "plan_type": "multiple_marathon",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 17,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 6,
+        "total_weeks": 6,
+        "weekly_mileage_range_km": {
+          "min": 31,
+          "max": 95
+        },
+        "weekly_mileage_range_miles": {
+          "min": 19,
+          "max": 59
+        }
+      }
+    },
+    {
+      "id": "am_multiple_marathoning_8week",
+      "file": "plans/am_multiple_marathoning_8week.json",
+      "name": "Multiple Marathoning - 8 Weeks Between Marathons",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "8-week bridge schedule for preparing for another marathon after a previous marathon.",
+      "tags": [
+        "marathon",
+        "multiple-races",
+        "advanced"
+      ],
+      "meta": {
+        "goal_event": "Second marathon",
+        "target_audience": "Experienced marathoners with approximately 8 weeks before their next marathon.",
+        "plan_type": "multiple_marathon",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 20,
+        "post_race_recovery_weeks": 0,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 8,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 31,
+          "max": 108
+        },
+        "weekly_mileage_range_miles": {
+          "min": 19,
+          "max": 67
+        }
+      }
+    },
+    {
+      "id": "am_postmarathon_recovery_55_to_70",
+      "file": "plans/am_postmarathon_recovery_55_to_70.json",
+      "name": "Postmarathon Recovery - 55 to 70 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "Five-week postmarathon recovery schedule paired with the source's 55 to 70 miles/week chapter.",
+      "tags": [
+        "marathon",
+        "recovery",
+        "advanced",
+        "55_to_70"
+      ],
+      "meta": {
+        "goal_event": "Marathon recovery",
+        "target_audience": "Runners recovering after a marathon; this schedule is separate from the pre-race plan.",
+        "plan_type": "post_race_recovery",
+        "training_volume_band": "55 to 70 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 13,
+        "post_race_recovery_weeks": 5,
+        "run_days_per_week": {
+          "min": 3,
+          "max": 5
+        },
+        "schedule_weeks_including_post_race": 5,
+        "total_weeks": 5,
+        "weekly_mileage_range_km": {
+          "min": 19,
+          "max": 71
+        },
+        "weekly_mileage_range_miles": {
+          "min": 12,
+          "max": 44
+        }
+      }
+    },
+    {
+      "id": "am_postmarathon_recovery_70_to_85",
+      "file": "plans/am_postmarathon_recovery_70_to_85.json",
+      "name": "Postmarathon Recovery - 70 to 85 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "Five-week postmarathon recovery schedule paired with the source's 70 to 85 miles/week chapter.",
+      "tags": [
+        "marathon",
+        "recovery",
+        "advanced",
+        "70_to_85"
+      ],
+      "meta": {
+        "goal_event": "Marathon recovery",
+        "target_audience": "Runners recovering after a marathon; this schedule is separate from the pre-race plan.",
+        "plan_type": "post_race_recovery",
+        "training_volume_band": "70 to 85 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 13,
+        "post_race_recovery_weeks": 5,
+        "run_days_per_week": {
+          "min": 3,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 5,
+        "total_weeks": 5,
+        "weekly_mileage_range_km": {
+          "min": 21,
+          "max": 84
+        },
+        "weekly_mileage_range_miles": {
+          "min": 13,
+          "max": 52
+        }
+      }
+    },
+    {
+      "id": "am_postmarathon_recovery_over_85",
+      "file": "plans/am_postmarathon_recovery_over_85.json",
+      "name": "Postmarathon Recovery - more than 85 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "Five-week postmarathon recovery schedule paired with the source's more than 85 miles/week chapter.",
+      "tags": [
+        "marathon",
+        "recovery",
+        "advanced",
+        "over_85"
+      ],
+      "meta": {
+        "goal_event": "Marathon recovery",
+        "target_audience": "Runners recovering after a marathon; this schedule is separate from the pre-race plan.",
+        "plan_type": "post_race_recovery",
+        "training_volume_band": "more than 85 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 14,
+        "post_race_recovery_weeks": 5,
+        "run_days_per_week": {
+          "min": 3,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 5,
+        "total_weeks": 5,
+        "weekly_mileage_range_km": {
+          "min": 26,
+          "max": 90
+        },
+        "weekly_mileage_range_miles": {
+          "min": 16,
+          "max": 56
+        }
+      }
+    },
+    {
+      "id": "am_postmarathon_recovery_up_to_55",
+      "file": "plans/am_postmarathon_recovery_up_to_55.json",
+      "name": "Postmarathon Recovery - up to 55 miles/week",
+      "author": "Pete Pfitzinger and Scott Douglas",
+      "version": "as published in source",
+      "description": "Five-week postmarathon recovery schedule paired with the source's up to 55 miles/week chapter.",
+      "tags": [
+        "marathon",
+        "recovery",
+        "advanced",
+        "up_to_55"
+      ],
+      "meta": {
+        "goal_event": "Marathon recovery",
+        "target_audience": "Runners recovering after a marathon; this schedule is separate from the pre-race plan.",
+        "plan_type": "post_race_recovery",
+        "training_volume_band": "up to 55 miles/week",
+        "goal_distance_km": 42.195,
+        "longest_scheduled_run_miles": 12,
+        "post_race_recovery_weeks": 5,
+        "run_days_per_week": {
+          "min": 3,
+          "max": 5
+        },
+        "schedule_weeks_including_post_race": 5,
+        "total_weeks": 5,
+        "weekly_mileage_range_km": {
+          "min": 19,
+          "max": 61
+        },
+        "weekly_mileage_range_miles": {
+          "min": 12,
+          "max": 38
+        }
+      }
+    },
+    {
+      "id": "base_training_advanced",
+      "file": "plans/base_training_advanced_hal_higdon_plan.json",
+      "name": "Base Training: Advanced",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "Twelve weeks of base training for experienced runners, including hills, intervals, fartlek, strength work and short races.",
+      "tags": [
+        "base-training",
+        "advanced",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "7 Run, 2 Strength, 1 Stretch",
+          "length_weeks": 12,
+          "longest_workout_km": 16.1,
+          "longest_workout_miles": 10
+        },
+        "goal_distance_km": null,
+        "goal_event": "Base Training",
+        "target_audience": "Experienced runners building fitness before a race-specific plan",
+        "difficulty": "advanced",
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 22.68,
+          "max": 34.58
+        }
+      }
+    },
+    {
+      "id": "base_training_intermediate",
+      "file": "plans/base_training_intermediate_hal_higdon_plan.json",
+      "name": "Base Training: Intermediate",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "Twelve weeks of base training with strength work, hills or intervals, tempo runs or fartlek, and a 10K at the end.",
+      "tags": [
+        "base-training",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "6 Run, 2 Strength, 1 Day Off",
+          "length_weeks": 12,
+          "longest_workout_km": 12.9,
+          "longest_workout_miles": 8
+        },
+        "goal_distance_km": null,
+        "goal_event": "Base Training",
+        "target_audience": "Intermediate runners building fitness before a race-specific plan",
+        "difficulty": "intermediate",
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 22.7,
+          "max": 32.98
+        }
+      }
+    },
+    {
+      "id": "base_training_novice",
+      "file": "plans/base_training_novice_hal_higdon_plan.json",
+      "name": "Base Training: Novice",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "Twelve weeks of easy running and walking to build a base for a future race plan.",
+      "tags": [
+        "base-training",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "4 Run, 1 Walk, 2 Days Off",
+          "length_weeks": 12,
+          "longest_workout_km": 9.7,
+          "longest_workout_miles": 6
+        },
+        "goal_distance_km": null,
+        "goal_event": "Base Training",
+        "target_audience": "Newer runners building fitness for a later training plan",
+        "difficulty": "novice",
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 14.48,
+          "max": 24.14
+        }
+      }
+    },
+    {
+      "id": "base_training_spring_training",
+      "file": "plans/base_training_spring_general_hal_higdon_plan.json",
+      "name": "Base Training: Spring Training",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "Ten weeks of time-based runs, strength work, cycling, intervals and progressively longer time trials to maintain race fitness.",
+      "tags": [
+        "base-training",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "4 Run, 2 X-Train, 1 Day Off",
+          "length_weeks": 10,
+          "longest_workout_min": 90
+        },
+        "goal_distance_km": null,
+        "goal_event": "Base Training",
+        "target_audience": "Runners who want to maintain racing fitness between events",
+        "difficulty": "general",
+        "total_weeks": 10,
+        "weekly_mileage_range_km": {
+          "min": 1.5,
+          "max": 10
+        }
+      }
+    },
+    {
+      "id": "frr_15k_and_10_miles_schedule_1_31_to_45_miles_50_72_km_per_week",
+      "file": "plans/frr_15k_and_10_miles_schedule_1_31_to_45_miles_50_72_km_per_week.json",
+      "name": "15K and 10-Miles Schedule 1: 31 to 45 Miles (50-72 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "15k-or-10-mile-road-race",
+        "15k10mile",
+        "schedule-1",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          15,
+          16.0934
+        ],
+        "goal_event": "15K or 10-mile road race",
+        "target_audience": "Runners currently training 25-35 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 25 miles per week, first follow the source's base-training schedule toward 30 miles per week.",
+        "base_training_target_miles": 30,
+        "initial_weekly_mileage_miles": 31,
+        "longest_scheduled_run_miles": 13,
+        "peak_weekly_mileage_miles": 45,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 1,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 25,
+          "max": 35
+        },
+        "required_current_weekly_mileage_min_miles": 25,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 5
+        },
+        "schedule_weeks_including_post_race": 14,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 31,
+          "max": 45
+        },
+        "weekly_mileage_range_km": {
+          "min": 49,
+          "max": 72
+        },
+        "weekly_mileage_range_miles": {
+          "min": 31,
+          "max": 45
+        }
+      }
+    },
+    {
+      "id": "frr_15k_and_10_miles_schedule_2_46_to_60_miles_73_95_km_per_week",
+      "file": "plans/frr_15k_and_10_miles_schedule_2_46_to_60_miles_73_95_km_per_week.json",
+      "name": "15K and 10-Miles Schedule 2: 46 to 60 Miles (73-95 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "15k-or-10-mile-road-race",
+        "15k10mile",
+        "schedule-2",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          15,
+          16.0934
+        ],
+        "goal_event": "15K or 10-mile road race",
+        "target_audience": "Runners currently training 40-50 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 40 miles per week, first follow the source's base-training schedule toward 45 miles per week.",
+        "base_training_target_miles": 45,
+        "initial_weekly_mileage_miles": 46,
+        "longest_scheduled_run_miles": 15,
+        "peak_weekly_mileage_miles": 60,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 1,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 40,
+          "max": 50
+        },
+        "required_current_weekly_mileage_min_miles": 40,
+        "run_days_per_week": {
+          "min": 5,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 14,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 46,
+          "max": 60
+        },
+        "weekly_mileage_range_km": {
+          "min": 67,
+          "max": 96
+        },
+        "weekly_mileage_range_miles": {
+          "min": 42,
+          "max": 60
+        }
+      }
+    },
+    {
+      "id": "frr_15k_and_10_miles_schedule_3_61_to_80_miles_98_130_km_per_week",
+      "file": "plans/frr_15k_and_10_miles_schedule_3_61_to_80_miles_98_130_km_per_week.json",
+      "name": "15K and 10-Miles Schedule 3: 61 to 80 Miles (98-130 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "15k-or-10-mile-road-race",
+        "15k10mile",
+        "schedule-3",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          15,
+          16.0934
+        ],
+        "goal_event": "15K or 10-mile road race",
+        "target_audience": "Runners currently training 55-65 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 55 miles per week, first follow the source's base-training schedule toward 60 miles per week.",
+        "base_training_target_miles": 60,
+        "initial_weekly_mileage_miles": 61,
+        "longest_scheduled_run_miles": 17,
+        "peak_weekly_mileage_miles": 80,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 1,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 55,
+          "max": 65
+        },
+        "required_current_weekly_mileage_min_miles": 55,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 14,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 61,
+          "max": 80
+        },
+        "weekly_mileage_range_km": {
+          "min": 87,
+          "max": 129
+        },
+        "weekly_mileage_range_miles": {
+          "min": 55,
+          "max": 80
+        }
+      }
+    },
+    {
+      "id": "frr_5k_schedule_1_30_to_40_miles_48_63_km_per_week",
+      "file": "plans/frr_5k_schedule_1_30_to_40_miles_48_63_km_per_week.json",
+      "name": "5K Schedule 1: 30 to 40 Miles (48-63 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "5k-road-race",
+        "5k",
+        "schedule-1",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_event": "5K road race",
+        "target_audience": "Runners currently training 25-35 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 25 miles per week, first follow the source's base-training schedule toward 30 miles per week.",
+        "base_training_target_miles": 30,
+        "goal_distance_km": 5,
+        "initial_weekly_mileage_miles": 30,
+        "longest_scheduled_run_miles": 10,
+        "peak_weekly_mileage_miles": 40,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 25,
+          "max": 35
+        },
+        "required_current_weekly_mileage_min_miles": 25,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 13,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 30,
+          "max": 40
+        },
+        "weekly_mileage_range_km": {
+          "min": 46,
+          "max": 63
+        },
+        "weekly_mileage_range_miles": {
+          "min": 29,
+          "max": 40
+        }
+      }
+    },
+    {
+      "id": "frr_5k_schedule_2_45_to_55_miles_71_88_km_per_week",
+      "file": "plans/frr_5k_schedule_2_45_to_55_miles_71_88_km_per_week.json",
+      "name": "5K Schedule 2: 45 to 55 Miles (71-88 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "5k-road-race",
+        "5k",
+        "schedule-2",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_event": "5K road race",
+        "target_audience": "Runners currently training 40-50 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 40 miles per week, first follow the source's base-training schedule toward 45 miles per week.",
+        "base_training_target_miles": 45,
+        "goal_distance_km": 5,
+        "initial_weekly_mileage_miles": 45,
+        "longest_scheduled_run_miles": 11,
+        "peak_weekly_mileage_miles": 55,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 40,
+          "max": 50
+        },
+        "required_current_weekly_mileage_min_miles": 40,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 13,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 45,
+          "max": 55
+        },
+        "weekly_mileage_range_km": {
+          "min": 62,
+          "max": 88
+        },
+        "weekly_mileage_range_miles": {
+          "min": 39,
+          "max": 55
+        }
+      }
+    },
+    {
+      "id": "frr_5k_schedule_3_60_to_70_miles_94_111_km_per_week",
+      "file": "plans/frr_5k_schedule_3_60_to_70_miles_94_111_km_per_week.json",
+      "name": "5K Schedule 3: 60 to 70 Miles (94-111 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "5k-road-race",
+        "5k",
+        "schedule-3",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_event": "5K road race",
+        "target_audience": "Runners currently training 55-65 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 55 miles per week, first follow the source's base-training schedule toward 60 miles per week.",
+        "base_training_target_miles": 60,
+        "goal_distance_km": 5,
+        "initial_weekly_mileage_miles": 60,
+        "longest_scheduled_run_miles": 13,
+        "peak_weekly_mileage_miles": 70,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 55,
+          "max": 65
+        },
+        "required_current_weekly_mileage_min_miles": 55,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 13,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 60,
+          "max": 70
+        },
+        "weekly_mileage_range_km": {
+          "min": 82,
+          "max": 111
+        },
+        "weekly_mileage_range_miles": {
+          "min": 51,
+          "max": 70
+        }
+      }
+    },
+    {
+      "id": "frr_8k_10k_schedule_1_30_to_42_miles_48_67_km_per_week",
+      "file": "plans/frr_8k_10k_schedule_1_30_to_42_miles_48_67_km_per_week.json",
+      "name": "8K-10K Schedule 1: 30 to 42 Miles (48-67 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "8k-or-10k-road-race",
+        "8k10k",
+        "schedule-1",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          8,
+          10
+        ],
+        "goal_event": "8K or 10K road race",
+        "target_audience": "Runners currently training 25-35 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 25 miles per week, first follow the source's base-training schedule toward 30 miles per week.",
+        "base_training_target_miles": 30,
+        "initial_weekly_mileage_miles": 30,
+        "longest_scheduled_run_miles": 11,
+        "peak_weekly_mileage_miles": 42,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 25,
+          "max": 35
+        },
+        "required_current_weekly_mileage_min_miles": 25,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 13,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 30,
+          "max": 42
+        },
+        "weekly_mileage_range_km": {
+          "min": 48,
+          "max": 67
+        },
+        "weekly_mileage_range_miles": {
+          "min": 30,
+          "max": 42
+        }
+      }
+    },
+    {
+      "id": "frr_8k_10k_schedule_2_45_to_57_miles_72_91_km_per_week",
+      "file": "plans/frr_8k_10k_schedule_2_45_to_57_miles_72_91_km_per_week.json",
+      "name": "8K-10K Schedule 2: 45 to 57 Miles (72-91 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "8k-or-10k-road-race",
+        "8k10k",
+        "schedule-2",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          8,
+          10
+        ],
+        "goal_event": "8K or 10K road race",
+        "target_audience": "Runners currently training 40-50 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 40 miles per week, first follow the source's base-training schedule toward 45 miles per week.",
+        "base_training_target_miles": 45,
+        "initial_weekly_mileage_miles": 45,
+        "longest_scheduled_run_miles": 13,
+        "peak_weekly_mileage_miles": 57,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 40,
+          "max": 50
+        },
+        "required_current_weekly_mileage_min_miles": 40,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 13,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 45,
+          "max": 57
+        },
+        "weekly_mileage_range_km": {
+          "min": 63,
+          "max": 91
+        },
+        "weekly_mileage_range_miles": {
+          "min": 40,
+          "max": 57
+        }
+      }
+    },
+    {
+      "id": "frr_8k_10k_schedule_3_60_to_76_miles_96_122_km_per_week",
+      "file": "plans/frr_8k_10k_schedule_3_60_to_76_miles_96_122_km_per_week.json",
+      "name": "8K-10K Schedule 3: 60 to 76 Miles (96-122 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "8k-or-10k-road-race",
+        "8k10k",
+        "schedule-3",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          8,
+          10
+        ],
+        "goal_event": "8K or 10K road race",
+        "target_audience": "Runners currently training 55-65 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 55 miles per week, first follow the source's base-training schedule toward 60 miles per week.",
+        "base_training_target_miles": 60,
+        "initial_weekly_mileage_miles": 60,
+        "longest_scheduled_run_miles": 15,
+        "peak_weekly_mileage_miles": 76,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 55,
+          "max": 65
+        },
+        "required_current_weekly_mileage_min_miles": 55,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 13,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 60,
+          "max": 76
+        },
+        "weekly_mileage_range_km": {
+          "min": 83,
+          "max": 122
+        },
+        "weekly_mileage_range_miles": {
+          "min": 52,
+          "max": 76
+        }
+      }
+    },
+    {
+      "id": "frr_base_training_build_to_30_miles_48_km_per_week",
+      "file": "plans/frr_base_training_build_to_30_miles_48_km_per_week.json",
+      "name": "Base Training - Build to 30 Miles (48 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "10-week base training schedule from Faster Road Racing.",
+      "tags": [
+        "aerobic-base-building",
+        "base",
+        "schedule-1"
+      ],
+      "meta": {
+        "goal_event": "Aerobic base building",
+        "target_audience": "Runners building weekly aerobic volume toward 30 miles per week.",
+        "plan_type": "base_training",
+        "initial_weekly_mileage_miles": 16,
+        "longest_scheduled_run_miles": 9,
+        "peak_weekly_mileage_miles": 30,
+        "post_race_recovery_weeks": 0,
+        "post_race_transition_weeks": 0,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 4
+        },
+        "schedule_weeks_including_post_race": 10,
+        "total_weeks": 10,
+        "training_volume_band": {
+          "min": null,
+          "unit": "miles",
+          "max": 30
+        },
+        "weekly_mileage_range_km": {
+          "min": 26,
+          "max": 48
+        },
+        "weekly_mileage_range_miles": {
+          "min": 16,
+          "max": 30
+        }
+      }
+    },
+    {
+      "id": "frr_base_training_build_to_45_miles_72_km_per_week",
+      "file": "plans/frr_base_training_build_to_45_miles_72_km_per_week.json",
+      "name": "Base Training - Build to 45 Miles (72 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "10-week base training schedule from Faster Road Racing.",
+      "tags": [
+        "aerobic-base-building",
+        "base",
+        "schedule-2"
+      ],
+      "meta": {
+        "goal_event": "Aerobic base building",
+        "target_audience": "Runners building weekly aerobic volume toward 45 miles per week.",
+        "plan_type": "base_training",
+        "initial_weekly_mileage_miles": 27,
+        "longest_scheduled_run_miles": 12,
+        "peak_weekly_mileage_miles": 45,
+        "post_race_recovery_weeks": 0,
+        "post_race_transition_weeks": 0,
+        "run_days_per_week": {
+          "min": 5,
+          "max": 5
+        },
+        "schedule_weeks_including_post_race": 10,
+        "total_weeks": 10,
+        "training_volume_band": {
+          "min": null,
+          "unit": "miles",
+          "max": 45
+        },
+        "weekly_mileage_range_km": {
+          "min": 43,
+          "max": 72
+        },
+        "weekly_mileage_range_miles": {
+          "min": 27,
+          "max": 45
+        }
+      }
+    },
+    {
+      "id": "frr_base_training_build_to_60_miles_97_km_per_week",
+      "file": "plans/frr_base_training_build_to_60_miles_97_km_per_week.json",
+      "name": "Base Training - Build to 60 Miles (97 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "10-week base training schedule from Faster Road Racing.",
+      "tags": [
+        "aerobic-base-building",
+        "base",
+        "schedule-1"
+      ],
+      "meta": {
+        "goal_event": "Aerobic base building",
+        "target_audience": "Runners building weekly aerobic volume toward 60 miles per week.",
+        "plan_type": "base_training",
+        "initial_weekly_mileage_miles": 38,
+        "longest_scheduled_run_miles": 14,
+        "peak_weekly_mileage_miles": 60,
+        "post_race_recovery_weeks": 0,
+        "post_race_transition_weeks": 0,
+        "run_days_per_week": {
+          "min": 5,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 10,
+        "total_weeks": 10,
+        "training_volume_band": {
+          "min": null,
+          "unit": "miles",
+          "max": 60
+        },
+        "weekly_mileage_range_km": {
+          "min": 61,
+          "max": 97
+        },
+        "weekly_mileage_range_miles": {
+          "min": 38,
+          "max": 60
+        }
+      }
+    },
+    {
+      "id": "frr_half_marathon_schedule_1_31_to_47_miles_50_76_km_per_week",
+      "file": "plans/frr_half_marathon_schedule_1_31_to_47_miles_50_76_km_per_week.json",
+      "name": "Half Marathon Schedule 1: 31 to 47 Miles (50-76 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "half-marathon",
+        "half",
+        "schedule-1",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_event": "Half marathon",
+        "target_audience": "Runners currently training 25-35 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 25 miles per week, first follow the source's base-training schedule toward 30 miles per week.",
+        "base_training_target_miles": 30,
+        "goal_distance_km": 21.0975,
+        "initial_weekly_mileage_miles": 31,
+        "longest_scheduled_run_miles": 14,
+        "peak_weekly_mileage_miles": 47,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 1,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 25,
+          "max": 35
+        },
+        "required_current_weekly_mileage_min_miles": 25,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 5
+        },
+        "schedule_weeks_including_post_race": 14,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 31,
+          "max": 47
+        },
+        "weekly_mileage_range_km": {
+          "min": 50,
+          "max": 76
+        },
+        "weekly_mileage_range_miles": {
+          "min": 31,
+          "max": 47
+        }
+      }
+    },
+    {
+      "id": "frr_half_marathon_schedule_2_46_to_63_miles_73_102_km_per_week",
+      "file": "plans/frr_half_marathon_schedule_2_46_to_63_miles_73_102_km_per_week.json",
+      "name": "Half Marathon Schedule 2: 46 to 63 Miles (73-102 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "half-marathon",
+        "half",
+        "schedule-2",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_event": "Half marathon",
+        "target_audience": "Runners currently training 40-50 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 40 miles per week, first follow the source's base-training schedule toward 45 miles per week.",
+        "base_training_target_miles": 45,
+        "goal_distance_km": 21.0975,
+        "initial_weekly_mileage_miles": 46,
+        "longest_scheduled_run_miles": 16,
+        "peak_weekly_mileage_miles": 63,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 1,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 40,
+          "max": 50
+        },
+        "required_current_weekly_mileage_min_miles": 40,
+        "run_days_per_week": {
+          "min": 5,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 14,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 46,
+          "max": 63
+        },
+        "weekly_mileage_range_km": {
+          "min": 69,
+          "max": 102
+        },
+        "weekly_mileage_range_miles": {
+          "min": 43,
+          "max": 63
+        }
+      }
+    },
+    {
+      "id": "frr_half_marathon_schedule_3_61_to_84_miles_98_135_km_per_week",
+      "file": "plans/frr_half_marathon_schedule_3_61_to_84_miles_98_135_km_per_week.json",
+      "name": "Half Marathon Schedule 3: 61 to 84 Miles (98-135 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "half-marathon",
+        "half",
+        "schedule-3",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_event": "Half marathon",
+        "target_audience": "Runners currently training 55-65 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "If current mileage is below 55 miles per week, first follow the source's base-training schedule toward 60 miles per week.",
+        "base_training_target_miles": 60,
+        "goal_distance_km": 21.0975,
+        "initial_weekly_mileage_miles": 61,
+        "longest_scheduled_run_miles": 18,
+        "peak_weekly_mileage_miles": 84,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 1,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 55,
+          "max": 65
+        },
+        "required_current_weekly_mileage_min_miles": 55,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 14,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 61,
+          "max": 84
+        },
+        "weekly_mileage_range_km": {
+          "min": 89,
+          "max": 135
+        },
+        "weekly_mileage_range_miles": {
+          "min": 56,
+          "max": 84
+        }
+      }
+    },
+    {
+      "id": "frr_half_marathon_schedule_4_81_to_100_miles_130_161_km_per_week",
+      "file": "plans/frr_half_marathon_schedule_4_81_to_100_miles_130_161_km_per_week.json",
+      "name": "Half Marathon Schedule 4: 81 to 100 Miles (130-161 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "12-week race preparation schedule from Faster Road Racing.",
+      "tags": [
+        "half-marathon",
+        "half",
+        "schedule-4",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_event": "Half marathon",
+        "target_audience": "Runners currently training 75-85 miles per week.",
+        "plan_type": "race_preparation",
+        "preparation_recommendation": "Build mileage to 75 miles per week before starting; the schedule starts at 81 miles per week.",
+        "goal_distance_km": 21.0975,
+        "initial_weekly_mileage_miles": 81,
+        "longest_scheduled_run_miles": 19,
+        "peak_weekly_mileage_miles": 100,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 1,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 75,
+          "max": 85
+        },
+        "required_current_weekly_mileage_min_miles": 75,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 14,
+        "total_weeks": 12,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 81,
+          "max": 100
+        },
+        "weekly_mileage_range_km": {
+          "min": 110,
+          "max": 161
+        },
+        "weekly_mileage_range_miles": {
+          "min": 69,
+          "max": 100
+        }
+      }
+    },
+    {
+      "id": "frr_multiple_distances_schedule_1_30_to_42_miles_48_66_km_per_week",
+      "file": "plans/frr_multiple_distances_schedule_1_30_to_42_miles_48_66_km_per_week.json",
+      "name": "Multiple Distances Schedule 1: 30 to 42 Miles (48-66 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "10-week multiple race distances schedule from Faster Road Racing.",
+      "tags": [
+        "5k-through-half-marathon",
+        "multiple",
+        "schedule-1",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          5,
+          8,
+          10,
+          15,
+          16.0934,
+          21.0975
+        ],
+        "goal_event": "5K through half marathon",
+        "target_audience": "Runners currently training 25-35 miles per week.",
+        "plan_type": "multiple_race_distances",
+        "preparation_recommendation": "If current mileage is below 25 miles per week, first follow the source's base-training schedule toward 30 miles per week.",
+        "base_training_target_miles": 30,
+        "initial_weekly_mileage_miles": 30,
+        "longest_scheduled_run_miles": 13,
+        "peak_weekly_mileage_miles": 42,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 25,
+          "max": 35
+        },
+        "required_current_weekly_mileage_min_miles": 25,
+        "run_days_per_week": {
+          "min": 4,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 11,
+        "total_weeks": 10,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 30,
+          "max": 42
+        },
+        "weekly_mileage_range_km": {
+          "min": 48,
+          "max": 66
+        },
+        "weekly_mileage_range_miles": {
+          "min": 30,
+          "max": 42
+        }
+      }
+    },
+    {
+      "id": "frr_multiple_distances_schedule_2_45_to_57_miles_72_92_km_per_week",
+      "file": "plans/frr_multiple_distances_schedule_2_45_to_57_miles_72_92_km_per_week.json",
+      "name": "Multiple Distances Schedule 2: 45 to 57 Miles (72-92 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "10-week multiple race distances schedule from Faster Road Racing.",
+      "tags": [
+        "5k-through-half-marathon",
+        "multiple",
+        "schedule-2",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          5,
+          8,
+          10,
+          15,
+          16.0934,
+          21.0975
+        ],
+        "goal_event": "5K through half marathon",
+        "target_audience": "Runners currently training 40-50 miles per week.",
+        "plan_type": "multiple_race_distances",
+        "preparation_recommendation": "If current mileage is below 40 miles per week, first follow the source's base-training schedule toward 45 miles per week.",
+        "base_training_target_miles": 45,
+        "initial_weekly_mileage_miles": 45,
+        "longest_scheduled_run_miles": 14,
+        "peak_weekly_mileage_miles": 57,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 40,
+          "max": 50
+        },
+        "required_current_weekly_mileage_min_miles": 40,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 6
+        },
+        "schedule_weeks_including_post_race": 11,
+        "total_weeks": 10,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 45,
+          "max": 57
+        },
+        "weekly_mileage_range_km": {
+          "min": 68,
+          "max": 92
+        },
+        "weekly_mileage_range_miles": {
+          "min": 42,
+          "max": 57
+        }
+      }
+    },
+    {
+      "id": "frr_multiple_distances_schedule_3_60_to_75_miles_96_120_km_per_week",
+      "file": "plans/frr_multiple_distances_schedule_3_60_to_75_miles_96_120_km_per_week.json",
+      "name": "Multiple Distances Schedule 3: 60 to 75 Miles (96-120 km) per Week",
+      "author": "Pete Pfitzinger and Philip Latter",
+      "version": "as published in source",
+      "description": "10-week multiple race distances schedule from Faster Road Racing.",
+      "tags": [
+        "5k-through-half-marathon",
+        "multiple",
+        "schedule-3",
+        "recovery-week-included"
+      ],
+      "meta": {
+        "goal_distances_km": [
+          5,
+          8,
+          10,
+          15,
+          16.0934,
+          21.0975
+        ],
+        "goal_event": "5K through half marathon",
+        "target_audience": "Runners currently training 55-65 miles per week.",
+        "plan_type": "multiple_race_distances",
+        "preparation_recommendation": "If current mileage is below 55 miles per week, first follow the source's base-training schedule toward 60 miles per week.",
+        "base_training_target_miles": 60,
+        "initial_weekly_mileage_miles": 60,
+        "longest_scheduled_run_miles": 16,
+        "peak_weekly_mileage_miles": 75,
+        "post_race_recovery_weeks": 1,
+        "post_race_transition_weeks": 0,
+        "recommended_current_weekly_mileage_miles": {
+          "unit": "miles",
+          "min": 55,
+          "max": 65
+        },
+        "required_current_weekly_mileage_min_miles": 55,
+        "run_days_per_week": {
+          "min": 6,
+          "max": 7
+        },
+        "schedule_weeks_including_post_race": 11,
+        "total_weeks": 10,
+        "training_volume_band": {
+          "unit": "miles",
+          "min": 60,
+          "max": 75
+        },
+        "weekly_mileage_range_km": {
+          "min": 87,
+          "max": 120
+        },
+        "weekly_mileage_range_miles": {
+          "min": 54,
+          "max": 75
+        }
+      }
+    },
+    {
+      "id": "half_marathon_training_half_marathon_3_hm3",
+      "file": "plans/half_marathon_training_3_hm3_hal_higdon_plan.json",
+      "name": "Half Marathon Training: Half Marathon 3 (HM3)",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 12-week half marathon plan with three running days and two cross-training days most weeks, built for experienced runners.",
+      "tags": [
+        "half-marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Day Off, 3 Run, 2 X-Train",
+          "length_weeks": 12,
+          "longest_workout_km": 16.1,
+          "longest_workout_miles": 10
+        },
+        "goal_event": "Half Marathon",
+        "target_audience": "Experienced runners who prefer three running days and cross-training",
+        "difficulty": "general",
+        "goal_distance_km": 21.0975,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 16.09,
+          "max": 35.41
+        }
+      }
+    },
+    {
+      "id": "half_marathon_training_advanced",
+      "file": "plans/half_marathon_training_advanced_hal_higdon_plan.json",
+      "name": "Half Marathon Training: Advanced",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 12-week half marathon plan for experienced racers, with hills, intervals, tempo work and long runs of up to two hours.",
+      "tags": [
+        "half-marathon",
+        "advanced",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "6 Run, 1 Day Off, 2 Strength",
+          "length_weeks": 12,
+          "longest_workout_min": 120
+        },
+        "goal_event": "Half Marathon",
+        "target_audience": "Experienced racers looking to improve their half marathon performance",
+        "difficulty": "advanced",
+        "goal_distance_km": 21.0975,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 14.48,
+          "max": 31.54
+        }
+      }
+    },
+    {
+      "id": "half_marathon_training_intermediate_1",
+      "file": "plans/half_marathon_training_intermediate_1_hal_higdon_plan.json",
+      "name": "Half Marathon Training: Intermediate 1",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An endurance-focused 12-week half marathon plan with Monday cross-training, Saturday pace work and progressive Sunday long runs.",
+      "tags": [
+        "half-marathon",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "1 X-Train, 5 Run, 2 Day Off",
+          "length_weeks": 12,
+          "longest_workout_km": 19.3,
+          "longest_workout_miles": 12
+        },
+        "goal_event": "Half Marathon",
+        "target_audience": "Experienced runners seeking an endurance-focused half marathon plan",
+        "difficulty": "intermediate",
+        "goal_distance_km": 21.0975,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 27.36,
+          "max": 54.72
+        }
+      }
+    },
+    {
+      "id": "half_marathon_training_intermediate_2",
+      "file": "plans/half_marathon_training_intermediate_2_hal_higdon_plan.json",
+      "name": "Half Marathon Training: Intermediate 2",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A speed-focused 12-week half marathon plan that alternates track intervals and tempo runs and includes three tune-up races.",
+      "tags": [
+        "half-marathon",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "1 Day Off, 5 Run, 1 Strength",
+          "length_weeks": 12,
+          "longest_workout_km": 19.3,
+          "longest_workout_miles": 12
+        },
+        "goal_event": "Half Marathon",
+        "target_audience": "Experienced runners seeking a speed-focused half marathon plan",
+        "difficulty": "intermediate",
+        "goal_distance_km": 21.0975,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 17.86,
+          "max": 41.01
+        }
+      }
+    },
+    {
+      "id": "half_marathon_training_novice_1",
+      "file": "plans/half_marathon_training_novice_1_hal_higdon_plan.json",
+      "name": "Half Marathon Training: Novice 1",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 12-week plan for a first half marathon, with easy running, cross-training and long runs building from 3 to 10 miles.",
+      "tags": [
+        "half-marathon",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Day Off, 4 Run, 2 X-Train, 1 Strength",
+          "length_weeks": 12,
+          "longest_workout_km": 16.1,
+          "longest_workout_miles": 10
+        },
+        "goal_event": "Half Marathon",
+        "target_audience": "Newer runners preparing for a half marathon",
+        "difficulty": "novice",
+        "goal_distance_km": 21.0975,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 19.31,
+          "max": 37.01
+        }
+      }
+    },
+    {
+      "id": "half_marathon_training_novice_2",
+      "file": "plans/half_marathon_training_novice_2_hal_higdon_plan.json",
+      "name": "Half Marathon Training: Novice 2",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 12-week half marathon plan for runners with some race experience. It introduces race-pace work and builds the long run to 12 miles.",
+      "tags": [
+        "half-marathon",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Day Off, 4 Run, 1 X-Train",
+          "length_weeks": 12,
+          "longest_workout_km": 19.3,
+          "longest_workout_miles": 12
+        },
+        "goal_event": "Half Marathon",
+        "target_audience": "Runners with some experience who prefer a gradual build to a half marathon",
+        "difficulty": "novice",
+        "goal_distance_km": 21.0975,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 20.92,
+          "max": 37.01
+        }
+      }
+    },
+    {
+      "id": "half_marathon_training_walkers",
+      "file": "plans/half_marathon_training_walkers_hal_higdon_plan.json",
+      "name": "Half Marathon Training: Walkers",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 12-week half marathon walking plan with easy, brisk and stroll efforts. The longest training walk is 10 miles.",
+      "tags": [
+        "half-marathon",
+        "road-running",
+        "walking"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Day Off, 5 Walk",
+          "length_weeks": 12,
+          "longest_workout_km": 16.1,
+          "longest_workout_miles": 10
+        },
+        "goal_event": "Half Marathon",
+        "target_audience": "Walkers preparing for a half marathon",
+        "difficulty": "general",
+        "goal_distance_km": 21.0975,
+        "total_weeks": 12,
+        "weekly_mileage_range_km": {
+          "min": 3.22,
+          "max": 21.1
+        }
+      }
+    },
+    {
+      "id": "marathon_training_marathon_3",
+      "file": "plans/marathon_training_3_hal_higdon_plan.json",
+      "name": "Marathon Training: Marathon 3",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 24-week marathon plan built around three weekly runs and two cross-training days.",
+      "tags": [
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "3 Run, 2 X-Train, 2 Rest",
+          "length_weeks": 24,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Marathoners who prefer three running days and more cross-training",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 24,
+        "weekly_mileage_range_km": {
+          "min": 17.7,
+          "max": 59.55
+        }
+      }
+    },
+    {
+      "id": "marathon_training_advanced_1",
+      "file": "plans/marathon_training_advanced_1_hal_higdon_plan.json",
+      "name": "Marathon Training: Advanced 1",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An 18-week marathon plan with one midweek speed session, Saturday race-pace work and three 20-mile long runs.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "6 Run, 7 Other, 1 Day Off",
+          "length_weeks": 18,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Experienced marathoners ready to add speedwork and higher mileage",
+        "difficulty": "advanced",
+        "goal_distance_km": 42.195,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 41.84,
+          "max": 86.87
+        }
+      }
+    },
+    {
+      "id": "marathon_training_advanced_2",
+      "file": "plans/marathon_training_advanced_2_hal_higdon_plan.json",
       "name": "Marathon Training: Advanced 2",
       "author": "Hal Higdon",
       "version": "1.0",
-      "description": "An advanced 18-week marathon training plan focused on building mileage, tempo runs, and race-pace workouts.",
-      "tags": ["marathon", "advanced", "road-running"],
+      "description": "An 18-week marathon plan with two midweek quality sessions in most weeks and three 20-mile long runs.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running"
+      ],
       "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "6 Run, 7 Other, 1 Day Off",
+          "length_weeks": 18,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
         "goal_event": "Marathon",
+        "target_audience": "Experienced marathoners accustomed to higher mileage and speedwork",
+        "difficulty": "advanced",
         "goal_distance_km": 42.195,
         "total_weeks": 18,
-        "difficulty": "advanced",
-        "target_audience": "Experienced runners with prior marathon experience",
-        "weekly_mileage_range_km": { "min": 48, "max": 80 },
-        "activity_types": ["running"],
-        "phases": ["base", "build", "peak", "taper"]
+        "weekly_mileage_range_km": {
+          "min": 33.8,
+          "max": 70.77
+        }
       }
     },
     {
-      "id": 2,
-      "file": "plans/marathon_advantage_55_70.json",
-      "name": "Marathon Advantage: 55–70 Miles/Week",
-      "author": "Pete Pfitzinger",
+      "id": "marathon_training_alternate_marathon_1_week_delay",
+      "file": "plans/marathon_training_alternate_marathon_1_week_delay_hal_higdon_plan.json",
+      "name": "Marathon Training: Alternate Marathon (1-Week Delay)",
+      "author": "Hal Higdon",
       "version": "1.0",
-      "description": "A competitive marathon plan using mesocycles to develop endurance, lactate threshold, and race-specific fitness.",
-      "tags": ["marathon", "competitive", "road-running", "high-mileage"],
+      "description": "An extended taper for runners rescheduling a marathon by 1 week.",
+      "tags": [
+        "marathon",
+        "taper",
+        "road-running"
+      ],
       "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "4 Run, 2 Days Off, 1 X-Train",
+          "length_weeks": 4,
+          "longest_workout_km": 19.3,
+          "longest_workout_miles": 12,
+          "published_length_weeks_range": {
+            "min": 3,
+            "max": 6
+          }
+        },
         "goal_event": "Marathon",
+        "target_audience": "Marathoners who have reached the taper and need to adjust to a rescheduled race",
+        "difficulty": "general",
         "goal_distance_km": 42.195,
-        "total_weeks": 18,
-        "difficulty": "advanced",
-        "target_audience": "Competitive runners comfortable with 50+ miles per week",
-        "weekly_mileage_range_km": { "min": 88, "max": 113 },
-        "activity_types": ["running"],
-        "phases": ["base", "build", "peak", "taper"]
+        "total_weeks": 4,
+        "weekly_mileage_range_km": {
+          "min": 33.8,
+          "max": 56.68
+        }
       }
     },
     {
-      "id": 3,
-      "file": "plans/olympic_triathlon_intermediate.json",
-      "name": "Olympic Triathlon: Intermediate",
-      "author": "Training Peaks",
+      "id": "marathon_training_alternate_marathon_2_week_delay",
+      "file": "plans/marathon_training_alternate_marathon_2_week_delay_hal_higdon_plan.json",
+      "name": "Marathon Training: Alternate Marathon (2-Week Delay)",
+      "author": "Hal Higdon",
       "version": "1.0",
-      "description": "A 16-week intermediate triathlon plan covering swim, bike, and run with brick workouts in the final build phase.",
-      "tags": ["triathlon", "olympic", "intermediate", "multi-sport"],
+      "description": "An extended taper for runners rescheduling a marathon by 2 weeks.",
+      "tags": [
+        "marathon",
+        "taper",
+        "road-running"
+      ],
       "meta": {
-        "goal_event": "Olympic Triathlon",
-        "goal_distance_km": 51.5,
-        "total_weeks": 16,
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "4 Run, 2 Days Off, 1 X-Train",
+          "length_weeks": 5,
+          "longest_workout_km": 19.3,
+          "longest_workout_miles": 12,
+          "published_length_weeks_range": {
+            "min": 3,
+            "max": 6
+          }
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Marathoners who have reached the taper and need to adjust to a rescheduled race",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 5,
+        "weekly_mileage_range_km": {
+          "min": 33.8,
+          "max": 56.68
+        }
+      }
+    },
+    {
+      "id": "marathon_training_alternate_marathon_3_week_delay",
+      "file": "plans/marathon_training_alternate_marathon_3_week_delay_hal_higdon_plan.json",
+      "name": "Marathon Training: Alternate Marathon (3-Week Delay)",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An extended taper for runners rescheduling a marathon by 3 weeks.",
+      "tags": [
+        "marathon",
+        "taper",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "4 Run, 2 Days Off, 1 X-Train",
+          "length_weeks": 6,
+          "longest_workout_km": 25.7,
+          "longest_workout_miles": 16,
+          "published_length_weeks_range": {
+            "min": 3,
+            "max": 6
+          }
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Marathoners who have reached the taper and need to adjust to a rescheduled race",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 6,
+        "weekly_mileage_range_km": {
+          "min": 33.8,
+          "max": 56.68
+        }
+      }
+    },
+    {
+      "id": "marathon_training_alternate_marathon_original_taper",
+      "file": "plans/marathon_training_alternate_marathon_original_taper_hal_higdon_plan.json",
+      "name": "Marathon Training: Alternate Marathon (Original Taper)",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "The three-week Novice 1 taper used as the starting point for Higdon’s Alternate Marathon schedules.",
+      "tags": [
+        "marathon",
+        "taper",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "4 Run, 2 Days Off, 1 X-Train",
+          "length_weeks": 3,
+          "longest_workout_km": 19.3,
+          "longest_workout_miles": 12,
+          "published_length_weeks_range": {
+            "min": 3,
+            "max": 6
+          }
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Marathoners who have reached the taper and need to adjust to a rescheduled race",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 3,
+        "weekly_mileage_range_km": {
+          "min": 33.8,
+          "max": 56.68
+        }
+      }
+    },
+    {
+      "id": "marathon_training_boston_bound",
+      "file": "plans/marathon_training_boston_bound_hal_higdon_plan.json",
+      "name": "Marathon Training: Boston Bound",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "Twelve training weeks and a Monday race for qualified Boston Marathon runners. Includes uphill and downhill repeats and alternating time- and distance-based long runs.",
+      "tags": [
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "6 Run, 2 Strength, 5 Other, 1 Day Off",
+          "length_weeks": 12,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Qualified Boston Marathon runners",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 13,
+        "weekly_mileage_range_km": {
+          "min": 25.73,
+          "max": 75.61
+        }
+      }
+    },
+    {
+      "id": "marathon_training_dopey_challenge",
+      "file": "plans/marathon_training_dopey_challenge_hal_higdon_plan.json",
+      "name": "Marathon Training: DOPEY CHALLENGE",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An 18-week plan for Disney’s Dopey Challenge, with a 5K, 10K, half marathon and marathon on four consecutive days.",
+      "tags": [
+        "dopey-challenge",
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "4 Run, 1 X-Train, 2 Days Off",
+          "length_weeks": 18,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Dopey Challenge",
+        "target_audience": "Runners training for the four races in Disney’s Dopey Challenge",
+        "difficulty": "general",
+        "goal_distance_km": 78.29249999999999,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 24.14,
+          "max": 81.51
+        }
+      }
+    },
+    {
+      "id": "marathon_training_intermediate_1",
+      "file": "plans/marathon_training_intermediate_1_hal_higdon_plan.json",
+      "name": "Marathon Training: Intermediate 1",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An 18-week marathon plan that combines Monday cross-training, Saturday pace work and Sunday long runs up to 20 miles.",
+      "tags": [
+        "marathon",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "1 X-Train, 7 Other, 5 Run, 1 Day Off",
+          "length_weeks": 18,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Marathoners moving beyond the novice schedules",
         "difficulty": "intermediate",
-        "target_audience": "Athletes who can swim 1500m, bike 40km, and run 10km separately",
-        "weekly_mileage_range_km": { "min": 30, "max": 60 },
-        "activity_types": ["swimming", "cycling", "running"],
-        "phases": ["base", "build", "peak", "taper"]
+        "goal_distance_km": 42.195,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 35.41,
+          "max": 70.81
+        }
+      }
+    },
+    {
+      "id": "marathon_training_intermediate_2",
+      "file": "plans/marathon_training_intermediate_2_hal_higdon_plan.json",
+      "name": "Marathon Training: Intermediate 2",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An 18-week marathon plan for experienced runners, starting with a 10-mile long run and building to three 20-mile long runs.",
+      "tags": [
+        "marathon",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "1 X-Train, 7 Other, 5 Run, 1 Day Off",
+          "length_weeks": 18,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Experienced marathoners ready for higher mileage than Intermediate 1",
+        "difficulty": "intermediate",
+        "goal_distance_km": 42.195,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 41.84,
+          "max": 80.47
+        }
+      }
+    },
+    {
+      "id": "marathon_training_multiple_marathons_2_weeks",
+      "file": "plans/marathon_training_multiple_marathons_2_weeks_hal_higdon_plan.json",
+      "name": "Marathon Training: Multiple Marathons (2 Weeks Apart)",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A schedule for recovering and preparing between two marathons spaced 2 weeks apart.",
+      "tags": [
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "typical_week": "5 Run, 2 Strength, 2 Days Off",
+          "length_weeks": 2,
+          "longest_workout_km": 9.7,
+          "longest_workout_miles": 6,
+          "longest_workout_min": 120,
+          "published_length_weeks_range": {
+            "min": 2,
+            "max": 8
+          }
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Experienced marathoners with a second marathon scheduled soon after their first",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 2,
+        "weekly_mileage_range_km": {
+          "min": 17.7,
+          "max": 55.07
+        }
+      }
+    },
+    {
+      "id": "marathon_training_multiple_marathons_4_weeks",
+      "file": "plans/marathon_training_multiple_marathons_4_weeks_hal_higdon_plan.json",
+      "name": "Marathon Training: Multiple Marathons (4 Weeks Apart)",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A schedule for recovering and preparing between two marathons spaced 4 weeks apart.",
+      "tags": [
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "typical_week": "5 Run, 2 Strength, 2 Days Off",
+          "length_weeks": 4,
+          "longest_workout_km": 9.7,
+          "longest_workout_miles": 6,
+          "longest_workout_min": 180,
+          "published_length_weeks_range": {
+            "min": 2,
+            "max": 8
+          }
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Experienced marathoners with a second marathon scheduled soon after their first",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 4,
+        "weekly_mileage_range_km": {
+          "min": 24.14,
+          "max": 53.46
+        }
+      }
+    },
+    {
+      "id": "marathon_training_multiple_marathons_6_weeks",
+      "file": "plans/marathon_training_multiple_marathons_6_weeks_hal_higdon_plan.json",
+      "name": "Marathon Training: Multiple Marathons (6 Weeks Apart)",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A schedule for recovering and preparing between two marathons spaced 6 weeks apart.",
+      "tags": [
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "typical_week": "5 Run, 2 Strength, 2 Days Off",
+          "length_weeks": 6,
+          "longest_workout_km": 25.7,
+          "longest_workout_miles": 16,
+          "longest_workout_min": 120,
+          "published_length_weeks_range": {
+            "min": 2,
+            "max": 8
+          }
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Experienced marathoners with a second marathon scheduled soon after their first",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 6,
+        "weekly_mileage_range_km": {
+          "min": 24.14,
+          "max": 57.94
+        }
+      }
+    },
+    {
+      "id": "marathon_training_multiple_marathons",
+      "file": "plans/marathon_training_multiple_marathons_hal_higdon_plan.json",
+      "name": "Marathon Training: Multiple Marathons (8 Weeks Apart)",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A schedule for recovering and preparing between two marathons spaced eight weeks apart.",
+      "tags": [
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "typical_week": "5 Run, 2 Strength, 2 Days Off",
+          "length_weeks": 8,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20,
+          "longest_workout_min": 120,
+          "published_length_weeks_range": {
+            "min": 2,
+            "max": 8
+          }
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Experienced marathoners with a second marathon scheduled soon after their first",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 24.14,
+          "max": 64.37
+        }
+      }
+    },
+    {
+      "id": "marathon_training_novice_1",
+      "file": "plans/marathon_training_novice_1_hal_higdon_plan.json",
+      "name": "Marathon Training: Novice 1",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An 18-week first-marathon plan with four runs, two rest days and a cross-training day in a typical week.",
+      "tags": [
+        "marathon",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Day Off, 7 Other, 4 Run, 1 X-Train",
+          "length_weeks": 18,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Runners preparing for their first marathon",
+        "difficulty": "novice",
+        "goal_distance_km": 42.195,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 24.14,
+          "max": 64.37
+        }
+      }
+    },
+    {
+      "id": "marathon_training_novice_2",
+      "file": "plans/marathon_training_novice_2_hal_higdon_plan.json",
+      "name": "Marathon Training: Novice 2",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An 18-week marathon plan for runners with about a year of running experience. It adds marathon-pace practice and a mid-plan half marathon.",
+      "tags": [
+        "marathon",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Day Off, 7 Other, 4 Run, 1 X-Train",
+          "length_weeks": 18,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Runners with some background in the sport, including first-time marathoners",
+        "difficulty": "novice",
+        "goal_distance_km": 42.195,
+        "total_weeks": 18,
+        "weekly_mileage_range_km": {
+          "min": 27.36,
+          "max": 57.94
+        }
+      }
+    },
+    {
+      "id": "marathon_training_novice_supreme",
+      "file": "plans/marathon_training_novice_supreme_hal_higdon_plan.json",
+      "name": "Marathon Training: Novice Supreme",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 12-week novice base block followed by 18 weeks of Novice 1 marathon training.",
+      "tags": [
+        "marathon",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "2 Day Off, 7 Other, 4 Run, 1 X-Train",
+          "length_weeks": 30,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "New runners with time to build a base before marathon training",
+        "difficulty": "novice",
+        "goal_distance_km": 42.195,
+        "total_weeks": 30,
+        "weekly_mileage_range_km": {
+          "min": 14.48,
+          "max": 64.37
+        }
+      }
+    },
+    {
+      "id": "marathon_training_personal_best",
+      "file": "plans/marathon_training_personal_best_hal_higdon_plan.json",
+      "name": "Marathon Training: Personal Best",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 12-week intermediate base block followed by 18 weeks of Intermediate 1 marathon training for experienced marathoners.",
+      "tags": [
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "5 Run, 7 Other, 1 Day Off, 1 X-Train",
+          "length_weeks": 30,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Runners who have completed two or more marathons and want to improve their time",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 30,
+        "weekly_mileage_range_km": {
+          "min": 22.7,
+          "max": 70.81
+        }
+      }
+    },
+    {
+      "id": "marathon_training_senior",
+      "file": "plans/marathon_training_senior_hal_higdon_plan.json",
+      "name": "Marathon Training: Senior",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week plan for experienced marathoners who want to run three days a week. The Sunday long runs build from 12 to 20 miles.",
+      "tags": [
+        "marathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_min": null,
+          "typical_week": "3 Run, 2 Strength, 2 Days Off, 2 X-Train",
+          "length_weeks": 8,
+          "longest_workout_km": 32.2,
+          "longest_workout_miles": 20
+        },
+        "goal_event": "Marathon",
+        "target_audience": "Experienced marathoners who prefer to run three days a week",
+        "difficulty": "general",
+        "goal_distance_km": 42.195,
+        "total_weeks": 8,
+        "weekly_mileage_range_km": {
+          "min": 38.62,
+          "max": 51.85
+        }
+      }
+    },
+    {
+      "id": "more_training_beginning_runners_30_30",
+      "file": "plans/more_training_beginning_runners_30_30_hal_higdon_plan.json",
+      "name": "More Training: Beginning Runner’s 30/30 Plan",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "Thirty introductory sessions that alternate walking and easy jogging. Each session lasts 30 minutes.",
+      "tags": [
+        "beginner",
+        "run-walk"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "1 Day Off, 6 Run",
+          "length_weeks": 5,
+          "longest_workout_min": 30
+        },
+        "goal_distance_km": null,
+        "weekly_mileage_range_km": null,
+        "goal_event": "General Training",
+        "target_audience": "People starting or returning to running",
+        "difficulty": "novice",
+        "total_weeks": 5
+      }
+    },
+    {
+      "id": "more_training_cross_country",
+      "file": "plans/more_training_cross_country_general_hal_higdon_plan.json",
+      "name": "More Training: Cross Country",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "Ten weeks of cross-country preparation with tempo runs, track intervals, fartlek, road races and a cross-country meet.",
+      "tags": [
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "7 Run",
+          "length_weeks": 10,
+          "longest_workout_min": 90
+        },
+        "goal_distance_km": null,
+        "goal_event": "Cross Country",
+        "target_audience": "Cross-country runners and runners training for off-road races",
+        "difficulty": "general",
+        "total_weeks": 10,
+        "weekly_mileage_range_km": {
+          "min": 51.5,
+          "max": 70.81
+        }
+      }
+    },
+    {
+      "id": "more_training_triathlon_1",
+      "file": "plans/more_training_triathlon_1_general_hal_higdon_plan.json",
+      "name": "More Training: Triathlon 1",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "Eight weeks of general fitness training that combines running, cycling, swimming, walking and strength work.",
+      "tags": [
+        "triathlon",
+        "cycling",
+        "swimming",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "1 Swim, 2 Bike, 3 Run, 1 Day Off, 1 Walk",
+          "length_weeks": 8,
+          "longest_workout_min": 90
+        },
+        "goal_distance_km": null,
+        "weekly_mileage_range_km": null,
+        "goal_event": "General Training",
+        "target_audience": "Athletes who want to improve general fitness across multiple sports",
+        "difficulty": "general",
+        "total_weeks": 8
+      }
+    },
+    {
+      "id": "more_training_triathlon_2",
+      "file": "plans/more_training_triathlon_2_general_hal_higdon_plan.json",
+      "name": "More Training: Triathlon 2",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "An eight-week sprint triathlon plan, including combined workouts that let athletes practice transitions between disciplines.",
+      "tags": [
+        "triathlon",
+        "cycling",
+        "swimming",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "2 Swim, 1 Bike, 2 Run, 1 Day Off, 2 Strength",
+          "length_weeks": 8,
+          "longest_workout_min": 90
+        },
+        "goal_distance_km": null,
+        "weekly_mileage_range_km": null,
+        "goal_event": "Sprint Triathlon",
+        "target_audience": "Athletes preparing for a sprint triathlon",
+        "difficulty": "general",
+        "total_weeks": 8
+      }
+    },
+    {
+      "id": "more_training_triathlon_supreme",
+      "file": "plans/more_training_triathlon_supreme_general_hal_higdon_plan.json",
+      "name": "More Training: Triathlon Supreme",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 16-week plan that combines the eight-week Triathlon 1 and Triathlon 2 schedules and ends with a sprint triathlon.",
+      "tags": [
+        "triathlon",
+        "cycling",
+        "swimming",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "2 Swim, 2 Bike, 2 Run, 1 Day Off, 2 Strength",
+          "length_weeks": 16,
+          "longest_workout_min": 90
+        },
+        "goal_distance_km": null,
+        "weekly_mileage_range_km": null,
+        "goal_event": "Sprint Triathlon",
+        "target_audience": "Athletes who want both a fitness block and a sprint triathlon preparation block",
+        "difficulty": "general",
+        "total_weeks": 16
+      }
+    },
+    {
+      "id": "more_training_ultramarathon_50k",
+      "file": "plans/more_training_ultramarathon_50k_hal_higdon_plan.json",
+      "name": "More Training: Ultramarathon 50K",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 26-week plan for a 50K, with a marathon-distance training effort in week 18 and time-based weekend runs in the final block.",
+      "tags": [
+        "50k",
+        "ultramarathon",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "5 Run, 2 Days Off",
+          "length_weeks": 26,
+          "longest_workout_min": 300
+        },
+        "goal_event": "Ultramarathon 50K",
+        "target_audience": "Experienced distance runners preparing for a 50K",
+        "difficulty": "general",
+        "goal_distance_km": 50,
+        "total_weeks": 26,
+        "weekly_mileage_range_km": {
+          "min": 4.83,
+          "max": 80.47
+        }
+      }
+    },
+    {
+      "id": "more_training_winter",
+      "file": "plans/more_training_winter_general_hal_higdon_plan.json",
+      "name": "More Training: Winter",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A 13-week winter fitness plan with easy runs, tempo work, weekend long runs, cross-training and a final race.",
+      "tags": [
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "5 Run, 1 Strength, 1 X-Train, 1 XC-Ski, 1 Swim, 1 Bike, 1 Day Off",
+          "length_weeks": 13,
+          "longest_workout_min": 90
+        },
+        "goal_distance_km": null,
+        "goal_event": "General Training",
+        "target_audience": "Runners maintaining fitness through winter",
+        "difficulty": "general",
+        "total_weeks": 13,
+        "weekly_mileage_range_km": {
+          "min": 4.83,
+          "max": 4.83
+        }
+      }
+    },
+    {
+      "id": "post_marathon_recovery_advanced",
+      "file": "plans/post_marathon_recovery_advanced_hal_higdon_plan.json",
+      "name": "Post Marathon Recovery : Advanced",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A five-week recovery plan for advanced runners that gradually reintroduces intervals, tempo running and an optional race.",
+      "tags": [
+        "marathon",
+        "advanced",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "6 Run, 1 Day Off",
+          "length_weeks": 5,
+          "longest_workout_min": 90
+        },
+        "goal_distance_km": null,
+        "goal_event": "Recovery",
+        "target_audience": "Advanced runners returning to training after a marathon",
+        "difficulty": "advanced",
+        "total_weeks": 5,
+        "weekly_mileage_range_km": {
+          "min": 8.05,
+          "max": 24.12
+        }
+      }
+    },
+    {
+      "id": "post_marathon_recovery_intermediate",
+      "file": "plans/post_marathon_recovery_intermediate_hal_higdon_plan.json",
+      "name": "Post Marathon Recovery : Intermediate",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A five-week recovery plan that progresses from rest and easy runs to tempo sessions, mile repeats and an optional race.",
+      "tags": [
+        "marathon",
+        "intermediate",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "1 Day Off, 5 Run, 1 X-Train",
+          "length_weeks": 5,
+          "longest_workout_min": 90
+        },
+        "goal_distance_km": null,
+        "goal_event": "Recovery",
+        "target_audience": "Intermediate runners returning to training after a marathon",
+        "difficulty": "intermediate",
+        "total_weeks": 5,
+        "weekly_mileage_range_km": {
+          "min": 8.05,
+          "max": 20.92
+        }
+      }
+    },
+    {
+      "id": "post_marathon_recovery_novice",
+      "file": "plans/post_marathon_recovery_novice_hal_higdon_plan.json",
+      "name": "Post Marathon Recovery : Novice",
+      "author": "Hal Higdon",
+      "version": "1.0",
+      "description": "A five-week recovery plan that gradually resumes running after a marathon and ends with an optional race.",
+      "tags": [
+        "marathon",
+        "novice",
+        "road-running"
+      ],
+      "meta": {
+        "at_a_glance": {
+          "longest_workout_km": null,
+          "longest_workout_miles": null,
+          "typical_week": "2 Day Off, 4 Run, 1 X-Train",
+          "length_weeks": 5,
+          "longest_workout_min": 60
+        },
+        "goal_distance_km": null,
+        "goal_event": "Recovery",
+        "target_audience": "Novice runners returning to training after a marathon",
+        "difficulty": "novice",
+        "total_weeks": 5,
+        "weekly_mileage_range_km": {
+          "min": 8.05,
+          "max": 20.92
+        }
       }
     }
   ]
