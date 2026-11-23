@@ -30,6 +30,7 @@ jobs:
         with:
           node-version: 24
           cache: "npm" # Options: 'npm', 'yarn', or 'pnpm'
+          cache-dependency-path: endurance-matrix/package-lock.json
 
       # Step 3: Install project dependencies
       - name: Install dependencies
@@ -39,6 +40,9 @@ jobs:
       - name: Run linter
         run: npm run lint
         continue-on-error: true # Prevents pipeline from breaking if lint rules fail
+
+      - name: Run application tests
+        run: npm test
 
       # Step 5: Compile and build the JSX/React application
       - name: Build application

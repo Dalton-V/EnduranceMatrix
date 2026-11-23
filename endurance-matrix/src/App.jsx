@@ -1,6 +1,9 @@
-import { useEffect, useMemo, useState } from 'react'
+import { lazy, Suspense, useEffect, useMemo, useState } from 'react'
 import './App.css'
-import { DEFAULT_PLAN_FILES, PLAN_FILES } from './data/planCatalog'
+import { loadPlanCatalog } from './data/planCatalog.js'
+
+const SKILL_TREE_PATH = '/calisthenics/skill-tree'
+const SkillTreePage = lazy(() => import('./features/skillTree/SkillTreePage.jsx'))
 
 const WEEKDAYS = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
 const WEEKDAY_KEYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
@@ -29,25 +32,28 @@ function Icon({ name, size = 18, strokeWidth = 1.8 }) {
 
 function SiteNav({ current }) {
   return <header className="border-b border-slate-200/80 bg-[#f8fafc]/90 backdrop-blur-xl">
-    <div className="mx-auto flex max-w-[1440px] items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
+    <div className="mx-auto flex max-w-[1440px] flex-wrap items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
       <a className="group flex items-center gap-3" href="/">
         <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-[#10263b] text-[#e8f2ed] shadow-[0_6px_18px_rgba(16,38,59,0.18)]"><Icon name="chartUp" size={20} /></span>
         <span><span className="block text-[15px] font-semibold tracking-[-0.02em] text-[#10263b]">Endurance Matrix</span><span className="hidden text-[11px] font-medium uppercase tracking-[0.15em] text-slate-400 sm:block">Training plan comparison</span></span>
       </a>
-      <nav aria-label="Primary navigation" className="hidden items-center gap-1 md:flex">
+      <nav aria-label="Primary navigation" className="order-last hidden w-full flex-wrap items-center gap-1 pt-1 md:flex lg:order-none lg:w-auto lg:pt-0">
         <a className={'nav-link ' + (current === 'home' ? 'nav-link-active' : '')} href="/">Overview</a>
         <a className={'nav-link ' + (current === 'compare' ? 'nav-link-active' : '')} href="/compare">Compare plans</a>
         <a className={'nav-link ' + (current === 'calendar-1' ? 'nav-link-active' : '')} href="/calendar-1">Grid compare</a>
         <a className={'nav-link ' + (current === 'calendar-2' ? 'nav-link-active' : '')} href="/calendar-2">Training bands</a>
         <a className={'nav-link ' + (current === 'calendar-3' ? 'nav-link-active' : '')} href="/calendar-3">Signal matrix</a>
+        <a className={'nav-link ' + (current === 'skill-tree' ? 'nav-link-active' : '')} aria-current={current === 'skill-tree' ? 'page' : undefined} href={SKILL_TREE_PATH}>Skill Tree</a>
       </nav>
+      <a className={'nav-link ml-auto mr-2 whitespace-nowrap md:hidden ' + (current === 'skill-tree' ? 'nav-link-active' : '')}
+        aria-current={current === 'skill-tree' ? 'page' : undefined} href={SKILL_TREE_PATH}>Skill Tree</a>
       <a className="hidden items-center gap-2 rounded-full bg-[#10263b] px-4 py-2 text-xs font-semibold text-white transition hover:bg-[#1c3e5b] sm:flex" href="/compare">Compare plans <Icon name="arrowRight" size={15} /></a>
       <a aria-label="Compare plans" className="flex h-9 w-9 items-center justify-center rounded-full border border-slate-200 text-[#10263b] sm:hidden" href="/compare"><Icon name="arrowRight" size={17} /></a>
     </div>
   </header>
 }
 
-function HomePage() {
+function HomePage({ catalog }) {
   return <div className="min-h-screen bg-[#f8fafc] text-[#10263b]">
     <SiteNav current="home" />
     <main>
@@ -59,7 +65,7 @@ function HomePage() {
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#cfe5dc] bg-white/70 px-3 py-1.5 text-[11px] font-bold uppercase tracking-[0.16em] text-[#3b806b]"><span className="h-1.5 w-1.5 rounded-full bg-[#5bc9a5]" />A clearer way to compare training</div>
             <h1 className="max-w-xl text-5xl font-semibold leading-[0.98] tracking-[-0.065em] text-[#10263b] sm:text-6xl lg:text-7xl">Find the rhythm that fits your next finish line.</h1>
             <p className="mt-7 max-w-lg text-base leading-7 text-slate-500 sm:text-lg">Endurance Matrix puts training plans on the same calendar so you can spot the differences in volume, intensity, and recovery at a glance.</p>
-            <div className="mt-9 flex flex-wrap items-center gap-3"><a className="inline-flex items-center gap-2 rounded-full bg-[#10263b] px-5 py-3 text-sm font-semibold text-white shadow-[0_12px_26px_rgba(16,38,59,0.18)] transition hover:-translate-y-0.5 hover:bg-[#1c3e5b]" href="/compare">Start comparing <Icon name="arrowRight" size={17} /></a><span className="text-sm text-slate-400">Read-only · {PLAN_FILES.length} plans in the library</span></div>
+            <div className="mt-9 flex flex-wrap items-center gap-3"><a className="inline-flex items-center gap-2 rounded-full bg-[#10263b] px-5 py-3 text-sm font-semibold text-white shadow-[0_12px_26px_rgba(16,38,59,0.18)] transition hover:-translate-y-0.5 hover:bg-[#1c3e5b]" href="/compare">Start comparing <Icon name="arrowRight" size={17} /></a><span className="text-sm text-slate-400">Read-only · {catalog.files.length} plans in the library</span></div>
           </div>
           <div className="relative mx-auto w-full max-w-[500px] lg:mt-4">
             <div className="absolute -left-5 top-10 hidden h-16 w-16 rounded-2xl border border-white/80 bg-white/75 shadow-[0_14px_30px_rgba(16,38,59,0.08)] sm:block" />
@@ -87,8 +93,8 @@ function HomePage() {
   </div>
 }
 
-function PlanComparisonPage() {
-  const { plans, loading, error } = usePlans(PLAN_FILES)
+function PlanComparisonPage({ catalog }) {
+  const { plans, loading, error } = usePlans(catalog.files)
   const [goal, setGoal] = useState('5K')
   const [selectedIds, setSelectedIds] = useState([])
   const [metric, setMetric] = useState('weeklyMiles')
@@ -144,7 +150,7 @@ function PlanComparisonPage() {
 
         <ProgressionChart alignment={alignment} metric={metric} onAlignmentChange={setAlignment} onMetricChange={setMetric} planMetrics={planMetrics} />
         <ComparisonTable planMetrics={planMetrics} />
-        <section className="rounded-[22px] border border-[#d8e5ee] bg-[#f3f8fb] p-5 text-sm leading-6 text-slate-500 sm:p-6"><span className="font-semibold text-[#30485b]">How to read this:</span> weekly miles show scheduled distance from each plan, long runs use the longest distance-based workout in that week, and workout count excludes rest days. Values are converted from the source data’s kilometers to miles.</section>
+        <section className="rounded-[22px] border border-[#d8e5ee] bg-[#f3f8fb] p-5 text-sm leading-6 text-slate-500 sm:p-6">Weekly miles use the published estimate when available. Otherwise they count distances specified for the primary workouts, using the lower end of any range. Longest run excludes races and speed workouts. Workout count excludes rest.</section>
         </>}
       </div>
     </main>
@@ -202,18 +208,7 @@ function ComparisonTable({ planMetrics }) {
 }
 
 function getComparableGoal(plan) {
-  const source = (plan.sourceFile ?? '').toLowerCase()
-  if (source.startsWith('5k_')) return '5K'
-  if (source.startsWith('10k_')) return '10K'
-  if (source.startsWith('15k_10_mile_')) return '10 Mile'
-  if (source.includes('8k_training_novice_15k')) return '15K'
-  if (source.includes('8k_training_intermediate_half_marathon') || source.includes('half_marathon') || source.includes('base_training_') && source.includes('half_marathon')) return 'Half Marathon'
-  if (source.includes('8k_training_advanced_marathon') || source.includes('marathon_training_')) return 'Marathon'
-  if (source.includes('ultramarathon')) return 'Ultramarathon'
-  if (source.includes('triathlon')) return 'Triathlon'
-  if (source.includes('cross_country')) return 'Cross Country'
-  if (source.includes('post_marathon_recovery')) return 'Recovery'
-  if (source.includes('base_training_spring') || source.includes('more_training_winter')) return 'General Training'
+  if (plan.tags?.includes('triathlon')) return 'Triathlon'
   return plan.meta?.goal_event ?? 'Other goals'
 }
 
@@ -227,7 +222,7 @@ function groupPlansByGoal(plans) {
 }
 
 function compareGoals(first, second) {
-  const order = ['5K', '10K', '15K', '10 Mile', 'Half Marathon', 'Marathon', 'Ultramarathon', 'Triathlon', 'Cross Country', 'Recovery', 'General Training']
+  const order = ['5K', '8K', '10K', '15K / 10 Mile', 'Half Marathon', 'Marathon', 'Dopey Challenge', 'Ultramarathon 50K', 'Triathlon', 'Cross Country', 'Recovery', 'Base Training', 'General Training']
   const firstIndex = order.indexOf(first)
   const secondIndex = order.indexOf(second)
   if (firstIndex === -1 && secondIndex === -1) return first.localeCompare(second)
@@ -237,23 +232,28 @@ function compareGoals(first, second) {
 }
 
 function getWorkoutDistanceKm(workout) {
-  const distanceKm = Number(workout.distance_km)
-  if (Number.isFinite(distanceKm) && distanceKm > 0) return distanceKm >= 100 ? distanceKm / 1000 : distanceKm
+  const distanceKm = Number(workout.distance_km ?? workout.distance_km_range?.min ?? workout.event_distance_km ?? workout.event_distance_km_range?.min)
+  if (Number.isFinite(distanceKm) && distanceKm > 0) return distanceKm
   const distanceMiles = Number(workout.distance_miles)
   return Number.isFinite(distanceMiles) && distanceMiles > 0 ? distanceMiles / 0.621371 : 0
 }
 
 function getPlanMetrics(plan) {
+  const definitions = plan.workout_definitions ?? {}
   const weeks = (plan.schedule ?? []).map((week, index) => {
-    const dayStats = (week.days ?? []).map((day) => {
-      const workouts = (day.workouts ?? []).filter((workout) => workout.workout_ref !== 'rest')
-      const distances = workouts.map(getWorkoutDistanceKm).filter(Boolean)
-      const labels = workouts.map((workout) => plan.workout_definitions?.[workout.workout_ref]?.label ?? titleCase(workout.workout_ref)).join(' ').toLowerCase()
-      const longDistances = workouts.filter((workout) => labels.includes('long') || getWorkoutDistanceKm(workout) >= 10).map(getWorkoutDistanceKm).filter(Boolean)
-      return { distanceKm: distances.reduce((total, value) => total + value, 0), longRunKm: Math.max(...(longDistances.length ? longDistances : distances), 0), workoutCount: workouts.length }
+    const workouts = (week.days ?? []).flatMap((day) => day.workouts ?? []).filter((workout) => workout.workout_ref !== 'rest')
+    const scheduledDistanceKm = week.estimated_total_distance_km ?? week.total_distance_km_range?.min ?? workouts.reduce((total, workout) => total + getWorkoutDistanceKm(workout), 0)
+    const runs = workouts.filter((workout) => {
+      const definition = definitions[workout.workout_ref]
+      return definition?.discipline === 'running' && definition.category !== 'speed' && !workout.event && !workout.reps
     })
-    const scheduledDistanceKm = dayStats.reduce((total, day) => total + day.distanceKm, 0)
-    return { week: week.week ?? index + 1, phase: week.phase, miles: scheduledDistanceKm * 0.621371, longRunMiles: Math.max(...dayStats.map((day) => day.longRunKm), 0) * 0.621371, workouts: dayStats.reduce((total, day) => total + day.workoutCount, 0) }
+    return {
+      week: week.week ?? index + 1,
+      phase: week.phase,
+      miles: scheduledDistanceKm * 0.621371,
+      longRunMiles: Math.max(...runs.map(getWorkoutDistanceKm), 0) * 0.621371,
+      workouts: workouts.length,
+    }
   })
   const peak = weeks.reduce((current, week) => week.miles > current.miles ? week : current, { miles: 0, week: 0 })
   const longestRun = Math.max(...weeks.map((week) => week.longRunMiles), 0)
@@ -279,10 +279,10 @@ function CalendarStyleCard({ style, index }) {
   </a>
 }
 
-function CalendarPage({ variant }) {
+function CalendarPage({ variant, catalog }) {
   const [month, setMonth] = useState(() => { const now = new Date(); return new Date(now.getFullYear(), now.getMonth(), 1) })
   const [startDate] = useState(() => startOfWeek(new Date()))
-  const [selectedFiles, setSelectedFiles] = useState(DEFAULT_PLAN_FILES)
+  const [selectedFiles, setSelectedFiles] = useState(catalog.defaults)
   const [selectedDate, setSelectedDate] = useState(() => new Date())
   const { plans, loading, error } = usePlans(selectedFiles)
   const style = CALENDAR_STYLES.find((item) => item.id === variant) ?? CALENDAR_STYLES[0]
@@ -295,7 +295,7 @@ function CalendarPage({ variant }) {
     <main className="mx-auto max-w-[1440px] px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pt-12">
       <div className="flex flex-col gap-8">
         <div className="flex flex-col justify-between gap-5 lg:flex-row lg:items-end"><div><div className="flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.18em] text-slate-400"><a className="transition hover:text-[#10263b]" href="/">Overview</a><span>/</span><span>{style.shortLabel}</span></div><h1 className="mt-4 text-4xl font-semibold tracking-[-0.055em] text-[#10263b] sm:text-5xl">{style.title}</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-500 sm:text-base">{style.description} The calendar starts each plan on <span className="font-semibold text-[#10263b]">{formatDate(startDate, { month: 'short', day: 'numeric' })}</span>.</p></div><div className="flex shrink-0 items-center gap-2 self-start rounded-full border border-slate-200 bg-white p-1 shadow-sm lg:self-end">{CALENDAR_STYLES.map((item, index) => <a aria-label={'Open ' + item.shortLabel} className={'flex h-8 w-8 items-center justify-center rounded-full text-xs font-bold transition ' + (item.id === variant ? 'bg-[#10263b] text-white' : 'text-slate-400 hover:bg-slate-100 hover:text-[#10263b]')} href={'/' + item.id} key={item.id}>{index + 1}</a>)}</div></div>
-        <div className="grid gap-3 lg:grid-cols-3">{selectedFiles.map((file, index) => <PlanSelector file={file} index={index} key={index + '-' + file} onChange={(nextFile) => updatePlan(index, nextFile)} plan={plans[index]} />)}</div>
+        <div className="grid gap-3 lg:grid-cols-3">{selectedFiles.map((file, index) => <PlanSelector catalog={catalog} file={file} index={index} key={index + '-' + file} onChange={(nextFile) => updatePlan(index, nextFile)} plan={plans[index]} />)}</div>
         <div className="flex flex-col justify-between gap-4 rounded-[22px] border border-slate-200 bg-white p-4 shadow-[0_10px_30px_rgba(16,38,59,0.04)] sm:flex-row sm:items-center sm:px-5"><div className="flex items-center gap-3"><button aria-label="Previous month" className="icon-button" onClick={() => changeMonth(-1)} type="button"><Icon name="arrowLeft" size={17} /></button><h2 className="min-w-[170px] text-center text-lg font-semibold tracking-[-0.03em] text-[#10263b]">{formatDate(month, { month: 'long', year: 'numeric' })}</h2><button aria-label="Next month" className="icon-button" onClick={() => changeMonth(1)} type="button"><Icon name="arrowRight" size={17} /></button><button className="ml-1 hidden rounded-full border border-slate-200 px-3 py-1.5 text-xs font-semibold text-slate-500 transition hover:border-[#10263b] hover:text-[#10263b] sm:block" onClick={() => { const now = new Date(); setMonth(new Date(now.getFullYear(), now.getMonth(), 1)); setSelectedDate(now) }} type="button">Today</button></div><div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-[11px] font-semibold text-slate-400"><span className="flex items-center gap-1.5"><i className="h-2 w-2 rounded-full bg-[#f97360]" />Plan A</span><span className="flex items-center gap-1.5"><i className="h-2 w-2 rounded-full bg-[#68a6ff]" />Plan B</span><span className="flex items-center gap-1.5"><i className="h-2 w-2 rounded-full bg-[#5bc9a5]" />Plan C</span><span className="hidden text-slate-300 sm:inline">Scroll to compare →</span></div></div>
         {loading && <div className="rounded-[22px] border border-slate-200 bg-white p-8 text-center text-sm text-slate-500">Loading plan schedules…</div>}
         {error && <div className="rounded-[22px] border border-[#f2c8bd] bg-[#fff6f2] p-5 text-sm text-[#9b5144]">{error}</div>}
@@ -308,8 +308,8 @@ function CalendarPage({ variant }) {
   </div>
 }
 
-function PlanSelector({ file, index, onChange, plan }) {
-  return <label className="group relative flex min-w-0 items-center gap-3 rounded-[18px] border border-slate-200 bg-white p-3.5 shadow-[0_8px_24px_rgba(16,38,59,0.03)] transition hover:border-slate-300"><span className="h-8 w-1 shrink-0 rounded-full" style={{ backgroundColor: PLAN_COLORS[index] }} /><span className="min-w-0 flex-1"><span className="block text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400">Plan {String.fromCharCode(65 + index)}</span><select aria-label={'Choose plan ' + String.fromCharCode(65 + index)} className="mt-1 w-full cursor-pointer appearance-none truncate bg-transparent pr-5 text-sm font-semibold text-[#10263b] outline-none" onChange={(event) => onChange(event.target.value)} value={file}>{PLAN_FILES.map((option) => <option key={option} value={option}>{planTitleFromFile(option)}</option>)}</select><span className="mt-0.5 block truncate text-[11px] text-slate-400">{plan ? (plan.meta?.total_weeks ?? '—') + ' week plan · ' + (plan.meta?.difficulty ?? 'mixed') : 'Loading details…'}</span></span><span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-400"><Icon name="chevronDown" size={15} /></span></label>
+function PlanSelector({ catalog, file, index, onChange, plan }) {
+  return <label className="group relative flex min-w-0 items-center gap-3 rounded-[18px] border border-slate-200 bg-white p-3.5 shadow-[0_8px_24px_rgba(16,38,59,0.03)] transition hover:border-slate-300"><span className="h-8 w-1 shrink-0 rounded-full" style={{ backgroundColor: PLAN_COLORS[index] }} /><span className="min-w-0 flex-1"><span className="block text-[10px] font-bold uppercase tracking-[0.15em] text-slate-400">Plan {String.fromCharCode(65 + index)}</span><select aria-label={'Choose plan ' + String.fromCharCode(65 + index)} className="mt-1 w-full cursor-pointer appearance-none truncate bg-transparent pr-5 text-sm font-semibold text-[#10263b] outline-none" onChange={(event) => onChange(event.target.value)} value={file}>{catalog.files.map((option) => <option key={option} value={option}>{catalog.names.get(option)}</option>)}</select><span className="mt-0.5 block truncate text-[11px] text-slate-400">{plan ? (plan.meta?.total_weeks ?? '—') + ' week plan · ' + (plan.meta?.difficulty ?? 'mixed') : 'Loading details…'}</span></span><span className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-slate-400"><Icon name="chevronDown" size={15} /></span></label>
 }
 
 function ClassicGridView({ calendarDays, month, plans, startDate, onSelectDate }) {
@@ -402,16 +402,43 @@ function getPlanDay(plan, date, startDate) {
 }
 
 function summarizeDay(entry) {
-  const workouts = entry.day.workouts ?? []
   const definitions = entry.definitions ?? {}
-  const labels = workouts.map((workout) => definitions[workout.workout_ref]?.label ?? titleCase(workout.workout_ref)).filter(Boolean)
-  const first = workouts[0]
-  const distance = workouts.reduce((total, workout) => total + getWorkoutDistanceKm(workout), 0)
-  const duration = workouts.reduce((total, workout) => total + (Number(workout.duration_min) || 0), 0)
-  const isRest = labels.length > 0 && labels.every((label) => label.toLowerCase() === 'rest')
-  const metric = distance ? formatNumber(distance) + ' km' : duration ? formatNumber(duration) + ' min' : ''
-  const detail = [metric, first?.notes].filter(Boolean).join(' · ')
-  return { label: isRest ? 'Rest' : labels.join(' + ') || 'Open day', metric, detail, phase: entry.week?.phase }
+  const options = [entry.day.workouts ?? [], entry.day.alternative_workouts ?? [], ...(entry.day.additional_options ?? [])]
+    .filter((workouts) => workouts.length)
+    .map((workouts) => workouts.map((workout) => summarizeWorkout(workout, definitions[workout.workout_ref])))
+  if (!options.length) return null
+
+  const label = options.map((workouts) => workouts.map((workout) => workout.label).join(' + ')).join(' or ')
+  const metric = options.flat().map((workout) => workout.metric).filter(Boolean).join(' · ')
+  const detail = options.map((workouts) => workouts.map((workout) => {
+    const parts = [workout.metric, workout.notes].filter(Boolean)
+    return options.length > 1 || workouts.length > 1 ? [workout.label, ...parts].join(' · ') : parts.join(' · ')
+  }).join(' + ')).join(' / ')
+  return { label, metric, detail, phase: entry.week?.phase }
+}
+
+function summarizeWorkout(workout, definition) {
+  let label = workout.event ?? definition?.label ?? titleCase(workout.workout_ref)
+  if (workout.event && workout.workout_ref === 'time_trial') label += ' Time Trial'
+  if (workout.event && workout.workout_ref === 'walking_race') label += ' Walk'
+  const distance = getWorkoutDistanceKm(workout)
+  const distanceRange = workout.distance_km_range
+  const durationRange = workout.duration_min_range
+  const repDistance = definition?.structure?.rep_distance_m
+  let metric = ''
+  if (workout.reps) {
+    const repLabel = workout.workout_ref === 'interval_mile' ? '1 mi' : repDistance ? formatNumber(repDistance) + ' m' : ''
+    metric = repLabel ? `${workout.reps} × ${repLabel}` : `${workout.reps} repeats`
+  } else if (distanceRange && distanceRange.min !== distanceRange.max) {
+    metric = `${formatNumber(distanceRange.min)}–${formatNumber(distanceRange.max)} km`
+  } else if (durationRange) {
+    metric = `${formatNumber(durationRange.min)}–${formatNumber(durationRange.max)} min`
+  } else if (distance) {
+    metric = formatNumber(distance) + ' km'
+  } else if (workout.duration_min) {
+    metric = formatNumber(workout.duration_min) + ' min'
+  }
+  return { label, metric, notes: workout.notes ?? workout.source_text }
 }
 
 function getWeekLabel(entries) {
@@ -423,7 +450,7 @@ function getSignalValue(entry, mode) {
   const workouts = entry.day.workouts ?? []
   if (mode === 'volume') {
     const distance = workouts.reduce((total, workout) => total + getWorkoutDistanceKm(workout), 0)
-    const duration = workouts.reduce((total, workout) => total + (Number(workout.duration_min) || 0), 0)
+    const duration = workouts.reduce((total, workout) => total + (Number(workout.duration_min ?? workout.duration_min_range?.min) || 0), 0)
     return Math.min((distance / 32) + (duration / 180), 1)
   }
   const intensityScore = { none: 0.05, low: 0.25, moderate: 0.58, high: 0.92 }
@@ -458,15 +485,30 @@ function titleCase(value = '') {
   return value.split('_').map((part) => part.charAt(0).toUpperCase() + part.slice(1)).join(' ')
 }
 
-function planTitleFromFile(file) {
-  return file.replace(/_hal_higdon_plan\.json$/, '').split('_').map((part) => { if (/^\d+k$/i.test(part)) return part.toUpperCase(); return part.charAt(0).toUpperCase() + part.slice(1) }).join(' ')
+function PlanRoutes({ currentPath }) {
+  const [result, setResult] = useState(null)
+  useEffect(() => {
+    let active = true
+    loadPlanCatalog()
+      .then(catalog => { if (active) setResult({ catalog }) })
+      .catch(error => { if (active) setResult({ error: error.message }) })
+    return () => { active = false }
+  }, [])
+  if (!result) return <p role="status">Loading training plans.</p>
+  if (result.error) return <p role="alert">{result.error}</p>
+  const { catalog } = result
+  if (currentPath === '/compare') return <PlanComparisonPage catalog={catalog} />
+  const variant = CALENDAR_STYLES.some((style) => '/' + style.id === currentPath) ? currentPath.slice(1) : null
+  return variant ? <CalendarPage catalog={catalog} variant={variant} /> : <HomePage catalog={catalog} />
 }
 
 function App() {
   const currentPath = window.location.pathname.replace(/\/$/, '') || '/'
-  if (currentPath === '/compare') return <PlanComparisonPage />
-  const variant = CALENDAR_STYLES.some((style) => '/' + style.id === currentPath) ? currentPath.slice(1) : null
-  return variant ? <CalendarPage variant={variant} /> : <HomePage />
+  if (currentPath === SKILL_TREE_PATH) return <>
+    <SiteNav current="skill-tree" />
+    <Suspense fallback={<p role="status">Loading the skill tree.</p>}><SkillTreePage /></Suspense>
+  </>
+  return <PlanRoutes currentPath={currentPath} />
 }
 
 export default App
