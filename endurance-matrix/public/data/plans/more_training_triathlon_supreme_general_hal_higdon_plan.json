@@ -1,12 +1,12 @@
 {
-  "source_file": "SourceData\\triathlon_supreme.html",
+  "source_url": "https://www.halhigdon.com/training-programs/more-training/triathlon-supreme/",
   "plan": {
     "id": "more_training_triathlon_supreme",
     "name": "More Training: Triathlon Supreme",
     "author": "Hal Higdon",
     "version": "1.0",
     "created_at": null,
-    "description": "SWIMMING: A simple bathing suit will suffice. No flippers, but you may want to purchase a wet suit to keep you warm if the water is cold. Wet suits also provide a degree of buoyancy that will make swimming easier. Noseplugs and goggles are a necessity. If you live near a lake or the ocean, ... Continue reading \"Triathlon Supreme\"",
+    "description": "A 16-week plan that combines the eight-week Triathlon 1 and Triathlon 2 schedules and ends with a sprint triathlon.",
     "tags": [
       "triathlon",
       "cycling",
@@ -14,27 +14,26 @@
       "road-running"
     ],
     "meta": {
-      "goal_event": "General Training",
-      "goal_distance_km": 0.0,
+      "goal_event": "Sprint Triathlon",
+      "goal_distance_km": null,
       "total_weeks": 16,
-      "target_audience": null,
+      "target_audience": "Athletes who want both a fitness block and a sprint triathlon preparation block",
       "difficulty": "general",
-      "weekly_mileage_range_km": {
-        "min": 0.0,
-        "max": 0.0
-      },
+      "weekly_mileage_range_km": null,
       "at_a_glance": {
         "length_weeks": 16,
         "typical_week": "2 Swim, 2 Bike, 2 Run, 1 Day Off, 2 Strength",
         "longest_workout_miles": null,
-        "longest_workout_km": null
+        "longest_workout_km": null,
+        "longest_workout_min": 90
       }
     },
     "activity_types": [
       "cycling",
       "running",
       "strength_training",
-      "swimming"
+      "swimming",
+      "walking"
     ],
     "workout_definitions": {
       "cycling": {
@@ -81,7 +80,7 @@
         "id": "strength_training",
         "label": "Strength Training",
         "category": "strength",
-        "discipline": "gym",
+        "discipline": "strength",
         "description": "A strength-focused session used to improve stability, force production, and injury resistance.",
         "intensity": "moderate",
         "effort_zone": 3,
@@ -97,14 +96,34 @@
         "effort_zone": 2,
         "notes": null
       },
+      "triathlon_brick": {
+        "id": "triathlon_brick",
+        "label": "Swim, Bike and Run",
+        "category": "endurance",
+        "discipline": "triathlon",
+        "description": "Combine all three disciplines and practice the transitions.",
+        "intensity": "moderate",
+        "effort_zone": 3,
+        "notes": null
+      },
+      "triathlon_race": {
+        "id": "triathlon_race",
+        "label": "Triathlon",
+        "category": "race-specific",
+        "discipline": "triathlon",
+        "description": "Complete the swim, bike and run of the event.",
+        "intensity": "high",
+        "effort_zone": 5,
+        "notes": null
+      },
       "walk": {
         "id": "walk",
         "label": "Walk",
-        "category": "recovery",
-        "discipline": "running",
-        "description": "A low-intensity walking session used for recovery, aerobic support, or planned walk breaks.",
+        "category": "endurance",
+        "discipline": "walking",
+        "description": "Walk at an easy pace unless a brisk effort is prescribed.",
         "intensity": "low",
-        "effort_zone": 1,
+        "effort_zone": 2,
         "notes": null
       }
     },
@@ -130,9 +149,9 @@
       {
         "week": 1,
         "phase": "base",
-        "mesocycle": null,
+        "mesocycle": "Triathlon 1",
         "weeks_to_goal": 16,
-        "total_distance_km": 0.0,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -143,7 +162,14 @@
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Bike & strength"
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
               }
             ]
           },
@@ -154,8 +180,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -163,11 +189,18 @@
             "day_of_week": "wednesday",
             "workouts": [
               {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
                 "workout_ref": "swimming",
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Strength & swim"
+                "notes": null
               }
             ]
           },
@@ -178,8 +211,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -199,11 +232,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -214,29 +247,19 @@
                 "workout_ref": "cycling",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
+                "duration_min": 60,
                 "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 2,
         "phase": "base",
-        "mesocycle": null,
+        "mesocycle": "Triathlon 1",
         "weeks_to_goal": 15,
-        "total_distance_km": 0.0,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -246,876 +269,58 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
           {
             "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "swimming",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength & swim"
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike & strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "walk",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 35.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 3,
-        "phase": "base",
-        "mesocycle": null,
-        "weeks_to_goal": 14,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
-              {
-                "workout_ref": "swimming",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength & swim"
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 35.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Run & strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 40.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "walk",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": null
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 4,
-        "phase": "base",
-        "mesocycle": null,
-        "weeks_to_goal": 13,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "swimming",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength & swim"
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike & strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 70.0,
-                "notes": null
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 5,
-        "phase": "base",
-        "mesocycle": null,
-        "weeks_to_goal": 12,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
-              {
-                "workout_ref": "swimming",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength & swim"
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 40.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike & strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 50.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "walk",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": null
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 6,
-        "phase": "base",
-        "mesocycle": null,
-        "weeks_to_goal": 11,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "swimming",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength & swim"
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike & strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "walk",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 80.0,
-                "notes": null
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 7,
-        "phase": "build",
-        "mesocycle": null,
-        "weeks_to_goal": 10,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
-              {
-                "workout_ref": "swimming",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength & swim"
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Run & strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 55.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "walk",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": null
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 8,
-        "phase": "build",
-        "mesocycle": null,
-        "weeks_to_goal": 9,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "swimming",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength & swim"
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike & strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 90.0,
-                "notes": null
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 9,
-        "phase": "build",
-        "mesocycle": null,
-        "weeks_to_goal": 8,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
             "workouts": [
               {
                 "workout_ref": "strength_training",
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
+                "notes": null
+              },
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "swimming",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": null,
+                "notes": null
               }
             ]
           },
           {
             "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
             "workouts": [
               {
                 "workout_ref": "cycling",
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Bike 45 Strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 20 Run 25"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
                 "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 30.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 30"
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 10,
-        "phase": "build",
-        "mesocycle": null,
-        "weeks_to_goal": 7,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
+              },
               {
                 "workout_ref": "strength_training",
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike 30 Run 15"
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 15 Run 30"
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Run 30 Strength"
+                "notes": null
               }
             ]
           },
@@ -1135,219 +340,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "walk",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 35.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Bike 30"
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 11,
-        "phase": "peak",
-        "mesocycle": null,
-        "weeks_to_goal": 6,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
-              {
-                "workout_ref": "strength_training",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 35.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "cycling",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike 50 Strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 20"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
+                "duration_min": 60,
                 "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 40.0,
-                "notes": "Parsed from schedule text."
-              }
-            ]
-          },
-          {
-            "day_of_week": "sunday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 45"
-              }
-            ]
-          }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
-        ]
-      },
-      {
-        "week": 12,
-        "phase": "peak",
-        "mesocycle": null,
-        "weeks_to_goal": 5,
-        "total_distance_km": 0.0,
-        "notes": null,
-        "days": [
-          {
-            "day_of_week": "monday",
-            "workouts": [
-              {
-                "workout_ref": "strength_training",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "tuesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike 40 Run 10"
-              }
-            ]
-          },
-          {
-            "day_of_week": "wednesday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 15"
-              }
-            ]
-          },
-          {
-            "day_of_week": "thursday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": "Run 30 Strength"
-              }
-            ]
-          },
-          {
-            "day_of_week": "friday",
-            "workouts": [
-              {
-                "workout_ref": "rest",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": null,
-                "notes": null
-              }
-            ]
-          },
-          {
-            "day_of_week": "saturday",
-            "workouts": [
-              {
-                "workout_ref": "easy_run",
-                "distance_km": null,
-                "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
               }
             ]
           },
@@ -1358,29 +355,1134 @@
                 "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 90.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 35,
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
+        ]
+      },
+      {
+        "week": 3,
+        "phase": "base",
+        "mesocycle": "Triathlon 1",
+        "weeks_to_goal": 14,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 35,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 60,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 40,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 60,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 4,
+        "phase": "base",
+        "mesocycle": "Triathlon 1",
+        "weeks_to_goal": 13,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 45,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 70,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "phase": "base",
+        "mesocycle": "Triathlon 1",
+        "weeks_to_goal": 12,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 40,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 50,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 60,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 6,
+        "phase": "base",
+        "mesocycle": "Triathlon 1",
+        "weeks_to_goal": 11,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 60,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 80,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 7,
+        "phase": "base",
+        "mesocycle": "Triathlon 1",
+        "weeks_to_goal": 10,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 45,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 60,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 55,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 60,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 8,
+        "phase": "base",
+        "mesocycle": "Triathlon 1",
+        "weeks_to_goal": 9,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 60,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 90,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 9,
+        "phase": "build",
+        "mesocycle": "Triathlon 2",
+        "weeks_to_goal": 8,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 45,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 20,
+                "notes": null
+              },
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 25,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 10,
+        "phase": "build",
+        "mesocycle": "Triathlon 2",
+        "weeks_to_goal": 7,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 15,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 15,
+                "notes": null
+              },
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 35,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 11,
+        "phase": "build",
+        "mesocycle": "Triathlon 2",
+        "weeks_to_goal": 6,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 35,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 50,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 20,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 40,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 45,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 12,
+        "phase": "build",
+        "mesocycle": "Triathlon 2",
+        "weeks_to_goal": 5,
+        "total_distance_km": null,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 40,
+                "notes": null
+              },
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 10,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 15,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 45,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "triathlon_brick",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 90,
+                "notes": "Swim, bike and run within the 90-minute session."
+              }
+            ]
+          }
         ]
       },
       {
         "week": 13,
-        "phase": "peak",
-        "mesocycle": null,
+        "phase": "build",
+        "mesocycle": "Triathlon 2",
         "weeks_to_goal": 4,
-        "total_distance_km": 0.0,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -1391,7 +1493,7 @@
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Strength"
+                "notes": null
               }
             ]
           },
@@ -1402,8 +1504,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 40.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 40,
+                "notes": null
               }
             ]
           },
@@ -1414,8 +1516,15 @@
                 "workout_ref": "cycling",
                 "distance_km": null,
                 "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
                 "duration_min": null,
-                "notes": "Bike 30 Strength"
+                "notes": null
               }
             ]
           },
@@ -1423,11 +1532,18 @@
             "day_of_week": "thursday",
             "workouts": [
               {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 25"
+                "duration_min": 25,
+                "notes": null
               }
             ]
           },
@@ -1447,11 +1563,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 50.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 50,
+                "notes": null
               }
             ]
           },
@@ -1459,32 +1575,29 @@
             "day_of_week": "sunday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "swimming",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 45"
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 45,
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 14,
-        "phase": "taper",
-        "mesocycle": null,
+        "phase": "build",
+        "mesocycle": "Triathlon 2",
         "weeks_to_goal": 3,
-        "total_distance_km": 0.0,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -1495,7 +1608,7 @@
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Strength"
+                "notes": null
               }
             ]
           },
@@ -1503,11 +1616,18 @@
             "day_of_week": "tuesday",
             "workouts": [
               {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 40,
+                "notes": null
+              },
+              {
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike 40 Run 15"
+                "duration_min": 15,
+                "notes": null
               }
             ]
           },
@@ -1515,11 +1635,18 @@
             "day_of_week": "wednesday",
             "workouts": [
               {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 15,
+                "notes": null
+              },
+              {
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 15 Run 40"
+                "duration_min": 40,
+                "notes": null
               }
             ]
           },
@@ -1530,8 +1657,15 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
+                "duration_min": 40,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
                 "duration_min": null,
-                "notes": "Run 40 Strength"
+                "notes": null
               }
             ]
           },
@@ -1551,11 +1685,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 55.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 55,
+                "notes": null
               }
             ]
           },
@@ -1563,32 +1697,29 @@
             "day_of_week": "sunday",
             "workouts": [
               {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
                 "workout_ref": "cycling",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Bike 60"
+                "duration_min": 60,
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 15,
-        "phase": "taper",
-        "mesocycle": null,
+        "phase": "build",
+        "mesocycle": "Triathlon 2",
         "weeks_to_goal": 2,
-        "total_distance_km": 0.0,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -1599,7 +1730,7 @@
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Strength"
+                "notes": null
               }
             ]
           },
@@ -1610,8 +1741,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 45.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 45,
+                "notes": null
               }
             ]
           },
@@ -1622,8 +1753,15 @@
                 "workout_ref": "cycling",
                 "distance_km": null,
                 "distance_miles": null,
+                "duration_min": 40,
+                "notes": null
+              },
+              {
+                "workout_ref": "strength_training",
+                "distance_km": null,
+                "distance_miles": null,
                 "duration_min": null,
-                "notes": "Bike 40 Strength"
+                "notes": null
               }
             ]
           },
@@ -1631,11 +1769,18 @@
             "day_of_week": "thursday",
             "workouts": [
               {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 30"
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1655,11 +1800,11 @@
             "day_of_week": "saturday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "long_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": 60.0,
-                "notes": "Parsed from schedule text."
+                "duration_min": 60,
+                "notes": null
               }
             ]
           },
@@ -1667,32 +1812,29 @@
             "day_of_week": "sunday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "swimming",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 60"
+                "duration_min": 30,
+                "notes": null
+              },
+              {
+                "workout_ref": "long_run",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 60,
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       },
       {
         "week": 16,
         "phase": "race",
-        "mesocycle": null,
+        "mesocycle": "Triathlon 2",
         "weeks_to_goal": 1,
-        "total_distance_km": 0.0,
+        "total_distance_km": null,
         "notes": null,
         "days": [
           {
@@ -1703,7 +1845,7 @@
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Strength"
+                "notes": null
               }
             ]
           },
@@ -1711,11 +1853,18 @@
             "day_of_week": "tuesday",
             "workouts": [
               {
+                "workout_ref": "cycling",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Bike 30 Run 30"
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1723,11 +1872,18 @@
             "day_of_week": "wednesday",
             "workouts": [
               {
+                "workout_ref": "swimming",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": null
+              },
+              {
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Swim 30 Run 30"
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1738,8 +1894,8 @@
                 "workout_ref": "easy_run",
                 "distance_km": null,
                 "distance_miles": null,
-                "duration_min": null,
-                "notes": "Run 30"
+                "duration_min": 30,
+                "notes": null
               }
             ]
           },
@@ -1771,24 +1927,16 @@
             "day_of_week": "sunday",
             "workouts": [
               {
-                "workout_ref": "easy_run",
+                "workout_ref": "triathlon_race",
                 "distance_km": null,
                 "distance_miles": null,
                 "duration_min": null,
-                "notes": "Triathlon"
+                "event": "Sprint Triathlon",
+                "event_distance_km": null,
+                "notes": null
               }
             ]
           }
-        ],
-        "source_headers": [
-          "Week",
-          "Mon",
-          "Tue",
-          "Wed",
-          "Thu",
-          "Fri",
-          "Sat",
-          "Sun"
         ]
       }
     ],

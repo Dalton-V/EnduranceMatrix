@@ -1,0 +1,542 @@
+{
+  "source_url": "https://www.halhigdon.com/training-programs/more-training/beginning-runners-guide/",
+  "plan": {
+    "id": "more_training_beginning_runners_30_30",
+    "name": "More Training: Beginning Runner’s 30/30 Plan",
+    "author": "Hal Higdon",
+    "version": "1.0",
+    "created_at": null,
+    "description": "Thirty introductory sessions that alternate walking and easy jogging. Each session lasts 30 minutes.",
+    "tags": [
+      "beginner",
+      "run-walk"
+    ],
+    "meta": {
+      "goal_event": "General Training",
+      "goal_distance_km": null,
+      "total_weeks": 5,
+      "target_audience": "People starting or returning to running",
+      "difficulty": "novice",
+      "weekly_mileage_range_km": null,
+      "at_a_glance": {
+        "length_weeks": 5,
+        "typical_week": "1 Day Off, 6 Run",
+        "longest_workout_miles": null,
+        "longest_workout_km": null,
+        "longest_workout_min": 30
+      }
+    },
+    "activity_types": [
+      "running",
+      "walking"
+    ],
+    "workout_definitions": {
+      "rest": {
+        "id": "rest",
+        "label": "Rest",
+        "category": "recovery",
+        "discipline": null,
+        "description": "Take a day off training.",
+        "intensity": "none",
+        "effort_zone": 0,
+        "notes": null
+      },
+      "run_walk": {
+        "id": "run_walk",
+        "label": "Run/Walk",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Alternate easy jogging and walking.",
+        "intensity": "low",
+        "effort_zone": 2,
+        "notes": null
+      }
+    },
+    "coaching_guidance": [
+      {
+        "topic": "30-Minute Session",
+        "text": "Walk for 10 minutes, alternate easy jogging and walking for 15 minutes, then finish with 5 minutes of walking."
+      },
+      {
+        "topic": "Progression",
+        "text": "Start with 30 seconds of jogging followed by as much walking as you need. Once comfortable, alternate 30 seconds of jogging with 30 seconds of walking."
+      },
+      {
+        "topic": "Cadence",
+        "text": "Repeat for 30 sessions. Higdon describes daily and every-other-day options. The calendar shows a sample pattern of six sessions a week."
+      }
+    ],
+    "schedule": [
+      {
+        "week": 1,
+        "phase": "base",
+        "mesocycle": null,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
+        "notes": "Example calendar using six sessions a week. Follow the cadence that suits you.",
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "phase": "base",
+        "mesocycle": null,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
+        "notes": "Example calendar using six sessions a week. Follow the cadence that suits you.",
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "phase": "base",
+        "mesocycle": null,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
+        "notes": "Example calendar using six sessions a week. Follow the cadence that suits you.",
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 4,
+        "phase": "base",
+        "mesocycle": null,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
+        "notes": "Example calendar using six sessions a week. Follow the cadence that suits you.",
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 5,
+        "phase": "base",
+        "mesocycle": null,
+        "weeks_to_goal": null,
+        "total_distance_km": null,
+        "notes": "Example calendar using six sessions a week. Follow the cadence that suits you.",
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "run_walk",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": 30,
+                "notes": "Walk 10 min, alternate easy jogging and walking for 15 min, then walk 5 min."
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,2437 @@
+{
+  "plan": {
+    "activity_types": [
+      "running"
+    ],
+    "comparison": {
+      "workout_frequency": {
+        "endurance_run": 13,
+        "general_aerobic": 15,
+        "general_aerobic_speed": 5,
+        "lactate_threshold": 1,
+        "progression_long_run": 2,
+        "race": 2,
+        "race_pace_speed": 1,
+        "recovery_run": 39,
+        "rest": 1,
+        "rest_or_cross_train": 3,
+        "vo2max": 4
+      },
+      "all_scheduled_weekly_mileage_range_km": {
+        "min": 80,
+        "max": 120
+      },
+      "all_scheduled_weekly_mileage_range_miles": {
+        "min": 49,
+        "max": 75
+      },
+      "double_run_days_across_schedule": 9,
+      "longest_scheduled_run_miles": 16,
+      "lowest_weekly_mileage_miles": 54,
+      "peak_weekly_mileage_miles": 75,
+      "quality_workouts_across_schedule": 8,
+      "rest_or_cross_train_days_per_week": {
+        "min": 0,
+        "max": 1
+      },
+      "run_days_per_week": {
+        "min": 6,
+        "max": 7
+      },
+      "weekly_mileage_range_km": {
+        "min": 87,
+        "max": 120
+      },
+      "weekly_mileage_range_miles": {
+        "min": 54,
+        "max": 75
+      }
+    },
+    "comparison_index": {
+      "goal_distance_km": null,
+      "goal_distances_km": [
+        5,
+        8,
+        10,
+        15,
+        16.0934,
+        21.0975
+      ],
+      "name": "Multiple Distances Schedule 3: 60 to 75 Miles (96-120 km) per Week",
+      "plan_id": "frr_multiple_distances_schedule_3_60_to_75_miles_96_120_km_per_week",
+      "source_id": "faster_road_racing",
+      "goal_event": "5K through half marathon",
+      "plan_type": "multiple_race_distances",
+      "double_run_days_across_schedule": 9,
+      "longest_scheduled_run_miles": 16,
+      "peak_weekly_mileage_miles": 75,
+      "post_race_recovery_weeks": 1,
+      "post_race_transition_weeks": 0,
+      "quality_workouts_across_schedule": 8,
+      "recommended_current_weekly_mileage_miles": {
+        "unit": "miles",
+        "min": 55,
+        "max": 65
+      },
+      "required_current_weekly_mileage_min_miles": 55,
+      "rest_or_cross_train_days_per_week": {
+        "min": 0,
+        "max": 1
+      },
+      "run_days_per_week": {
+        "min": 6,
+        "max": 7
+      },
+      "schedule_weeks_including_post_race": 11,
+      "training_volume_band": {
+        "unit": "miles",
+        "min": 60,
+        "max": 75
+      },
+      "training_weeks_to_goal": 10,
+      "weekly_mileage_range_km": {
+        "min": 87,
+        "max": 120
+      },
+      "weekly_mileage_range_miles": {
+        "min": 54,
+        "max": 75
+      }
+    },
+    "meta": {
+      "goal_distances_km": [
+        5,
+        8,
+        10,
+        15,
+        16.0934,
+        21.0975
+      ],
+      "goal_event": "5K through half marathon",
+      "target_audience": "Runners currently training 55-65 miles per week.",
+      "plan_type": "multiple_race_distances",
+      "preparation_recommendation": "If current mileage is below 55 miles per week, first follow the source's base-training schedule toward 60 miles per week.",
+      "base_training_target_miles": 60,
+      "initial_weekly_mileage_miles": 60,
+      "longest_scheduled_run_miles": 16,
+      "peak_weekly_mileage_miles": 75,
+      "post_race_recovery_weeks": 1,
+      "post_race_transition_weeks": 0,
+      "recommended_current_weekly_mileage_miles": {
+        "unit": "miles",
+        "min": 55,
+        "max": 65
+      },
+      "required_current_weekly_mileage_min_miles": 55,
+      "run_days_per_week": {
+        "min": 6,
+        "max": 7
+      },
+      "schedule_weeks_including_post_race": 11,
+      "total_weeks": 10,
+      "training_volume_band": {
+        "unit": "miles",
+        "min": 60,
+        "max": 75
+      },
+      "weekly_mileage_range_km": {
+        "min": 87,
+        "max": 120
+      },
+      "weekly_mileage_range_miles": {
+        "min": 54,
+        "max": 75
+      }
+    },
+    "schedule": [
+      {
+        "days": [
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-training"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-training"
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 10 miles (16 km)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 12
+                  },
+                  {
+                    "kind": "recovery",
+                    "exercise": "jog",
+                    "instruction": "between intervals",
+                    "duration_min": 4
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 10
+                  },
+                  {
+                    "kind": "recovery",
+                    "exercise": "jog",
+                    "instruction": "between intervals",
+                    "duration_min": 4
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 10
+                  }
+                ],
+                "workout_ref": "recovery_run",
+                "source_text": "Lactate threshold 10 miles (16 km) 12 min LT interval (jog 4 min recovery) 10 min LT interval (jog 4 min recovery) 10 min LT interval",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 11 miles (18 km)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 7 miles (11 km)",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 11
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 7
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "uphill",
+                        "intensity": "uphill",
+                        "duration_sec": 12
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 6
+                  },
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 8
+                  }
+                ],
+                "workout_ref": "general_aerobic_speed",
+                "source_text": "General aerobic + speed 9 miles (14 km) 6 × 12 sec uphill followed by 8 × 100 m strides",
+                "distance_km_range": {
+                  "min": 14,
+                  "max": 14
+                },
+                "distance_miles_range": {
+                  "min": 9,
+                  "max": 9
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 13 miles (21 km)",
+                "distance_km_range": {
+                  "min": 21,
+                  "max": 21
+                },
+                "distance_miles_range": {
+                  "min": 13,
+                  "max": 13
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "phase": null,
+        "week": 1,
+        "week_label": "9",
+        "weeks_to_goal": 9,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "60 miles (97 km)",
+        "total_distance_km_range": {
+          "min": 97,
+          "max": 97
+        },
+        "total_distance_miles_range": {
+          "min": 60,
+          "max": 60
+        }
+      },
+      {
+        "days": [
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-training"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-training"
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 10 miles (16 km)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 15
+                  },
+                  {
+                    "kind": "recovery",
+                    "exercise": "jog",
+                    "instruction": "between intervals",
+                    "duration_min": 4
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 12
+                  },
+                  {
+                    "kind": "recovery",
+                    "exercise": "jog",
+                    "instruction": "between intervals",
+                    "duration_min": 4
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 9
+                  }
+                ],
+                "workout_ref": "recovery_run",
+                "source_text": "Lactate threshold 11 miles (18 km) 15 min LT interval (jog 4 min recovery) 12 min LT interval (jog 4 min recovery) 9 min LT interval ·",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 11 miles (18 km)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 recovery runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 recovery runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "steps": [
+                          {
+                            "kind": "work",
+                            "intensity": "800 m to mile race pace",
+                            "distance_m": 200
+                          },
+                          {
+                            "kind": "recovery",
+                            "exercise": "jog",
+                            "instruction": "between intervals",
+                            "distance_m": 200
+                          }
+                        ],
+                        "kind": "repeat",
+                        "reps": 4
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between sets",
+                        "duration_min": 4
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 3
+                  }
+                ],
+                "workout_ref": "recovery_run",
+                "source_text": "Speed 8 miles (13 km) 3 sets of 4 × 200 m @ 800 m to mile race pace (jog 200 m recovery and 4 min between sets)",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 14 miles (23 km)",
+                "distance_km_range": {
+                  "min": 23,
+                  "max": 23
+                },
+                "distance_miles_range": {
+                  "min": 14,
+                  "max": 14
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "phase": null,
+        "week": 2,
+        "week_label": "8",
+        "weeks_to_goal": 8,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "63 miles (102 km)",
+        "total_distance_km_range": {
+          "min": 102,
+          "max": 102
+        },
+        "total_distance_miles_range": {
+          "min": 63,
+          "max": 63
+        }
+      },
+      {
+        "days": [
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 10 miles (16 km)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "uphill",
+                        "intensity": "3K-5K race effort",
+                        "duration_min": 3
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog downhill",
+                        "instruction": "between intervals"
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 8
+                  }
+                ],
+                "workout_ref": "vo2max",
+                "source_text": "V· Omax 2 10 miles (16 km) 8 × 3 min uphill @ 3K-5K race effort (jog downhill recovery)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 11 miles (18 km)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 recovery runs 4 miles (6 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 recovery runs 4 miles (6 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "uphill",
+                        "intensity": "uphill",
+                        "duration_sec": 12
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 6
+                  },
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 8
+                  }
+                ],
+                "workout_ref": "general_aerobic_speed",
+                "source_text": "General aerobic + speed 9 miles (14 km) 6 × 12 sec uphill followed by 8 × 100 m strides",
+                "distance_km_range": {
+                  "min": 14,
+                  "max": 14
+                },
+                "distance_miles_range": {
+                  "min": 9,
+                  "max": 9
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "kind": "progression",
+                    "instruction": "Increase effort steadily throughout run"
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "LT pace",
+                    "instruction": "last segment",
+                    "distance_km": 3,
+                    "distance_miles": 2
+                  }
+                ],
+                "workout_ref": "progression_long_run",
+                "source_text": "Progression long run 14 miles (23 km) Increase effort steadily throughout run, last 2 miles (3 km) @ LT pace",
+                "distance_km_range": {
+                  "min": 23,
+                  "max": 23
+                },
+                "distance_miles_range": {
+                  "min": 14,
+                  "max": 14
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "phase": null,
+        "week": 3,
+        "week_label": "7",
+        "weeks_to_goal": 7,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "66 miles (105 km)",
+        "total_distance_km_range": {
+          "min": 105,
+          "max": 105
+        },
+        "total_distance_miles_range": {
+          "min": 66,
+          "max": 66
+        }
+      },
+      {
+        "days": [
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5 miles (8 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 9 miles (14 km) ·",
+                "distance_km_range": {
+                  "min": 14,
+                  "max": 14
+                },
+                "distance_miles_range": {
+                  "min": 9,
+                  "max": 9
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 7 miles (11 km)",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 11
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 7
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 10 miles (16 km)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 recovery runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 recovery runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "steps": [
+                          {
+                            "kind": "work",
+                            "intensity": "800 m to mile race pace",
+                            "distance_m": 200
+                          },
+                          {
+                            "kind": "recovery",
+                            "exercise": "jog",
+                            "instruction": "between intervals",
+                            "distance_m": 200
+                          }
+                        ],
+                        "kind": "repeat",
+                        "reps": 4
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between sets",
+                        "duration_min": 4
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 3
+                  }
+                ],
+                "workout_ref": "recovery_run",
+                "source_text": "Speed 8 miles (13 km) 3 sets of 4 × 200 m @ 800 m to mile race pace (jog 200 m recovery and 4 min between sets)",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 12 miles (19 km)",
+                "distance_km_range": {
+                  "min": 19,
+                  "max": 19
+                },
+                "distance_miles_range": {
+                  "min": 12,
+                  "max": 12
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "week": 4,
+        "phase": "recovery",
+        "week_label": "6 Recovery",
+        "weeks_to_goal": 6,
+        "is_recovery_week": true,
+        "weekly_volume_source_text": "60 miles (97 km)",
+        "total_distance_km_range": {
+          "min": 97,
+          "max": 97
+        },
+        "total_distance_miles_range": {
+          "min": 60,
+          "max": 60
+        }
+      },
+      {
+        "days": [
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5 miles (8 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "intensity": "3K-5K race pace",
+                        "distance_m": 1200
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between intervals",
+                        "interval_time_pct": {
+                          "min": 50,
+                          "max": 90
+                        }
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 3
+                  },
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "intensity": "3K-5K race pace",
+                        "distance_m": 1000
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between intervals",
+                        "interval_time_pct": {
+                          "min": 50,
+                          "max": 90
+                        }
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 3
+                  }
+                ],
+                "workout_ref": "vo2max",
+                "source_text": "V· Omax 2 11 miles (18 km) 3 × 1,200 m 3 × 1,000 m All intervals @ 3K-5K race pace (jog 50-90% interval time recovery)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 8 miles (13 km) ·",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 11 miles (18 km)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 recovery runs 4 miles (6 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 recovery runs 4 miles (6 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 16
+                  },
+                  {
+                    "kind": "recovery",
+                    "exercise": "jog",
+                    "instruction": "between intervals",
+                    "duration_min": 4
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 12
+                  },
+                  {
+                    "kind": "recovery",
+                    "exercise": "jog",
+                    "instruction": "between intervals",
+                    "duration_min": 4
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 10
+                  }
+                ],
+                "workout_ref": "recovery_run",
+                "source_text": "Lactate threshold 11 miles (18 km) 16 min LT interval (jog 4 min recovery) 12 min LT interval (jog 4 min recovery) 10 min LT interval",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 15 miles (24 km)",
+                "distance_km_range": {
+                  "min": 24,
+                  "max": 24
+                },
+                "distance_miles_range": {
+                  "min": 15,
+                  "max": 15
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "phase": null,
+        "week": 5,
+        "week_label": "5",
+        "weeks_to_goal": 5,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "69 miles (111 km)",
+        "total_distance_km_range": {
+          "min": 111,
+          "max": 111
+        },
+        "total_distance_miles_range": {
+          "min": 69,
+          "max": 69
+        }
+      },
+      {
+        "days": [
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5 miles (8 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 10 miles (16 km)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "intensity": "3K-5K race pace",
+                        "distance_m": 1200
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between intervals",
+                        "interval_time_pct": {
+                          "min": 50,
+                          "max": 90
+                        }
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 3
+                  },
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "intensity": "3K-5K race pace",
+                        "distance_m": 1000
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between intervals",
+                        "interval_time_pct": {
+                          "min": 50,
+                          "max": 90
+                        }
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 3
+                  }
+                ],
+                "workout_ref": "vo2max",
+                "source_text": "V· Omax 2 11 miles (18 km) 3 × 1,200 m 3 × 1,000 m All intervals @ 3K-5K race pace (jog 50-90% interval time recovery)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 12 miles (19 km)",
+                "distance_km_range": {
+                  "min": 19,
+                  "max": 19
+                },
+                "distance_miles_range": {
+                  "min": 12,
+                  "max": 12
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 Recovery Runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 Recovery Runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "steps": [
+                          {
+                            "kind": "work",
+                            "exercise": "strides",
+                            "intensity": "strides",
+                            "distance_m": 100
+                          }
+                        ],
+                        "kind": "repeat",
+                        "reps": 6
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between sets",
+                        "duration_min": 3
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 2
+                  }
+                ],
+                "workout_ref": "general_aerobic_speed",
+                "source_text": "General aerobic + speed 10 miles (16 km) 2 sets of 6 × 100 m strides (jog 3 min between sets)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "kind": "progression",
+                    "instruction": "Increase effort steadily throughout run"
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "LT pace",
+                    "instruction": "last segment",
+                    "distance_km": 5,
+                    "distance_miles": 3
+                  }
+                ],
+                "workout_ref": "progression_long_run",
+                "source_text": "Progression long run 15 miles (24 km) Increase effort steadily throughout run, last 3 miles (5 km) @ LT pace",
+                "distance_km_range": {
+                  "min": 24,
+                  "max": 24
+                },
+                "distance_miles_range": {
+                  "min": 15,
+                  "max": 15
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "phase": null,
+        "week": 6,
+        "week_label": "4",
+        "weeks_to_goal": 4,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "72 miles (115 km)",
+        "total_distance_km_range": {
+          "min": 115,
+          "max": 115
+        },
+        "total_distance_miles_range": {
+          "min": 72,
+          "max": 72
+        }
+      },
+      {
+        "days": [
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 recovery runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 recovery runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 10 miles (16 km)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "steps": [
+                          {
+                            "kind": "work",
+                            "intensity": "800 m to mile race pace",
+                            "distance_m": 200
+                          },
+                          {
+                            "kind": "recovery",
+                            "exercise": "jog",
+                            "instruction": "between intervals",
+                            "distance_m": 200
+                          }
+                        ],
+                        "kind": "repeat",
+                        "reps": 5
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between sets",
+                        "duration_min": 4
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 2
+                  }
+                ],
+                "workout_ref": "recovery_run",
+                "source_text": "Speed 8 miles (13 km) 2 sets of 5 × 200 m @ 800 m to mile race pace (jog 200 m recovery and 4 min between sets)",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 12 miles (19 km)",
+                "distance_km_range": {
+                  "min": 19,
+                  "max": 19
+                },
+                "distance_miles_range": {
+                  "min": 12,
+                  "max": 12
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 recovery runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 recovery runs 5 miles (8 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "kind": "work",
+                    "intensity": "LT",
+                    "duration_min": 36
+                  }
+                ],
+                "workout_ref": "lactate_threshold",
+                "source_text": "Lactate threshold 11 miles (18 km) 36 min tempo run",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 16 miles (26 km)",
+                "distance_km_range": {
+                  "min": 26,
+                  "max": 26
+                },
+                "distance_miles_range": {
+                  "min": 16,
+                  "max": 16
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "phase": null,
+        "week": 7,
+        "week_label": "3",
+        "weeks_to_goal": 3,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "75 miles (120 km)",
+        "total_distance_km_range": {
+          "min": 120,
+          "max": 120
+        },
+        "total_distance_miles_range": {
+          "min": 75,
+          "max": 75
+        }
+      },
+      {
+        "days": [
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 recovery runs 6 miles (10 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 10,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 6,
+                  "max": 6
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 recovery runs 6 miles (10 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "steps": [
+                          {
+                            "kind": "work",
+                            "exercise": "strides",
+                            "intensity": "strides",
+                            "distance_m": 150
+                          },
+                          {
+                            "kind": "recovery",
+                            "exercise": "jog",
+                            "instruction": "between intervals",
+                            "distance_m": 250
+                          }
+                        ],
+                        "kind": "repeat",
+                        "reps": 5
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between sets",
+                        "duration_min": 4
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 2
+                  }
+                ],
+                "workout_ref": "recovery_run",
+                "source_text": "General aerobic + speed 11 miles (18 km) 2 sets of 5 × 150 m strides (jog 250 m recovery and 4 min between sets)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 9 miles (14 km)",
+                "distance_km_range": {
+                  "min": 14,
+                  "max": 14
+                },
+                "distance_miles_range": {
+                  "min": 9,
+                  "max": 9
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 7 miles (11 km) ·",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 11
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 7
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5 miles (8 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "race",
+                "event": "Road race",
+                "source_text": "5K-10K tune-up race 10 miles (16 km)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                },
+                "event_distance_km_range": {
+                  "min": 5,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "endurance_run",
+                "source_text": "Endurance 12 miles (19 km)",
+                "distance_km_range": {
+                  "min": 19,
+                  "max": 19
+                },
+                "distance_miles_range": {
+                  "min": 12,
+                  "max": 12
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "phase": null,
+        "week": 8,
+        "week_label": "2",
+        "weeks_to_goal": 2,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "64 miles (102 km)",
+        "total_distance_km_range": {
+          "min": 102,
+          "max": 102
+        },
+        "total_distance_miles_range": {
+          "min": 64,
+          "max": 64
+        }
+      },
+      {
+        "days": [
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 6 miles (10 km)",
+                "distance_km_range": {
+                  "min": 10,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 6,
+                  "max": 6
+                }
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 8 miles (13 km)",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 7 miles (11 km)",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 11
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 7
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "intensity": "3K-5K race pace",
+                        "distance_m": 1200
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between intervals",
+                        "interval_time_pct": {
+                          "min": 50,
+                          "max": 90
+                        }
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 2
+                  },
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "intensity": "3K-5K race pace",
+                        "distance_m": 800
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between intervals",
+                        "interval_time_pct": {
+                          "min": 50,
+                          "max": 90
+                        }
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 2
+                  },
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "intensity": "3K-5K race pace",
+                        "distance_m": 600
+                      },
+                      {
+                        "kind": "recovery",
+                        "exercise": "jog",
+                        "instruction": "between intervals",
+                        "interval_time_pct": {
+                          "min": 50,
+                          "max": 90
+                        }
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 2
+                  }
+                ],
+                "workout_ref": "vo2max",
+                "source_text": "V· Omax 2 10 miles (16 km) 2 × 1,200 m 2 × 800 m 2 × 600 m All intervals @ 3K-5K race pace (jog 50-90% interval time recovery)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5 miles (8 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 8
+                  }
+                ],
+                "workout_ref": "general_aerobic_speed",
+                "source_text": "General aerobic + speed 8 miles (13 km) 8 × 100 m strides",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 10 miles (16 km)",
+                "distance_km_range": {
+                  "min": 16,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 10,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "phase": null,
+        "week": 9,
+        "week_label": "1",
+        "weeks_to_goal": 1,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "54 miles (87 km)",
+        "total_distance_km_range": {
+          "min": 87,
+          "max": 87
+        },
+        "total_distance_miles_range": {
+          "min": 54,
+          "max": 54
+        }
+      },
+      {
+        "days": [
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 4
+                  },
+                  {
+                    "kind": "work",
+                    "intensity": "race pace",
+                    "race_distance_pct": 15
+                  }
+                ],
+                "workout_ref": "race_pace_speed",
+                "source_text": "Race pace + speed 8 miles (13 km) 4 × 100 m strides 15% of race distance @ race pace",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 7 miles (11 km)",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 11
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 7
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 6 miles (10 km)",
+                "distance_km_range": {
+                  "min": 10,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 6,
+                  "max": 6
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "source_text": "Rest"
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 4
+                  }
+                ],
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 4 miles (6 km) 4 × 100 m strides",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "race",
+                "event": "5K through half marathon",
+                "source_text": "Key race Volume varies depending on race distance"
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 7 miles (11 km)",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 11
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 7
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "week": 10,
+        "phase": "race",
+        "week_label": "Race week",
+        "weeks_to_goal": 0,
+        "is_recovery_week": false,
+        "weekly_volume_source_text": "Volume var- ies depend- ing on race distance"
+      },
+      {
+        "days": [
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-training"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-training"
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5 miles (8 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 6 miles (10 km)",
+                "distance_km_range": {
+                  "min": 10,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 6,
+                  "max": 6
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_1",
+                "source_text": "2 recovery runs 6 miles (10 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 10,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 6,
+                  "max": 6
+                }
+              },
+              {
+                "workout_ref": "recovery_run",
+                "session": "run_2",
+                "source_text": "2 recovery runs 6 miles (10 km) 4 miles (6 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 8 miles (13 km)",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 8
+                  }
+                ],
+                "workout_ref": "general_aerobic_speed",
+                "source_text": "General aerobic + speed 9 miles (14 km) 8 × 100 m strides",
+                "distance_km_range": {
+                  "min": 14,
+                  "max": 14
+                },
+                "distance_miles_range": {
+                  "min": 9,
+                  "max": 9
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "General aerobic 11 miles (18 km)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 18
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 11
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "week": 11,
+        "phase": "recovery",
+        "week_label": "Recovery week",
+        "weeks_after_goal": 1,
+        "is_recovery_week": true,
+        "weekly_volume_source_text": "49 miles (80 km)",
+        "total_distance_km_range": {
+          "min": 80,
+          "max": 80
+        },
+        "total_distance_miles_range": {
+          "min": 49,
+          "max": 49
+        }
+      }
+    ],
+    "source": {
+      "dataset": {
+        "data_notes": {
+          "post_race_rows": "Primary plan duration ends at race week. Where provided, post-race recovery and transition weeks are included after it in the schedule.",
+          "range_objects": "Distance and weekly-volume ranges use numeric min and max fields; exact values have equal min and max.",
+          "source_text": "Each workout keeps its short source schedule entry alongside normalized workout types and distances.",
+          "week_numbering": "week counts up through the plan; weeks_to_goal counts down, with race week set to 0; weeks_after_goal identifies post-race weeks.",
+          "weekly_volume": "Weekly mileage is transcribed from the source. Race-week totals are kept as printed and may be listed separately from the event distance."
+        },
+        "description": "Structured schedules extracted from the two supplied running books. Distances and weekly totals retain the units printed in the sources; range objects use min and max.",
+        "schema_version": "1.0",
+        "units": {
+          "metric_distance": "kilometers",
+          "primary_distance": "miles"
+        }
+      },
+      "pdf_pages": [
+        255,
+        256
+      ],
+      "printed_pages": [
+        244,
+        245
+      ],
+      "publication": {
+        "authors": [
+          "Pete Pfitzinger",
+          "Philip Latter"
+        ],
+        "title": "Faster Road Racing: 5K to Half Marathon",
+        "format": "PDF",
+        "file": "Pete_Pfitzinger_-_Faster_road_racing.pdf",
+        "id": "faster_road_racing"
+      },
+      "source_id": "faster_road_racing",
+      "chapter_title": "Training for Multiple Race Distances",
+      "schedule_title_in_source": "Multiple Distances Schedule 3: 60 to 75 Miles (96-120 km) per Week",
+      "chapter_number": 13
+    },
+    "tags": [
+      "5k-through-half-marathon",
+      "multiple",
+      "schedule-3",
+      "recovery-week-included"
+    ],
+    "workout_definitions": {
+      "cross_training": {
+        "discipline": null,
+        "label": "Cross-training",
+        "category": "active-recovery",
+        "description": "No scheduled run; cross-training is optional where the source offers it."
+      },
+      "endurance_run": {
+        "label": "Endurance run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Aerobic endurance running."
+      },
+      "general_aerobic": {
+        "label": "General aerobic run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Moderate aerobic running."
+      },
+      "general_aerobic_speed": {
+        "label": "General aerobic with speed",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Aerobic running combined with strides, hill sprints, or short speed work."
+      },
+      "lactate_threshold": {
+        "label": "Lactate-threshold workout",
+        "category": "threshold",
+        "discipline": "running",
+        "description": "Tempo running or intervals near lactate-threshold effort; details are in the schedule entry."
+      },
+      "progression_long_run": {
+        "label": "Progression long run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Long run that increases in effort through the session."
+      },
+      "race": {
+        "label": "Race",
+        "category": "race-specific",
+        "discipline": "running",
+        "description": "Tune-up or goal race as identified in the schedule entry."
+      },
+      "race_pace_speed": {
+        "label": "Race-pace with speed",
+        "category": "race-specific",
+        "discipline": "running",
+        "description": "Race-pace running combined with short speed work."
+      },
+      "recovery_run": {
+        "label": "Recovery run",
+        "category": "recovery",
+        "discipline": "running",
+        "description": "Easy running scheduled to support recovery."
+      },
+      "rest": {
+        "discipline": null,
+        "label": "Rest",
+        "category": "recovery",
+        "description": "No scheduled training."
+      },
+      "rest_or_cross_train": {
+        "label": "Rest or cross-training",
+        "category": "recovery",
+        "discipline": "any",
+        "description": "No scheduled run; cross-training is optional where the source offers it."
+      },
+      "vo2max": {
+        "label": "VO₂max workout",
+        "category": "speed",
+        "discipline": "running",
+        "description": "Intervals or hill repetitions prescribed for VO₂max development."
+      }
+    },
+    "name": "Multiple Distances Schedule 3: 60 to 75 Miles (96-120 km) per Week",
+    "author": "Pete Pfitzinger and Philip Latter",
+    "version": "as published in source",
+    "description": "10-week multiple race distances schedule from Faster Road Racing.",
+    "id": "frr_multiple_distances_schedule_3_60_to_75_miles_96_120_km_per_week"
+  }
+}

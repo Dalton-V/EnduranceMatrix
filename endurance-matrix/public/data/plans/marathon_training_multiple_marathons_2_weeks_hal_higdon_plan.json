@@ -1,0 +1,288 @@
+{
+  "source_url": "https://www.halhigdon.com/training-programs/marathon-training/multiple-marathons/",
+  "plan": {
+    "id": "marathon_training_multiple_marathons_2_weeks",
+    "name": "Marathon Training: Multiple Marathons (2 Weeks Apart)",
+    "author": "Hal Higdon",
+    "version": "1.0",
+    "created_at": null,
+    "description": "A schedule for recovering and preparing between two marathons spaced 2 weeks apart.",
+    "tags": [
+      "marathon",
+      "road-running"
+    ],
+    "meta": {
+      "goal_event": "Marathon",
+      "goal_distance_km": 42.195,
+      "total_weeks": 2,
+      "target_audience": "Experienced marathoners with a second marathon scheduled soon after their first",
+      "difficulty": "general",
+      "weekly_mileage_range_km": {
+        "min": 17.7,
+        "max": 55.07
+      },
+      "at_a_glance": {
+        "length_weeks": 2,
+        "typical_week": "5 Run, 2 Strength, 2 Days Off",
+        "longest_workout_miles": 6,
+        "longest_workout_km": 9.7,
+        "longest_workout_min": 120,
+        "published_length_weeks_range": {
+          "min": 2,
+          "max": 8
+        }
+      }
+    },
+    "activity_types": [
+      "cross_training",
+      "running",
+      "walking"
+    ],
+    "workout_definitions": {
+      "easy_run": {
+        "id": "easy_run",
+        "label": "Easy Run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Run at a comfortable, conversational effort.",
+        "intensity": "low",
+        "effort_zone": 2,
+        "notes": null
+      },
+      "race": {
+        "id": "race",
+        "label": "Race",
+        "category": "race-specific",
+        "discipline": "running",
+        "description": "Run the indicated event.",
+        "intensity": "high",
+        "effort_zone": 5,
+        "notes": null
+      },
+      "recovery_activity": {
+        "id": "recovery_activity",
+        "label": "Recovery Activity",
+        "category": "active-recovery",
+        "discipline": "any",
+        "description": "Choose easy running, walking, cross-training or rest according to how you feel.",
+        "intensity": "low",
+        "effort_zone": 1,
+        "notes": null
+      },
+      "rest": {
+        "id": "rest",
+        "label": "Rest",
+        "category": "recovery",
+        "discipline": null,
+        "description": "Take a day off training.",
+        "intensity": "none",
+        "effort_zone": 0,
+        "notes": null
+      }
+    },
+    "coaching_guidance": [
+      {
+        "topic": "Recovery",
+        "text": "Keep the first week after the previous marathon easy. Where Sunday is prescribed in hours, choose an easy run, walk, other aerobic activity or rest based on how you feel."
+      }
+    ],
+    "schedule": [
+      {
+        "week": 1,
+        "source_week": 2,
+        "phase": "recovery",
+        "mesocycle": null,
+        "weeks_to_goal": 2,
+        "total_distance_km": 17.7,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 3.2187,
+                "distance_miles": 2,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.828,
+                "distance_miles": 3,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 9.6561,
+                "distance_miles": 6,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "recovery_activity",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "duration_min_range": {
+                  "min": 60,
+                  "max": 120
+                },
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "source_week": 1,
+        "phase": "race",
+        "mesocycle": null,
+        "weeks_to_goal": 1,
+        "total_distance_km": 55.07,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 6.4374,
+                "distance_miles": 4,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 3.2187,
+                "distance_miles": 2,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 3.2187,
+                "distance_miles": 2,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "race",
+                "distance_km": 42.195,
+                "distance_miles": 26.2188,
+                "duration_min": null,
+                "event": "Marathon",
+                "event_distance_km": 42.195,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

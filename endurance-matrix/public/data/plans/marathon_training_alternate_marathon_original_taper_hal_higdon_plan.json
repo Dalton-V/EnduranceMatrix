@@ -1,0 +1,389 @@
+{
+  "source_url": "https://www.halhigdon.com/training-programs/marathon-training/alternate-marathon-program/",
+  "plan": {
+    "id": "marathon_training_alternate_marathon_original_taper",
+    "name": "Marathon Training: Alternate Marathon (Original Taper)",
+    "author": "Hal Higdon",
+    "version": "1.0",
+    "created_at": null,
+    "description": "The three-week Novice 1 taper used as the starting point for Higdon’s Alternate Marathon schedules.",
+    "tags": [
+      "marathon",
+      "taper",
+      "road-running"
+    ],
+    "meta": {
+      "goal_event": "Marathon",
+      "goal_distance_km": 42.195,
+      "total_weeks": 3,
+      "target_audience": "Marathoners who have reached the taper and need to adjust to a rescheduled race",
+      "difficulty": "general",
+      "weekly_mileage_range_km": {
+        "min": 33.8,
+        "max": 56.68
+      },
+      "at_a_glance": {
+        "length_weeks": 3,
+        "typical_week": "4 Run, 2 Days Off, 1 X-Train",
+        "longest_workout_miles": 12,
+        "longest_workout_km": 19.3,
+        "longest_workout_min": null,
+        "published_length_weeks_range": {
+          "min": 3,
+          "max": 6
+        }
+      }
+    },
+    "activity_types": [
+      "cross_training",
+      "running"
+    ],
+    "workout_definitions": {
+      "cross_training": {
+        "id": "cross_training",
+        "label": "Cross-Training",
+        "category": "active-recovery",
+        "discipline": "any",
+        "description": "Do a comfortable aerobic activity such as cycling, swimming or walking.",
+        "intensity": "low",
+        "effort_zone": 2,
+        "notes": null
+      },
+      "easy_run": {
+        "id": "easy_run",
+        "label": "Easy Run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Run at a comfortable, conversational effort.",
+        "intensity": "low",
+        "effort_zone": 2,
+        "notes": null
+      },
+      "long_run": {
+        "id": "long_run",
+        "label": "Long Run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Run at a comfortable effort unless the workout includes a specific pace cue.",
+        "intensity": "low-moderate",
+        "effort_zone": 2,
+        "notes": null
+      },
+      "race": {
+        "id": "race",
+        "label": "Race",
+        "category": "race-specific",
+        "discipline": "running",
+        "description": "Run the indicated event.",
+        "intensity": "high",
+        "effort_zone": 5,
+        "notes": null
+      },
+      "rest": {
+        "id": "rest",
+        "label": "Rest",
+        "category": "recovery",
+        "discipline": null,
+        "description": "Take a day off training.",
+        "intensity": "none",
+        "effort_zone": 0,
+        "notes": null
+      }
+    },
+    "coaching_guidance": [
+      {
+        "topic": "Starting Point",
+        "text": "The published options begin at week 16 of Novice 1. Runners following another program can adapt the taper distances to match their own schedule."
+      }
+    ],
+    "schedule": [
+      {
+        "week": 1,
+        "source_week": 16,
+        "phase": "taper",
+        "mesocycle": null,
+        "weeks_to_goal": 3,
+        "total_distance_km": 46.67,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 8.0467,
+                "distance_miles": 5,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 12.8748,
+                "distance_miles": 8,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 6.4374,
+                "distance_miles": 4,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": 19.3121,
+                "distance_miles": 12,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "cross_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 2,
+        "source_week": 17,
+        "phase": "taper",
+        "mesocycle": null,
+        "weeks_to_goal": 2,
+        "total_distance_km": 33.8,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 6.4374,
+                "distance_miles": 4,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 9.6561,
+                "distance_miles": 6,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.828,
+                "distance_miles": 3,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "long_run",
+                "distance_km": 12.8748,
+                "distance_miles": 8,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "cross_training",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "week": 3,
+        "source_week": 18,
+        "phase": "race",
+        "mesocycle": null,
+        "weeks_to_goal": 1,
+        "total_distance_km": 56.68,
+        "notes": null,
+        "days": [
+          {
+            "day_of_week": "monday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "tuesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 4.828,
+                "distance_miles": 3,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "wednesday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 6.4374,
+                "distance_miles": 4,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "thursday",
+            "workouts": [
+              {
+                "workout_ref": "easy_run",
+                "distance_km": 3.2187,
+                "distance_miles": 2,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "friday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "saturday",
+            "workouts": [
+              {
+                "workout_ref": "rest",
+                "distance_km": null,
+                "distance_miles": null,
+                "duration_min": null,
+                "notes": null
+              }
+            ]
+          },
+          {
+            "day_of_week": "sunday",
+            "workouts": [
+              {
+                "workout_ref": "race",
+                "distance_km": 42.195,
+                "distance_miles": 26.2188,
+                "duration_min": null,
+                "event": "Marathon",
+                "event_distance_km": 42.195,
+                "notes": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

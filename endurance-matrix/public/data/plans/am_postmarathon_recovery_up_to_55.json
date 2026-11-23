@@ -1,0 +1,930 @@
+{
+  "plan": {
+    "activity_types": [
+      "running"
+    ],
+    "comparison": {
+      "workout_frequency": {
+        "general_aerobic": 4,
+        "general_aerobic_speed": 3,
+        "medium_long_run": 1,
+        "recovery_run": 12,
+        "rest_or_cross_train": 15
+      },
+      "all_scheduled_weekly_mileage_range_km": {
+        "min": 19,
+        "max": 61
+      },
+      "all_scheduled_weekly_mileage_range_miles": {
+        "min": 12,
+        "max": 38
+      },
+      "double_run_days_across_schedule": 0,
+      "longest_scheduled_run_miles": 12,
+      "lowest_weekly_mileage_miles": 12,
+      "peak_weekly_mileage_miles": 38,
+      "quality_workouts_across_schedule": 0,
+      "rest_or_cross_train_days_per_week": {
+        "min": 2,
+        "max": 4
+      },
+      "run_days_per_week": {
+        "min": 3,
+        "max": 5
+      },
+      "weekly_mileage_range_km": {
+        "min": 19,
+        "max": 61
+      },
+      "weekly_mileage_range_miles": {
+        "min": 12,
+        "max": 38
+      }
+    },
+    "comparison_index": {
+      "goal_distances_km": null,
+      "name": "Postmarathon Recovery - up to 55 miles/week",
+      "plan_id": "am_postmarathon_recovery_up_to_55",
+      "recommended_current_weekly_mileage_miles": null,
+      "required_current_weekly_mileage_min_miles": null,
+      "source_id": "advanced_marathoning",
+      "goal_event": "Marathon recovery",
+      "plan_type": "post_race_recovery",
+      "training_volume_band": "up to 55 miles/week",
+      "double_run_days_across_schedule": 0,
+      "goal_distance_km": 42.195,
+      "longest_scheduled_run_miles": 12,
+      "peak_weekly_mileage_miles": 38,
+      "post_race_recovery_weeks": 5,
+      "post_race_transition_weeks": 0,
+      "quality_workouts_across_schedule": 0,
+      "rest_or_cross_train_days_per_week": {
+        "min": 2,
+        "max": 4
+      },
+      "run_days_per_week": {
+        "min": 3,
+        "max": 5
+      },
+      "schedule_weeks_including_post_race": 5,
+      "training_weeks_to_goal": 5,
+      "weekly_mileage_range_km": {
+        "min": 19,
+        "max": 61
+      },
+      "weekly_mileage_range_miles": {
+        "min": 12,
+        "max": 38
+      }
+    },
+    "meta": {
+      "goal_event": "Marathon recovery",
+      "target_audience": "Runners recovering after a marathon; this schedule is separate from the pre-race plan.",
+      "plan_type": "post_race_recovery",
+      "training_volume_band": "up to 55 miles/week",
+      "goal_distance_km": 42.195,
+      "longest_scheduled_run_miles": 12,
+      "post_race_recovery_weeks": 5,
+      "run_days_per_week": {
+        "min": 3,
+        "max": 5
+      },
+      "schedule_weeks_including_post_race": 5,
+      "total_weeks": 5,
+      "weekly_mileage_range_km": {
+        "min": 19,
+        "max": 61
+      },
+      "weekly_mileage_range_miles": {
+        "min": 12,
+        "max": 38
+      }
+    },
+    "schedule": [
+      {
+        "days": [
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 3-4 miles (5-6 km)",
+                "distance_km_range": {
+                  "min": 5,
+                  "max": 6
+                },
+                "distance_miles_range": {
+                  "min": 3,
+                  "max": 4
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 4-5 miles (6-8 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5-6 miles (8-10 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 6
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "week": 1,
+        "phase": "recovery",
+        "mesocycle": "Postmarathon recovery",
+        "week_label": "Week 1 after marathon",
+        "weeks_after_goal": 1,
+        "is_recovery_week": true,
+        "weekly_volume_source_text": "12-15 miles (19-24 km)",
+        "total_distance_km_range": {
+          "min": 19,
+          "max": 24
+        },
+        "total_distance_miles_range": {
+          "min": 12,
+          "max": 15
+        }
+      },
+      {
+        "days": [
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 4-5 miles (6-8 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 4-5 miles (6-8 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5-6 miles (8-10 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 6
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 6-7 miles (10-11 km)",
+                "distance_km_range": {
+                  "min": 10,
+                  "max": 11
+                },
+                "distance_miles_range": {
+                  "min": 6,
+                  "max": 7
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "week": 2,
+        "phase": "recovery",
+        "mesocycle": "Postmarathon recovery",
+        "week_label": "Week 2 after marathon",
+        "weeks_after_goal": 2,
+        "is_recovery_week": true,
+        "weekly_volume_source_text": "19-23 miles (31-37 km)",
+        "total_distance_km_range": {
+          "min": 31,
+          "max": 37
+        },
+        "total_distance_miles_range": {
+          "min": 19,
+          "max": 23
+        }
+      },
+      {
+        "days": [
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5-6 miles (8-10 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 6
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 4-5 miles (6-8 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 8
+                  }
+                ],
+                "workout_ref": "general_aerobic_speed",
+                "source_text": "Gen-aerobic + speed 7-8 miles (11-13 km) with 8 × 100 m strides",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "Gen-aerobic 8-9 miles (13-14 km)",
+                "distance_km_range": {
+                  "min": 13,
+                  "max": 14
+                },
+                "distance_miles_range": {
+                  "min": 8,
+                  "max": 9
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "week": 3,
+        "phase": "recovery",
+        "mesocycle": "Postmarathon recovery",
+        "week_label": "Week 3 after marathon",
+        "weeks_after_goal": 3,
+        "is_recovery_week": true,
+        "weekly_volume_source_text": "24-28 miles (39-45 km)",
+        "total_distance_km_range": {
+          "min": 39,
+          "max": 45
+        },
+        "total_distance_miles_range": {
+          "min": 24,
+          "max": 28
+        }
+      },
+      {
+        "days": [
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "Gen-aerobic 7-8 miles (11-13 km)",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 5-6 miles (8-10 km)",
+                "distance_km_range": {
+                  "min": 8,
+                  "max": 10
+                },
+                "distance_miles_range": {
+                  "min": 5,
+                  "max": 6
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 8
+                  }
+                ],
+                "workout_ref": "general_aerobic_speed",
+                "source_text": "Gen-aerobic + speed 7-8 miles (11-13 km) with 8 × 100 m strides",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "Gen-aerobic 9-10 miles (14-16 km)",
+                "distance_km_range": {
+                  "min": 14,
+                  "max": 16
+                },
+                "distance_miles_range": {
+                  "min": 9,
+                  "max": 10
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "week": 4,
+        "phase": "recovery",
+        "mesocycle": "Postmarathon recovery",
+        "week_label": "Week 4 after marathon",
+        "weeks_after_goal": 4,
+        "is_recovery_week": true,
+        "weekly_volume_source_text": "28-32 miles (45-51 km)",
+        "total_distance_km_range": {
+          "min": 45,
+          "max": 51
+        },
+        "total_distance_miles_range": {
+          "min": 28,
+          "max": 32
+        }
+      },
+      {
+        "days": [
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "monday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "general_aerobic",
+                "source_text": "Gen-aerobic 7-8 miles (11-13 km)",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "tuesday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 4-5 miles (6-8 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "wednesday"
+          },
+          {
+            "alternative_workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "cross_training",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "workouts": [
+              {
+                "source_workout_ref": "rest_or_cross_train",
+                "workout_ref": "rest",
+                "source_text": "Rest or cross-train"
+              }
+            ],
+            "day_of_week": "thursday"
+          },
+          {
+            "workouts": [
+              {
+                "steps": [
+                  {
+                    "steps": [
+                      {
+                        "kind": "work",
+                        "exercise": "strides",
+                        "intensity": "strides",
+                        "distance_m": 100
+                      }
+                    ],
+                    "kind": "repeat",
+                    "reps": 8
+                  }
+                ],
+                "workout_ref": "general_aerobic_speed",
+                "source_text": "Gen-aerobic + speed 7-8 miles (11-13 km) with 8 × 100 m strides",
+                "distance_km_range": {
+                  "min": 11,
+                  "max": 13
+                },
+                "distance_miles_range": {
+                  "min": 7,
+                  "max": 8
+                }
+              }
+            ],
+            "day_of_week": "friday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "recovery_run",
+                "source_text": "Recovery 4-5 miles (6-8 km)",
+                "distance_km_range": {
+                  "min": 6,
+                  "max": 8
+                },
+                "distance_miles_range": {
+                  "min": 4,
+                  "max": 5
+                }
+              }
+            ],
+            "day_of_week": "saturday"
+          },
+          {
+            "workouts": [
+              {
+                "workout_ref": "medium_long_run",
+                "source_text": "Med-long run 11-12 miles (18-19 km)",
+                "distance_km_range": {
+                  "min": 18,
+                  "max": 19
+                },
+                "distance_miles_range": {
+                  "min": 11,
+                  "max": 12
+                }
+              }
+            ],
+            "day_of_week": "sunday"
+          }
+        ],
+        "week": 5,
+        "phase": "recovery",
+        "mesocycle": "Postmarathon recovery",
+        "week_label": "Week 5 after marathon",
+        "weeks_after_goal": 5,
+        "is_recovery_week": true,
+        "weekly_volume_source_text": "33-38 miles (53-61 km)",
+        "total_distance_km_range": {
+          "min": 53,
+          "max": 61
+        },
+        "total_distance_miles_range": {
+          "min": 33,
+          "max": 38
+        }
+      }
+    ],
+    "source": {
+      "chapter_numbers": [
+        9
+      ],
+      "dataset": {
+        "data_notes": {
+          "post_race_rows": "Primary plan duration ends at race week. Where provided, post-race recovery and transition weeks are included after it in the schedule.",
+          "range_objects": "Distance and weekly-volume ranges use numeric min and max fields; exact values have equal min and max.",
+          "source_text": "Each workout keeps its short source schedule entry alongside normalized workout types and distances.",
+          "week_numbering": "week counts up through the plan; weeks_to_goal counts down, with race week set to 0; weeks_after_goal identifies post-race weeks.",
+          "weekly_volume": "Weekly mileage is transcribed from the source. Race-week totals are kept as printed and may be listed separately from the event distance."
+        },
+        "description": "Structured schedules extracted from the two supplied running books. Distances and weekly totals retain the units printed in the sources; range objects use min and max.",
+        "schema_version": "1.0",
+        "units": {
+          "metric_distance": "kilometers",
+          "primary_distance": "miles"
+        }
+      },
+      "publication": {
+        "authors": [
+          "Pete Pfitzinger",
+          "Scott Douglas"
+        ],
+        "title": "Advanced Marathoning",
+        "format": "EPUB",
+        "file": "Pete Pfitzinger, Scott Douglas - Advanced Marathoning.epub",
+        "id": "advanced_marathoning"
+      },
+      "reader_pages": [
+        194
+      ],
+      "table_sections": [
+        "Training Block 5-Postmarathon Recovery"
+      ],
+      "source_id": "advanced_marathoning"
+    },
+    "tags": [
+      "marathon",
+      "recovery",
+      "advanced",
+      "up_to_55"
+    ],
+    "workout_definitions": {
+      "cross_training": {
+        "discipline": null,
+        "label": "Cross-training",
+        "category": "active-recovery",
+        "description": "No scheduled run; cross-training is optional where the source offers it."
+      },
+      "general_aerobic": {
+        "label": "General aerobic run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Moderate aerobic running."
+      },
+      "general_aerobic_speed": {
+        "label": "General aerobic with speed",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Aerobic running combined with strides, hill sprints, or short speed work."
+      },
+      "medium_long_run": {
+        "label": "Medium-long run",
+        "category": "endurance",
+        "discipline": "running",
+        "description": "Longer aerobic run shorter than the longest run of the week."
+      },
+      "recovery_run": {
+        "label": "Recovery run",
+        "category": "recovery",
+        "discipline": "running",
+        "description": "Easy running scheduled to support recovery."
+      },
+      "rest": {
+        "discipline": null,
+        "label": "Rest",
+        "category": "recovery",
+        "description": "No scheduled training."
+      },
+      "rest_or_cross_train": {
+        "label": "Rest or cross-training",
+        "category": "recovery",
+        "discipline": "any",
+        "description": "No scheduled run; cross-training is optional where the source offers it."
+      }
+    },
+    "name": "Postmarathon Recovery - up to 55 miles/week",
+    "author": "Pete Pfitzinger and Scott Douglas",
+    "version": "as published in source",
+    "description": "Five-week postmarathon recovery schedule paired with the source's up to 55 miles/week chapter.",
+    "id": "am_postmarathon_recovery_up_to_55"
+  }
+}
